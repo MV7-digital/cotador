@@ -1,0 +1,797 @@
+html img
+{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@font-face { 
+
+    font-family: Nexa;
+
+    src: url("../fonts/Nexa-Bold.ttf");
+
+    font-weight: bold; 
+
+}
+
+/*  */
+.main-content
+{
+    height: 100vh;
+}
+.logo
+{
+    margin-top: 60px;
+}
+.content-text
+{
+    margin-top: 60px;
+}
+.box
+{
+    height: 100px;
+    width: 100%;
+    background-color: #DCDCDC;
+    border-radius: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    box-shadow: 0px 27px 38px rgba(1,3,0,0.36);
+}
+.box:hover
+{
+    box-shadow: 0px 27px 38px rgba(1,3,0,0.56);
+}
+
+
+/*  */
+
+
+.bradesco
+{
+    background: #E22331;
+    border-radius: 17px;
+    padding: 10px;
+    margin: 50px auto 0 auto;
+    max-width: 32.333333%;
+    max-height: 495px;
+
+}
+
+.sulamerica{
+    background: #000066!important;
+}
+
+.amil{
+    background: #4f14ff!important;
+}
+
+.amil-facil{
+    background: #2592cd!important;
+}
+
+.amil-one{
+    background: #bf3287!important;
+}
+
+.omint{
+    background: #102a46!important;
+}
+
+.porto{
+    background: #0046c0!important;
+}
+
+.unimed{
+    background: #04945C!important;
+}
+
+.txt-unimed{
+    color: #04945C!important;
+}
+
+.txt-unimed p{
+    color: #04945C!important;
+    border-right: 1px solid #04945C!important;
+}
+
+.txt-amil{
+    color: #4f14ff!important;
+}
+
+.txt-amil p{
+    color: #4f14ff!important;
+    border-right: 1px solid #4f14ff!important;
+}
+
+.txt-amil-facil{
+    color: #2592cd!important;
+}
+
+.txt-amil-facil p{
+    color: #2592cd!important;
+    border-right: 1px solid #2592cd!important;
+}
+
+.txt-amil-one{
+    color: #bf3287!important;
+}
+
+.txt-amil-o p{
+    color: #bf3287!important;
+    border-right: 1px solid #bf3287!important;
+}
+
+.txt-omint{
+    color: #102a46!important;
+}
+
+.txt-omint p{
+    color: #102a46!important;
+    border-right: 1px solid #102a46!important;
+}
+
+.txt-porto{
+    color: #0046c0!important;
+}
+
+.txt-porto p{
+    color: #0046c0!important;
+    border-right: 1px solid #4f14ff!important;
+}
+
+.gndi{
+    background: #fc9410!important;
+}
+
+.txt-gndi{
+    color: #fc9410!important;
+}
+
+.txt-gndi p{
+    color: #fc9410!important;
+    border-right: 1px solid #fc9410!important;
+}
+
+.allianz{
+    background: #006192!important;
+}
+
+.txt-allianz{
+    color: #006192!important;
+}
+
+.txt-allianz p{
+    color: #006192!important;
+    border-right: 1px solid #006192!important;
+}
+
+.txt-sulamerica p{
+    color: #000066!important;
+    border-right: 1px solid #000066!important;
+}
+
+
+.bradesco h2
+{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.bradesco p
+{
+    margin: 0;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo-empresas
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 0;
+}
+
+.logo-empresas img
+{
+    width: 73px;
+}
+
+.tabela
+{
+    background: white;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.tabela p
+{
+    color: #E22331;
+    font-size: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #E22331;
+}
+
+.comparativo tr:nth-child(odd){
+    background: #EFEFEF;
+}
+
+.tabela p:nth-child(odd){
+    background: #EFEFEF;
+}
+
+.row.tabela
+{
+    margin: 0;
+}
+
+.row.tabela .text-center
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0;
+}
+
+
+/* Cotar */
+
+.main-content-cotar{
+    background: #F2F2F2;
+    min-height: 100vh;
+}
+
+.main-content-cotar .borda{
+    border-radius: 18px;
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.main-content-cotar .borda .quadro1{
+    background-color: #fff;
+    padding: 25px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.main-content-cotar .borda .quadro2{
+    background-color: #F0162D;
+    padding: 25px;
+    border-radius: 18px;  
+}
+
+.main-content-cotar h1{
+    margin-top: 130px;
+    font-size: 24px;
+    color: #E22331;
+    width: 80%;
+}
+
+.bg-logo{
+    background-color: #E22331;
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    position: absolute;
+    left: 0;
+}
+
+.bg-sulamerica{
+    background-color: #000066!important;    
+}
+
+.txt-sulamerica{
+    color: #000066!important;
+}
+
+.btn-sulamerica{
+    background-color: #FF6600!important;
+}
+
+.bg-logo img{
+    min-height: 56px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-top: 10px;
+}
+
+.dados input, .dados select{
+    padding: 5px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    border: #E8E8E8 1px solid;
+    color: #989898;
+}
+
+.dados input::placeholder{
+    color: #989898;
+    padding-left: 5px;
+}
+
+.dados h2{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.radio input{
+    width: unset;
+}
+
+.radio-text{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 5px;
+    color: white;
+}
+
+.regiao1e2, .regiao3e4{
+    display: flex;
+}
+
+#tabela_regiao2, #tabela_regiao4{
+    margin-left: 50px;
+}
+
+.btn{
+    background-color: #CA991E;
+    width: 50%;
+    min-width: 200px;
+    color: white;
+    border: none;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0 auto;
+    border-radius: 12px;
+    transition: background-color .5s, color .5s;
+}
+
+.btn:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+.vidas_qtd, .valor_unidade{
+    max-width: 50px;
+}
+
+.vidas_total{
+    max-width: 70px;
+    background-color: transparent;
+    border: none;
+    color: #C8172A;
+    font-weight: bold;
+}
+
+.modal-dialog
+{
+    max-width: 100%;
+    margin: 0;
+    padding: 0!important;
+}
+.modal {
+    padding-right: 0!important;
+    margin-top: 15px;
+}
+
+
+.login h1 a{
+    background-image: url('/img/logo-pride.png')
+}
+
+
+/* Apresentação */
+
+.apresentacao{
+    /* font-family: "Nexa"; */
+    background: url('../img/fundo_pride.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    padding: 0 38px;
+}
+
+.apresentacao-empresa, .apresentacao-titulo{
+    text-transform: uppercase;
+}
+
+.apresentacao-titulo h1{
+    font-size: 74px;
+}
+
+.apresentacao-empresa {
+    margin: 30px 0 0 0;
+}
+
+.apresentacao-empresa p{
+    margin: 0;
+}
+
+.apresentacao-titulo{
+    margin-top: 20px;
+}
+
+.apresentacao-descricao p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* Total com IOF */
+
+.valores{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sem-iof, .iof{
+    background-color: #C8172A;
+    color: white;
+    height: 100px;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+#sem-iof, #com-iof{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sem-iof p, .iof p{
+    margin: 0;
+}
+
+/* Introdução Cotado de Planos */
+
+.introducao h2{
+    font-size: 48px;
+    color: #000066;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: left;
+    max-width: 540px;
+}
+
+.introducao span{
+    font-size: 14px;
+    color: #000066;
+    font-weight: 700;
+    text-align: left;
+    max-width: 540px;
+}
+
+#valor_total_0_r, #valor_total_1_r, #valor_total_2_r, #valor_total_3_r, #valor_total_4_r, #valor_total_5_r{
+    font-weight: 700;
+}
+
+.row.row-tabela{
+    margin: 0 20px;
+}
+
+#tipo_plano_none{
+    display: none;
+}
+
+.texto-bradesco{
+    color: #C8172A!important;
+    font-size: 48px!important;
+}
+
+.assinatura{
+    font-size: 12px;
+    color: #000;
+    position: absolute;
+    top: 20px;
+    right: -30px;
+}
+
+.tamanho{
+    min-width: 20px;
+    text-align: left;
+    background: white;
+    border: 1px solid gray;
+}
+
+.comparativo-body select, .comparativo-body input {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.comparativo-body input[type="checkbox"] {
+    min-width: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.comparativo-estilo h1{
+    font-size: 32px;
+    color: #093c66;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+
+.comparativo-estilo h2{
+    font-size: 28px;
+    color: #093c66;
+    font-weight: 700;
+}
+
+.comparativo-estilo p{
+    margin-bottom: 0;
+}
+
+
+th.fixed-width {
+    width: 30%; /* Defina o tamanho desejado para a primeira célula */
+}
+
+.bi-check-circle-fill::before{
+    color: green;
+}
+
+.bi-file-excel-fill::before{
+    color: red; 
+}
+
+.comparativo-pdf thead th, .comparativo-pdf th, .comparativo-pdf thead td, .comparativo-pdf td{
+    border: none;
+}
+
+
+h2{
+    margin: 0;
+}
+
+.comparativo-pdf th, .comparativo-pdf td{
+    text-align: center;
+}
+
+.plano-pdf, .title-pdf{
+    color: #093c66;
+}
+
+.title-pdf{
+    text-align: left;
+}
+
+.faixa-etaria, .plano-pdf{
+    text-align: center;
+}
+
+.bg-cinza{
+    background-color: #becbd3;
+}
+
+.vidas_unidades_pdf{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vidas_unidades_pdf div{
+    width: 50%;
+    text-align: center;
+}
+
+.cor-fundo th:nth-child(even), .cor-fundo td:nth-child(even){
+    background-color: #eef1f4;
+}
+
+tfoot{
+   background-color: #26629e;
+   color: white;
+}
+
+#content-img1{
+    background-image: url("../img/cabecalho.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo-pdf img{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.comparativo-estilo .table td, .comparativo-estilo .table th{
+    padding: 0!important;
+}
+
+.table-bordered td, .table-bordered th{
+    height: 54px;
+}
+
+
+
+.table-bordered{
+    border: transparent;
+}
+
+.table thead th{
+    border: transparent;
+}
+
+.table tr{
+    border-radius: 50px;
+    border: 1px solid transparent;
+
+}
+
+.comparativo-body select, .comparativo-body input{
+    border-radius: 10px;
+    border: transparent;
+    margin: 2px 0;
+}
+
+.w-100{
+    width: 100%!important;
+    display: flex;
+    margin: 0;
+}
+
+.title-dif{
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+.title-dif span{
+    color: #CA991E;
+}
+.table td, .table-bordered th{
+    border: none;
+}
+.table td{
+    border-right: 2px solid #CA991E;
+    text-align: center;
+}
+
+.desc-dif{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* Pagina de escolhas */
+
+.page-escolha {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+}
+.bg-escolha {
+    background-image: url(../img/page-escolhas/cotador-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: 100vh;
+}
+
+.page-escolha h1 {
+
+    font-size: 24px;
+    width: 50%;
+    min-width: 200px;
+    min-width: none;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.page-escolha p {
+
+    margin-top: 90px;
+    color: white;
+}
+
+.page-escolha .logo-escolhas {
+
+    width: 300px;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.page-escolha .seta {
+
+    position: absolute;
+    right: 27%;
+}
+
+.column-left {
+
+    height: 50%;
+    width: 5px;
+    background-color: white;
+    position: absolute;
+    right: 20%;
+    bottom: 3%;
+    border-radius: 5px;
+}
+
+.column-right {
+    
+    height: 50%;
+    width: 5px;
+    background-color: #CA991E;
+    position: absolute;
+    left: 17%;
+    top: 13%;
+    border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+
+    .column-left, .column-right {
+
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .page-escolha .seta {
+
+        display:none;
+    }
+}
+
+.coop{
+    font-size: 12px;
+    display: flex;
+}
+
+.tamanho-coluna{
+    min-height: 150px;
+}
+
+.vunit{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}

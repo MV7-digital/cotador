@@ -1,0 +1,53 @@
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "nome" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 5
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "telefone" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 6
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "nome_cliente" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 7
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "tipo_contratacao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 9
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "qnt_planos" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 10
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "tabela_regiao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 12
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "qtd_vidas" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 13
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "nome" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 5
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "telefone" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 6
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "nome_cliente" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 7
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "tipo_contratacao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 9
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "qnt_planos" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 10
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "tabela_regiao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 12
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined array key "qtd_vidas" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 13
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined variable $tabela in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 25
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 42
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined variable $tabela in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 25
+[21-Mar-2024 14:31:12 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-seguros_unimed-plano.php on line 42
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined array key "tipo_contratacao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 6
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined array key "tabela_regiao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 8
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined array key "qtd_vidas" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 9
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined array key "tipo_contratacao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 6
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined array key "tabela_regiao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 8
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined array key "qtd_vidas" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 9
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined variable $tabela in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 29
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 46
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined variable $tabela in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 29
+[21-Mar-2024 14:35:28 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 46
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined array key "qtd_vidas" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 7
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined array key "tipo_contratacao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 8
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined array key "tabela_regiao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 9
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined variable $tabela in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 22
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 39
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined array key "qtd_vidas" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 7
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined array key "tipo_contratacao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 8
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined array key "tabela_regiao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 9
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined variable $tabela in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 22
+[21-Mar-2024 14:35:29 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-amil-plano.php on line 39
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "tipo" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 7
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "tipo_contratacao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 8
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "qtd_vidas" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 9
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "atendimento" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 10
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "tabela_regiao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 11
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "tipo" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 7
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "tipo_contratacao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 8
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "qtd_vidas" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 9
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "atendimento" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 10
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined array key "tabela_regiao" in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 11
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 45
+[21-Mar-2024 14:35:31 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-sulamerica-plano.php on line 45
+[11-Apr-2024 18:13:35 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 46
+[11-Apr-2024 18:13:40 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 46
+[11-Apr-2024 18:13:47 America/Fortaleza] PHP Warning:  Undefined variable $values in /home2/planod28/pridecotador.com.br/wp-content/themes/pride/page-bradesco-plano.php on line 46

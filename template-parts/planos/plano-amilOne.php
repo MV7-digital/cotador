@@ -1,0 +1,1 @@
+'<input type="checkbox" class="coop" id="cooparticipacao_'+ordem+'"> Coparticipação'
