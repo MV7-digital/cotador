@@ -60,6 +60,24 @@ $numPlanos = 6;
             </tr>
         </thead>
         <tbody>
+            <!-- Coparticipação no preview/PDF -->
+            <?php
+                echo '<tr class="cor-fundo">';
+                echo '<th>Coparticipação</th>';
+
+                for ($i = 0; $i < 6; $i++) {
+                    echo '<th class="text-center" id="pdf_coparticipacao_' . $i . '">
+                            <div class="copay_pdf_' . $i . '">
+                                <div><p id="pdf_copart_' . $i . '"></p></div>
+                                <div><p id="pdf_copay_' . $i . '"></p></div>
+                            </div>
+                        </th>';
+                }
+
+                echo '</tr>';
+            ?>
+
+            <!-- Faixas etárias no preview/PDF -->
             <tr class="cor-fundo">
                 <th class="fixed-width faixa-etaria">
                     Faixa Etaria
@@ -622,6 +640,7 @@ $numPlanos = 6;
                 echo '</th>';
                 echo '</tr>';
             ?>
+
             <tr class="bg-cinza">
                 <th colspan="8" class="title-pdf">DIFERENCIAIS</th>
             </tr>

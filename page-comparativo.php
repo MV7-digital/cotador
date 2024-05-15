@@ -70,7 +70,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '<select name="plano_'.$i.'" id="plano_'.$i.'" disabled>';
                 echo '<option value="">Selecione a Rede Primeiro</option>';
                 echo '</select>';
-                echo '<div id="plano_field_'.$i.'"></div>';
+                echo '<div id="copart_'.$i.'"></div>';
                 echo '</div>';
                 echo '<div class="col-6">';
                 echo '<img src="'.get_template_directory_uri().'/img/placeholder.jpg" height="50" alt="Logo '.$i.'">';
@@ -85,7 +85,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '<select name="plano_'.($i + 1).'" id="plano_'.($i + 1).'" disabled>';
                 echo '<option value="">Selecione a Rede Primeiro</option>';
                 echo '</select>';
-                echo '<div id="plano_field_'.($i + 1).'"></div>';
+                echo '<div id="copart_'.($i + 1).'"></div>';
                 echo '</div>';
                 echo '</th>';
             }
@@ -348,7 +348,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         const unimed = <?php get_template_part('template-parts/planos/plano', 'unimed') ?>;
         const omint = <?php get_template_part('template-parts/planos/plano', 'omint') ?>;
         const portoSeguro = <?php get_template_part('template-parts/planos/plano', 'portoseguro') ?>;
-        document.getElementById("plano_field_" + ordem).innerHTML =
+        document.getElementById("copart_" + ordem).innerHTML =
             selectRede.value === 'Bradesco' ? bradesco :
             selectRede.value === 'Amil' ? amil :
             selectRede.value === 'One' ? amil :
@@ -373,7 +373,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
 
         selectRede.addEventListener("change", function() {
             zerarTabela(3, ordem);
-            document.getElementById("plano_field_" + ordem).innerHTML =
+            document.getElementById("copart_" + ordem).innerHTML =
                 selectRede.value === 'Bradesco' ? bradesco :
                 selectRede.value === 'Amil' ? amil :
                 selectRede.value === 'One' ? amil :

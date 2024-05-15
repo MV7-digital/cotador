@@ -73,7 +73,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '<select name="plano_'.$i.'" id="plano_'.$i.'" disabled>';
                 echo '<option value="">Selecione a Rede Primeiro</option>';
                 echo '</select>';
-                echo '<div class="coop" id="plano_field_'.$i.'"></div>';
+                echo '<div class="coop" id="copart_'.$i.'"></div>';
                 echo '</div>';
                 echo '<div class="tamanho-coluna col-6">';
                 echo '<p id="pdf_plano'.($i+1).'_logo_r">';
@@ -90,7 +90,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '<select name="plano_'.($i + 1).'" id="plano_'.($i + 1).'" disabled>';
                 echo '<option value="">Selecione a Rede Primeiro</option>';
                 echo '</select>';
-                echo '<div class="coop" id="plano_field_'.($i + 1).'"></div>';
+                echo '<div class="coop" id="copart_'.($i + 1).'"></div>';
                 echo '</div>';
                 echo '</th>';
             }
@@ -340,7 +340,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         const omint = <?php get_template_part('template-parts/planos/plano', 'omint') ?>;
         const portoSeguro = <?php get_template_part('template-parts/planos/plano', 'portoseguro') ?>;
 
-        document.getElementById("plano_field_" + ordem).innerHTML =
+        document.getElementById("copart_" + ordem).innerHTML =
             selectRede.value === 'Bradesco' ? bradesco :
             selectRede.value === 'Amil' ? amil :
             selectRede.value === 'Amil One' ? amilOne :
@@ -381,7 +381,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
 
         selectRede.addEventListener("change", function() {
 
-            document.getElementById("plano_field_" + ordem).innerHTML =
+            document.getElementById("copart_" + ordem).innerHTML =
                 selectRede.value === 'Bradesco' ? bradesco :
                 selectRede.value === 'Amil' ? amil :
                 selectRede.value === 'Amil One' ? amilOne :
