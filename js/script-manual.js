@@ -1018,13 +1018,13 @@
 
     //Le os valores do checkbox de coparticipação
     for (let i = 0; i < 6; i++) {
-      let checkbox = document.getElementById('cooparticipacao_' + i);
+      let copart = document.getElementById('cooparticipacao_' + i);
       let pdfCoparticipacao = document.getElementById(
         'pdf_coparticipacao_' + i,
       );
 
-      if (checkbox && pdfCoparticipacao) {
-        pdfCoparticipacao.innerText = checkbox.checked ? 'Sim' : 'Não';
+      if (copart && pdfCoparticipacao) {
+        pdfCoparticipacao.innerText = copart.value;
       } else {
         console.warn('Elemento não encontrado para o índice:', i);
       }

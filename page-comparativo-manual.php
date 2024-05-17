@@ -181,7 +181,22 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
 
         ?>
 
-        </thead>
+        <!-- </thead>
+
+        //Regras de coparticipação
+
+        <tbody>
+            <tr>
+                <th colspan="7">
+                    <p class="title-dif"><span>REGRAS</span> DE COPARTICIPAÇÃO</p>
+                </th>
+            </tr>
+
+            <?php
+
+            ?>
+        </tbody> -->
+
         <tbody>
         <tr>
             <th colspan="7"><p class="title-dif">DIFERENCIAIS POR <span>PLANOS</span></p>
@@ -340,6 +355,8 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         const omint = <?php get_template_part('template-parts/planos/plano', 'omint') ?>;
         const portoSeguro = <?php get_template_part('template-parts/planos/plano', 'portoseguro') ?>;
 
+        console.log('1');
+
         document.getElementById("copart_" + ordem).innerHTML =
             selectRede.value === 'Bradesco' ? bradesco :
             selectRede.value === 'Amil' ? amil :
@@ -352,6 +369,8 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             selectRede.value === 'Porto' ? portoSeguro :
             selectRede.value === 'Sulamérica' ? sulamerica :
             '';
+
+            console.log('2');
 
         document.getElementById("pdf_plano"+ordem+"_logo").innerHTML =
         selectRede.value === 'Bradesco' ? '<img src="/wp-content/themes/pride/img/logo-bradesco-saude.png" width="100" alt="">' :
@@ -366,6 +385,8 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         selectRede.value === 'CNU' ? '<img src="/wp-content/themes/pride/img/logo-cnu.png" width="100" alt="">' :
         '';
 
+        console.log('3');
+
         document.getElementById("pdf_plano"+ordem+"_logo_r").innerHTML =
         selectRede.value === 'Bradesco' ? '<img src="/wp-content/themes/pride/img/logo-bradesco-saude.png" width="100" height="50" alt="">' :
         selectRede.value === 'Amil' ? '<img src="/wp-content/themes/pride/img/logo-amil.png" width="100" height="50" alt="">' :
@@ -379,7 +400,11 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         selectRede.value === 'CNU' ? '<img src="/wp-content/themes/pride/img/logo-cnu.png" width="100" height="50" alt="">' :
         '';
 
+        console.log('4');
+
         selectRede.addEventListener("change", function() {
+
+            console.log('5');
 
             document.getElementById("copart_" + ordem).innerHTML =
                 selectRede.value === 'Bradesco' ? bradesco :
@@ -393,6 +418,8 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 selectRede.value === 'Porto' ? portoSeguro :
                 selectRede.value === 'Sulamérica' ? sulamerica :
                 '';
+
+                console.log('6');
         });
         // Limpar select de planos
         selectPlano.innerHTML = '';
@@ -400,17 +427,30 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         // Obter a rede selecionada
         let redeSelecionada = selectRede.value;
         // Verificar se uma rede foi selecionada
+
+        console.log('7');
+
         if (redeSelecionada !== '') {
+
+            console.log('8');
             // Obter os planos correspondentes à rede selecionada
             let planos = <?php echo json_encode($planosPorRede); ?>;
 
+            console.log('9');
+
             // Verificar se há planos para a rede selecionada
             if (redeSelecionada in planos) {
+
+                console.log('10');
                 let planoOptions = planos[redeSelecionada];
 
                 // Preencher o select de planos com as opções correspondentes
                 selectPlano.innerHTML = '<option value="">Selecione o Plano</option>';
+
+                console.log('11');
                 for (let i = 0; i < planoOptions.length; i++) {
+
+                    console.log('12');
                     let option = document.createElement('option');
                     option.value = planoOptions[i];
                     option.text = planoOptions[i];
@@ -418,6 +458,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 }
                 // Habilitar o select de planos
                 selectPlano.disabled = false;
+                console.log('13');
             }
         }
     }
