@@ -171,7 +171,9 @@
 
   function atualizarTotal() {
     const totalPreco = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
+    const totalPrecoIof = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
     const totalPrecoC = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
+    const totalPrecoCIof = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
     const totalVidas = [0, 0, 0, 0, 0, 0];
 
     let planos = 6;
@@ -194,6 +196,9 @@
         totalPreco[i] += unidade * parseFloat(vidas);
         totalPrecoC[i] += unidadec * parseFloat(vidas);
         totalVidas[i] += parseFloat(vidas);
+
+        totalPrecoIof[i] = totalPreco[i] * 0.0238 + totalPreco[i];
+        totalPrecoCIof[i] = totalPrecoC[i] * 0.0238 + totalPrecoC[i];
       }
 
       // Formata os totais como moeda brasileira
@@ -202,6 +207,14 @@
         currency: 'BRL',
       });
       let totalPrecoCFormatted = totalPrecoC[i].toLocaleString('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+      });
+      let totalPrecoIofFormatted = totalPrecoIof[i].toLocaleString('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+      });
+      let totalPrecoCIofFormatted = totalPrecoCIof[i].toLocaleString('pt-BR', {
         style: 'currency',
         currency: 'BRL',
       });
@@ -217,6 +230,9 @@
 
       $(`#pdf_total_vida_${i}`).text(totalVidas[i]);
       $(`#pdf_totalc_vida_${i}`).text(totalVidas[i]);
+
+      $(`#pdf_total_iof_${i}`).text(totalPrecoIofFormatted);
+      $(`#pdf_totalc_iof_${i}`).text(totalPrecoCIofFormatted);
     }
   }
 
@@ -301,6 +317,7 @@
       let copay = $('[id^="pdf_copay0_th"]');
       let hospitais = $('[class^="hospitais_0"]');
       let laboratorios = $('[class^="laboratorios_0"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).hide();
@@ -317,6 +334,9 @@
       laboratorios.each(function () {
         $(this).hide();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano1_th').hide();
       $('#valor_unidade1_th').hide();
       $('#0_18_th1').hide();
@@ -329,6 +349,9 @@
       $('#49_53_th1').hide();
       $('#54_58_th1').hide();
       $('#59_mais_th1').hide();
+      $('#copart_0_r').hide();
+      $('#copart_cirurgias_internacoes_0_r').hide();
+      $('#valor_coparticipacao_0_r').hide();
       $('#reembolso_consulta_0_r').hide();
       $('#reembolso_terapias_0_r').hide();
       $('#prazo_reembolso_0_r').hide();
@@ -346,6 +369,8 @@
       $('#escleroterapia_0_r').hide();
       $('#th_total_0').hide();
       $('#th_totalc_0').hide();
+      $('#th_total_iof_0').hide();
+      $('#th_totalc_iof_0').hide();
     } else {
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano1_logo_th"]');
@@ -354,6 +379,7 @@
       let copay = $('[id^="pdf_copay0_th"]');
       let hospitais = $('[class^="hospitais_0"]');
       let laboratorios = $('[class^="laboratorios_0"]');
+      let copart = $('[id^="pdf_copart_th"]');
 
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
@@ -374,6 +400,9 @@
       laboratorios.each(function () {
         $(this).show();
       });
+      copart.each(function () {
+        $(this).show();
+      });
       $('#pdf_plano1_logo_th').show();
       $('#pdf_plano1_th').show();
       $('#valor_unidade1_th').show();
@@ -387,6 +416,9 @@
       $('#49_53_th1').show();
       $('#54_58_th1').show();
       $('#59_mais_th1').show();
+      $('#copart_0_r').show();
+      $('#copart_cirurgias_internacoes_0_r').show();
+      $('#valor_coparticipacao_0_r').show();
       $('#reembolso_consulta_0_r').show();
       $('#reembolso_terapias_0_r').show();
       $('#prazo_reembolso_0_r').show();
@@ -404,6 +436,8 @@
       $('#escleroterapia_0_r').show();
       $('#th_total_0').show();
       $('#th_totalc_0').show();
+      $('#th_total_iof_0').show();
+      $('#th_totalc_iof_0').show();
     }
     if (plano2 == '') {
       // Obtém todos os elementos com IDs semelhantes
@@ -412,6 +446,7 @@
       let copay = $('[id^="pdf_copay1_th"]');
       let hospitais = $('[class^="hospitais_1"]');
       let laboratorios = $('[class^="laboratorios_1"]');
+      let copart = $('[id^="pdf_copart_th"]');
 
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
@@ -429,6 +464,9 @@
       laboratorios.each(function () {
         $(this).hide();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano2_logo_th').hide();
       $('#pdf_plano2_th').hide();
       $('#valor_unidade2_th').hide();
@@ -442,6 +480,9 @@
       $('#49_53_th2').hide();
       $('#54_58_th2').hide();
       $('#59_mais_th2').hide();
+      $('#copart_1_r').hide();
+      $('#copart_cirurgias_internacoes_1_r').hide();
+      $('#valor_coparticipacao_1_r').hide();
       $('#reembolso_consulta_1_r').hide();
       $('#reembolso_terapias_1_r').hide();
       $('#prazo_reembolso_1_r').hide();
@@ -459,6 +500,8 @@
       $('#escleroterapia_1_r').hide();
       $('#th_total_1').hide();
       $('#th_totalc_1').hide();
+      $('#th_total_iof_1').hide();
+      $('#th_totalc_iof_1').hide();
     } else {
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano2_logo_th"]');
@@ -467,6 +510,7 @@
       let copay = $('[id^="pdf_copay1_th"]');
       let hospitais = $('[class^="hospitais_1"]');
       let laboratorios = $('[class^="laboratorios_1"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).show();
@@ -486,6 +530,9 @@
       laboratorios.each(function () {
         $(this).show();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano2_th').show();
       $('#valor_unidade2_th').show();
       $('#0_18_th2').show();
@@ -499,6 +546,9 @@
       $('#54_58_th2').show();
       $('#59_mais_th2').show();
       $('#pdf_plano2').html($('#plano_1').val());
+      $('#copart_1_r').show();
+      $('#copart_cirurgias_internacoes_1_r').show();
+      $('#valor_coparticipacao_1_r').show();
       $('#reembolso_consulta_1_r').show();
       $('#reembolso_terapias_1_r').show();
       $('#prazo_reembolso_1_r').show();
@@ -516,6 +566,8 @@
       $('#escleroterapia_1_r').show();
       $('#th_total_1').show();
       $('#th_totalc_1').show();
+      $('#th_total_iof_1').show();
+      $('#th_totalc_iof_1').show();
     }
     if (plano3 == '') {
       // Obtém todos os elementos com IDs semelhantes
@@ -524,6 +576,7 @@
       let copay = $('[id^="pdf_copay2_th"]');
       let hospitais = $('[class^="hospitais_2"]');
       let laboratorios = $('[class^="laboratorios_2"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).hide();
@@ -540,6 +593,9 @@
       laboratorios.each(function () {
         $(this).hide();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano3_logo_th').hide();
       $('#pdf_plano3_th').hide();
       $('#valor_unidade3_th').hide();
@@ -553,6 +609,9 @@
       $('#49_53_th3').hide();
       $('#54_58_th3').hide();
       $('#59_mais_th3').hide();
+      $('#copart_2_r').hide();
+      $('#copart_cirurgias_internacoes_2_r').hide();
+      $('#valor_coparticipacao_2_r').hide();
       $('#reembolso_consulta_2_r').hide();
       $('#reembolso_terapias_2_r').hide();
       $('#prazo_reembolso_2_r').hide();
@@ -570,6 +629,8 @@
       $('#escleroterapia_2_r').hide();
       $('#th_total_2').hide();
       $('#th_totalc_2').hide();
+      $('#th_total_iof_2').hide();
+      $('#th_totalc_iof_2').hide();
     } else {
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano3_logo_th"]');
@@ -578,6 +639,7 @@
       let copay = $('[id^="pdf_copay2_th"]');
       let hospitais = $('[class^="hospitais_2"]');
       let laboratorios = $('[class^="laboratorios_2"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).show();
@@ -597,6 +659,9 @@
       laboratorios.each(function () {
         $(this).show();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano3_logo_th').show();
       $('#pdf_plano3_th').show();
       $('#valor_unidade3_th').show();
@@ -611,6 +676,9 @@
       $('#54_58_th3').show();
       $('#59_mais_th3').show();
       $('#pdf_plano3').html($('#plano_2').val());
+      $('#copart_2_r').show();
+      $('#copart_cirurgias_internacoes_2_r').show();
+      $('#valor_coparticipacao_2_r').show();
       $('#reembolso_consulta_2_r').show();
       $('#reembolso_terapias_2_r').show();
       $('#prazo_reembolso_2_r').show();
@@ -628,6 +696,8 @@
       $('#escleroterapia_2_r').show();
       $('#th_total_2').show();
       $('#th_totalc_2').show();
+      $('#th_total_iof_2').show();
+      $('#th_totalc_iof_2').show();
     }
     if (plano4 == '') {
       // Obtém todos os elementos com IDs semelhantes
@@ -636,6 +706,7 @@
       let copay = $('[id^="pdf_copay3_th"]');
       let hospitais = $('[class^="hospitais_3"]');
       let laboratorios = $('[class^="laboratorios_3"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).hide();
@@ -652,6 +723,9 @@
       laboratorios.each(function () {
         $(this).hide();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano4_logo_th').hide();
       $('#pdf_plano4_th').hide();
       $('#valor_unidade4_th').hide();
@@ -665,6 +739,9 @@
       $('#49_53_th4').hide();
       $('#54_58_th4').hide();
       $('#59_mais_th4').hide();
+      $('#copart_3_r').hide();
+      $('#copart_cirurgias_internacoes_3_r').hide();
+      $('#valor_coparticipacao_3_r').hide();
       $('#reembolso_consulta_3_r').hide();
       $('#reembolso_terapias_3_r').hide();
       $('#prazo_reembolso_3_r').hide();
@@ -682,6 +759,8 @@
       $('#escleroterapia_3_r').hide();
       $('#th_total_3').hide();
       $('#th_totalc_3').hide();
+      $('#th_total_iof_3').hide();
+      $('#th_totalc_iof_3').hide();
     } else {
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano4_logo_th"]');
@@ -690,6 +769,7 @@
       let copay = $('[id^="pdf_copay3_th"]');
       let hospitais = $('[class^="hospitais_3"]');
       let laboratorios = $('[class^="laboratorios_3"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).show();
@@ -709,6 +789,9 @@
       laboratorios.each(function () {
         $(this).show();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano4_logo_th').show();
       $('#pdf_plano4_th').show();
       $('#valor_unidade4_th').show();
@@ -723,6 +806,9 @@
       $('#54_58_th4').show();
       $('#59_mais_th4').show();
       $('#pdf_plano4').html($('#plano_3').val());
+      $('#copart_3_r').show();
+      $('#copart_cirurgias_internacoes_3_r').show();
+      $('#valor_coparticipacao_3_r').show();
       $('#reembolso_consulta_3_r').show();
       $('#reembolso_terapias_3_r').show();
       $('#prazo_reembolso_3_r').show();
@@ -740,6 +826,8 @@
       $('#escleroterapia_3_r').show();
       $('#th_total_3').show();
       $('#th_totalc_3').show();
+      $('#th_total_iof_3').show();
+      $('#th_totalc_iof_3').show();
     }
     if (plano5 == '') {
       // Obtém todos os elementos com IDs semelhantes
@@ -748,6 +836,7 @@
       let copay = $('[id^="pdf_copay4_th"]');
       let hospitais = $('[class^="hospitais_4"]');
       let laboratorios = $('[class^="laboratorios_4"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).hide();
@@ -764,6 +853,9 @@
       laboratorios.each(function () {
         $(this).hide();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano5_logo_th').hide();
       $('#pdf_plano5_th').hide();
       $('#valor_unidade5_th').hide();
@@ -777,6 +869,9 @@
       $('#49_53_th5').hide();
       $('#54_58_th5').hide();
       $('#59_mais_th5').hide();
+      $('#copart_4_r').hide();
+      $('#copart_cirurgias_internacoes_4_r').hide();
+      $('#valor_coparticipacao_4_r').hide();
       $('#reembolso_consulta_4_r').hide();
       $('#reembolso_terapias_4_r').hide();
       $('#prazo_reembolso_4_r').hide();
@@ -794,6 +889,8 @@
       $('#escleroterapia_4_r').hide();
       $('#th_total_4').hide();
       $('#th_totalc_4').hide();
+      $('#th_total_iof_4').hide();
+      $('#th_totalc_iof_4').hide();
     } else {
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano5_logo_th"]');
@@ -802,6 +899,7 @@
       let copay = $('[id^="pdf_copay4_th"]');
       let hospitais = $('[class^="hospitais_4"]');
       let laboratorios = $('[class^="laboratorios_4"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).show();
@@ -821,6 +919,9 @@
       laboratorios.each(function () {
         $(this).show();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano5_logo_th').show();
       $('#pdf_plano5_th').show();
       $('#valor_unidade5_th').show();
@@ -835,6 +936,9 @@
       $('#54_58_th5').show();
       $('#59_mais_th5').show();
       $('#pdf_plano5').html($('#plano_4').val());
+      $('#copart_4_r').show();
+      $('#copart_cirurgias_internacoes_4_r').show();
+      $('#valor_coparticipacao_4_r').show();
       $('#reembolso_consulta_4_r').show();
       $('#reembolso_terapias_4_r').show();
       $('#prazo_reembolso_4_r').show();
@@ -852,6 +956,8 @@
       $('#escleroterapia_4_r').show();
       $('#th_total_4').show();
       $('#th_totalc_4').show();
+      $('#th_total_iof_4').show();
+      $('#th_totalc_iof_4').show();
     }
     if (plano6 == '') {
       // Obtém todos os elementos com IDs semelhantes
@@ -860,6 +966,7 @@
       let copay = $('[id^="pdf_copay5_th"]');
       let hospitais = $('[class^="hospitais_5"]');
       let laboratorios = $('[class^="laboratorios_5"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).hide();
@@ -876,6 +983,9 @@
       laboratorios.each(function () {
         $(this).hide();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano6_logo_th').hide();
       $('#pdf_plano6_th').hide();
       $('#valor_unidade6_th').hide();
@@ -889,6 +999,9 @@
       $('#49_53_th6').hide();
       $('#54_58_th6').hide();
       $('#59_mais_th6').hide();
+      $('#copart_5_r').hide();
+      $('#copart_cirurgias_internacoes_5_r').hide();
+      $('#valor_coparticipacao_5_r').hide();
       $('#reembolso_consulta_5_r').hide();
       $('#reembolso_terapias_5_r').hide();
       $('#prazo_reembolso_5_r').hide();
@@ -906,6 +1019,8 @@
       $('#escleroterapia_5_r').hide();
       $('#th_total_5').hide();
       $('#th_totalc_5').hide();
+      $('#th_total_iof_5').hide();
+      $('#th_totalc_iof_5').hide();
     } else {
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano6_logo_th"]');
@@ -914,6 +1029,7 @@
       let copay = $('[id^="pdf_copay5_th"]');
       let hospitais = $('[class^="hospitais_5"]');
       let laboratorios = $('[class^="laboratorios_5"]');
+      let copart = $('[id^="pdf_copart_th"]');
       // Loop pelos elementos e oculta cada um deles
       elementos.each(function () {
         $(this).show();
@@ -933,6 +1049,9 @@
       laboratorios.each(function () {
         $(this).show();
       });
+      copart.each(function () {
+        $(this).hide();
+      });
       $('#pdf_plano6_logo_th').show();
       $('#pdf_plano6_th').show();
       $('#valor_unidade6_th').show();
@@ -947,6 +1066,9 @@
       $('#54_58_th6').show();
       $('#59_mais_th6').show();
       $('#pdf_plano6').html($('#plano_5').val());
+      $('#copart_5_r').show();
+      $('#copart_cirurgias_internacoes_5_r').show();
+      $('#valor_coparticipacao_5_r').show();
       $('#reembolso_consulta_5_r').show();
       $('#reembolso_terapias_5_r').show();
       $('#prazo_reembolso_5_r').show();
@@ -964,6 +1086,8 @@
       $('#escleroterapia_5_r').show();
       $('#th_total_5').show();
       $('#th_totalc_5').show();
+      $('#th_total_iof_5').show();
+      $('#th_totalc_iof_5').show();
     }
 
     for (let i = 0; i < 6; i++) {
@@ -1016,17 +1140,51 @@
       }
     }
 
-    //Le os valores do checkbox de coparticipação
     for (let i = 0; i < 6; i++) {
-      let copart = document.getElementById('cooparticipacao_' + i);
-      let pdfCoparticipacao = document.getElementById(
-        'pdf_coparticipacao_' + i,
+      let copart = document.getElementById('coparticipacao_' + i);
+      let pdfCopart = document.getElementById('copart_' + i + '_r');
+
+      if (copart && pdfCopart) {
+        pdfCopart.innerText = copart.value;
+      } else {
+        console.warn('Elemento não encontrado: ', i);
+      }
+    }
+
+    for (let i = 0; i < 6; i++) {
+      let copart_cirurgia_internacao = document.getElementById(
+        'coparticipacao_cirurgia_internacao' + i,
+      );
+      let pdfCopart_cirurgia_internacao = document.getElementById(
+        'copart_cirurgias_internacoes_' + i + '_r',
       );
 
-      if (copart && pdfCoparticipacao) {
-        pdfCoparticipacao.innerText = copart.value;
+      if (copart_cirurgia_internacao && pdfCopart_cirurgia_internacao) {
+        pdfCopart_cirurgia_internacao.innerText =
+          copart_cirurgia_internacao.value;
       } else {
-        console.warn('Elemento não encontrado para o índice:', i);
+        console.warn('Elemento não encontrado: ', i);
+      }
+    }
+
+    for (let i = 0; i < 6; i++) {
+      let valor_copart = document.getElementById('valor_coparticipacao_' + i);
+      let pdf_valorCopart = document.getElementById(
+        'valor_coparticipacao_' + i + '_r',
+      );
+
+      if (valor_copart && pdf_valorCopart) {
+        // Garantir que o valor seja numérico
+        let valor = parseFloat(valor_copart.value.replace(',', '.'));
+        if (!isNaN(valor)) {
+          // Formatar o valor como moeda em reais
+          let valorPercentual = valor.toFixed(2) + '%';
+          pdf_valorCopart.innerText = valorPercentual;
+        } else {
+          pdf_valorCopart.innerText = '-';
+        }
+      } else {
+        console.warn('Elemento não encontrado: ', i);
       }
     }
   });

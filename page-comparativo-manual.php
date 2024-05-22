@@ -181,23 +181,70 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
 
         ?>
 
-        <!-- </thead>
-
-        //Regras de coparticipação
+        </thead>
 
         <tbody>
-            <tr>
-                <th colspan="7">
-                    <p class="title-dif"><span>REGRAS</span> DE COPARTICIPAÇÃO</p>
-                </th>
-            </tr>
 
-            <?php
 
-            ?>
-        </tbody> -->
+        <!-- Tabela de coparticipação -->
+        <?php
+            echo '<tr>';
+            echo '<th colspan="7">';
+            echo '<p class="title-dif" style="text-transform: uppercase;">';
+            echo '<span>Regras</span> de coparticipação';
+            echo '</p>';
+            echo '</th>';
+            echo '</tr>';
 
-        <tbody>
+            // Coparticipação
+            echo '<tr>';
+            echo '<td style="display: flex; justify-content: space-between;">';
+            echo '<p style="text-align: left;">Coparticipação</p>';
+            echo '<input type="checkbox" class="copartCheck" id="copartCheck_0" onclick="inserirCoparticipacao(\'copart\')">';
+            echo '</td>';
+            for ($i = 0; $i < $numPlanos; $i++) {
+                echo '<td>';
+                echo '<select class="w-100" name="coparticipacao_' . $i . '" id="coparticipacao_' . $i . '">';
+                echo '<option value="Total">Total</option>';
+                echo '<option value="Parcial">Parcial</option>';
+                echo '<option value="Sem copart.">Sem copart.</option>';
+                echo '</select>';
+                echo '</td>';
+            }
+            echo '</tr>';
+
+            // Coparticipação em cirurgias e internações
+            echo '<tr>';
+            echo '<td style="display: flex; justify-content: space-between;">';
+            echo '<p style="text-align: left;">Cobre cirurgias e internações</p>';
+            echo '<input type="checkbox" class="copartCheck" id="copartCheck_1" onclick="inserirCoparticipacao(\'copart_cirurgias_internacoes\')">';
+            echo '</td>';
+            for ($i = 0; $i < $numPlanos; $i++) {
+                echo '<td>';
+                echo '<select class="w-100" name="coparticipacao_cirurgia_internacao' . $i . '" id="coparticipacao_cirurgia_internacao' . $i . '">';
+                echo '<option value="Sim">Sim</option>';
+                echo '<option value="Não">Não</option>';
+                echo '</select>';
+                echo '</td>';
+            }
+            echo '</tr>';
+
+            // Valor da coparticipação
+            echo '<tr>';
+            echo '<td style="display: flex; justify-content: space-between;">';
+            echo '<p style="text-align: left;">Valor da coparticipação (%)</p>';
+            echo '<input type="checkbox" class="copartCheck" id="copartCheck_2" onclick="inserirCoparticipacao(\'valor_coparticipacao\')">';
+            echo '</td>';
+            for ($i = 0; $i < $numPlanos; $i++) {
+                echo '<td>';
+                echo '<input class="w-100" type="number" name="valor_coparticipacao_' . $i . '" id="valor_coparticipacao_' . $i . '" placeholder="Valor da coparticipação" />';
+                echo '</td>';
+            }
+            echo '</tr>';
+        ?>
+
+        <!-- Tabela de diferenciais por planos -->
+
         <tr>
             <th colspan="7"><p class="title-dif">DIFERENCIAIS POR <span>PLANOS</span></p>
             <p class="desc-dif">Selecione os diferenciais que fazem parte do seu comparativo</p></th>
@@ -324,6 +371,24 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         }
     }
 
+    function inserirCoparticipacao() {
+    // Selecionar todos os checkboxes de coparticipação
+    let coparticipacoes = document.getElementsByClassName('copartCheck');
+
+    // Iterar sobre cada checkbox
+    for (let i = 0; i < coparticipacoes.length; i++) {
+        let copartChecked = document.getElementById('copartCheck_' + i);
+        let copartDisplay = copartChecked.checked ? 'table-row' : 'none';
+
+        if (i === 0) {
+            document.getElementById('tr_copart').style.display = copartDisplay;
+        } else if (i === 1) {
+            document.getElementById('tr_copart_cirurgias_internacoes').style.display = copartDisplay;
+        } else if (i === 2) {
+            document.getElementById('tr_valor_coparticipacao').style.display = copartDisplay;
+        }
+    }
+}
 
     let display = [];
 

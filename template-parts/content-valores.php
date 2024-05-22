@@ -60,22 +60,6 @@ $numPlanos = 6;
             </tr>
         </thead>
         <tbody>
-            <!-- Coparticipação no preview/PDF -->
-            <?php
-                echo '<tr class="cor-fundo">';
-                echo '<th>Coparticipação</th>';
-
-                for ($i = 0; $i < 6; $i++) {
-                    echo '<th class="text-center" id="pdf_coparticipacao_' . $i . '">
-                            <div class="copay_pdf_' . $i . '">
-                                <div><p id="pdf_copart_' . $i . '"></p></div>
-                                <div><p id="pdf_copay_' . $i . '"></p></div>
-                            </div>
-                        </th>';
-                }
-
-                echo '</tr>';
-            ?>
 
             <!-- Faixas etárias no preview/PDF -->
             <tr class="cor-fundo">
@@ -119,6 +103,9 @@ $numPlanos = 6;
                     </div>
                 </th>
             </tr>
+
+            <!-- Faixas etárias + vidas -->
+
             <tr class="cor-fundo" id="0_18_coluna">
                 <td>
                     <p>0 - 18 anos</p>
@@ -587,6 +574,9 @@ $numPlanos = 6;
                     </div>
                 </td>
             </tr>
+
+            <!-- Valor total -->
+
             <?php
                 echo '<tr class="cor-fundo">';
                 echo '<th>Total</th>';
@@ -641,6 +631,86 @@ $numPlanos = 6;
                 echo '</tr>';
             ?>
 
+            <!-- Total com IOF -->
+
+            <!-- <?php
+                echo '<tr class="cor-fundo">';
+                echo '<th>Total com IOF</th>';
+                echo '<th class="text-center" id="th_total_iof_0">
+                <div class="vidas_unidades_pdf">
+                    <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_0"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_1">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_1"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_2">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_2"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_3">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_3"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_4">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_4"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_5">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_5"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '</tr>';
+            ?> -->
+
+<!-- Regras de Coparticipação -->
+<tr class="bg-cinza">
+    <th colspan="8" class="title-pdf" style="text-transform: uppercase;">Regras de Coparticipação</th>
+</tr>
+
+<?php
+$regras = [
+    'Coparticipação' => 'copart',
+    'Cobre cirurgias e internações' => 'copart_cirurgias_internacoes',
+    'Valor da coparticipação' => 'valor_coparticipacao'
+];
+
+foreach ($regras as $regra => $classPrefix) {
+    echo '<tr class="cor-fundo" id="tr_' . $classPrefix . '" style="display: none">';
+    echo '<td>' . $regra . '</td>';
+    for ($i = 0; $i < $numPlanos; $i++) {
+        echo '<td class="' . $classPrefix . '_' . $i . '_r" id="' . $classPrefix . '_' . $i . '_r"></td>';
+    }
+    echo '</tr>';
+}
+?>
+
+        <!-- Diferenciais -->
+
             <tr class="bg-cinza">
                 <th colspan="8" class="title-pdf">DIFERENCIAIS</th>
             </tr>
@@ -654,6 +724,9 @@ $numPlanos = 6;
                     echo '</tr>';
                 }
             ?>
+
+            <!-- Hospitais -->
+
             <tr class="bg-cinza">
                 <th colspan="8" class="title-pdf">DESTAQUES DE HOSPITAIS DA REDE CREDENCIADA</th>
             </tr>
@@ -667,6 +740,9 @@ $numPlanos = 6;
                     echo '</tr>';
                 }
             ?>
+
+            <!-- Laboratórios -->
+
             <tr class="bg-cinza">
                 <th colspan="8" class="title-pdf">DESTAQUES DE LABORATÓRIOS DA REDE CREDENCIADA</th>
             </tr>
