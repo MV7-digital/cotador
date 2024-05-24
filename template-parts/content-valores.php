@@ -15,7 +15,10 @@ $diferenciais = array(
     'check_up' => 'Check Up',
     'convenio_farmacia' => 'Convênio farmácia',
     'concierge' => 'Concierge',
-    'escleroterapia' => 'Escleroterapia'
+    'escleroterapia' => 'Escleroterapia',
+    'servico_online' => 'Serviço Online',
+    'programas_de_promocao_a_saude' => 'Programas de Promoção à Saúde',
+    'telemedicina' => 'Telemedicina'
 );
 
 $hospitais = file_get_contents( get_template_directory() . '/dados/comparativo-hospitais.json');

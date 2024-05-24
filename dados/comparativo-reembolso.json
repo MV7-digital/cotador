@@ -31,128 +31,116 @@
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Amil One S1500 R1 [A]",
-    "reembolso_consulta": 328,
-    "reembolso_terapias": "-"
-  },
-  {
-    "plano": "Amil One SS1500 R2 [A]",
+    "plano": "S2500 R1 [A]",
     "reembolso_consulta": 432,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Amil One SS2500 R1 [A]",
-    "reembolso_consulta": 432,
-    "reembolso_terapias": "-"
-  },
-  {
-    "plano": "Amil One SS2500 R2 [A]",
+    "plano": "S2500 R2 [A]",
     "reembolso_consulta": 600,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Amil One SS6500 R1 [A]",
+    "plano": "S6500 R1 [A]",
     "reembolso_consulta": 600,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Amil One SS6500 R2 [A]",
+    "plano": "S6500 R2 [A]",
     "reembolso_consulta": 800,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Amil One SS6500 R3 [A]",
+    "plano": "S6500 R3 [A]",
     "reembolso_consulta": 1040,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNWE [E]",
+    "plano": "TRWE [E]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNWQ [A]",
+    "plano": "TRWQ [A]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "FCEX [E]",
+    "plano": "FCER [E]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "FCQX [A]",
+    "plano": "FCQR [A]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNI1 [E]",
+    "plano": "TERI [E]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNI2 [A]",
+    "plano": "TQRI [A]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNME [E]",
+    "plano": "TRME [E]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNMQ [A]",
+    "plano": "TRMQ [A]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNNI [E]",
+    "plano": "TREN [E]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNMI [A]",
+    "plano": "TRQN [A]",
     "reembolso_consulta": 109.76,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNMM [A]",
+    "plano": "TR2N [A]",
     "reembolso_consulta": 219.52,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNMN [A]",
+    "plano": "TR3N [A]",
     "reembolso_consulta": 329.27,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNP4 [A]",
+    "plano": "TPN4 [A]",
     "reembolso_consulta": 439.03,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNP6 [A]",
+    "plano": "TPN6 [A]",
     "reembolso_consulta": 658.55,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNP8 [A]",
+    "plano": "TPN8 [A]",
     "reembolso_consulta": 878.06,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNC6 [A]",
+    "plano": "TCN6 [A]",
     "reembolso_consulta": 658.55,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNC8 [A]",
+    "plano": "TCN8 [A]",
     "reembolso_consulta": 878.06,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "TNPX [A]",
-    "reembolso_consulta": 1097.58,
     "reembolso_terapias": "-"
   },
   {
@@ -246,7 +234,7 @@
     "reembolso_terapias": "-"
   },
   {
-    "plano": "SC2/SC2ME [A]",
+    "plano": "SC2 SC2ME [A]",
     "reembolso_consulta": 152.79,
     "reembolso_terapias": "-"
   },
@@ -256,7 +244,7 @@
     "reembolso_terapias": "-"
   },
   {
-    "plano": "C16/C16ME [A]",
+    "plano": "C16 C16ME [A]",
     "reembolso_consulta": 419.52,
     "reembolso_terapias": "-"
   },
@@ -266,7 +254,7 @@
     "reembolso_terapias": "-"
   },
   {
-    "plano": "C19/C19ME [A]",
+    "plano": "C19 C19ME [A]",
     "reembolso_consulta": 479.35,
     "reembolso_terapias": "-"
   },

@@ -367,6 +367,9 @@
       $('#convenio_farmacia_0_r').hide();
       $('#concierge_0_r').hide();
       $('#escleroterapia_0_r').hide();
+      $('#servico_online_0_r').hide();
+      $('#programas_de_promocao_a_saude_0_r').hide();
+      $('#telemedicina_0_r').hide();
       $('#th_total_0').hide();
       $('#th_totalc_0').hide();
       $('#th_total_iof_0').hide();
@@ -434,6 +437,9 @@
       $('#convenio_farmacia_0_r').show();
       $('#concierge_0_r').show();
       $('#escleroterapia_0_r').show();
+      $('#servico_online_0_r').show();
+      $('#programas_de_promocao_a_saude_0_r').show();
+      $('#telemedicina_0_r').show();
       $('#th_total_0').show();
       $('#th_totalc_0').show();
       $('#th_total_iof_0').show();
@@ -498,6 +504,9 @@
       $('#convenio_farmacia_1_r').hide();
       $('#concierge_1_r').hide();
       $('#escleroterapia_1_r').hide();
+      $('#servico_online_1_r').hide();
+      $('#programas_de_promocao_a_saude_1_r').hide();
+      $('#telemedicina_1_r').hide();
       $('#th_total_1').hide();
       $('#th_totalc_1').hide();
       $('#th_total_iof_1').hide();
@@ -564,6 +573,9 @@
       $('#convenio_farmacia_1_r').show();
       $('#concierge_1_r').show();
       $('#escleroterapia_1_r').show();
+      $('#servico_online_1_r').show();
+      $('#programas_de_promocao_a_saude_1_r').show();
+      $('#telemedicina_1_r').show();
       $('#th_total_1').show();
       $('#th_totalc_1').show();
       $('#th_total_iof_1').show();
@@ -627,6 +639,9 @@
       $('#convenio_farmacia_2_r').hide();
       $('#concierge_2_r').hide();
       $('#escleroterapia_2_r').hide();
+      $('#servico_online_2_r').hide();
+      $('#programas_de_promocao_a_saude_2_r').hide();
+      $('#telemedicina_2_r').hide();
       $('#th_total_2').hide();
       $('#th_totalc_2').hide();
       $('#th_total_iof_2').hide();
@@ -694,6 +709,9 @@
       $('#convenio_farmacia_2_r').show();
       $('#concierge_2_r').show();
       $('#escleroterapia_2_r').show();
+      $('#servico_online_2_r').show();
+      $('#programas_de_promocao_a_saude_2_r').show();
+      $('#telemedicina_2_r').show();
       $('#th_total_2').show();
       $('#th_totalc_2').show();
       $('#th_total_iof_2').show();
@@ -757,6 +775,9 @@
       $('#convenio_farmacia_3_r').hide();
       $('#concierge_3_r').hide();
       $('#escleroterapia_3_r').hide();
+      $('#servico_online_3_r').hide();
+      $('#programas_de_promocao_a_saude_3_r').hide();
+      $('#telemedicina_3_r').hide();
       $('#th_total_3').hide();
       $('#th_totalc_3').hide();
       $('#th_total_iof_3').hide();
@@ -824,6 +845,9 @@
       $('#convenio_farmacia_3_r').show();
       $('#concierge_3_r').show();
       $('#escleroterapia_3_r').show();
+      $('#servico_online_3_r').show();
+      $('#programas_de_promocao_a_saude_3_r').show();
+      $('#telemedicina_3_r').show();
       $('#th_total_3').show();
       $('#th_totalc_3').show();
       $('#th_total_iof_3').show();
@@ -887,6 +911,9 @@
       $('#convenio_farmacia_4_r').hide();
       $('#concierge_4_r').hide();
       $('#escleroterapia_4_r').hide();
+      $('#servico_online_4_r').hide();
+      $('#programas_de_promocao_a_saude_4_r').hide();
+      $('#telemedicina_4_r').hide();
       $('#th_total_4').hide();
       $('#th_totalc_4').hide();
       $('#th_total_iof_4').hide();
@@ -954,6 +981,9 @@
       $('#convenio_farmacia_4_r').show();
       $('#concierge_4_r').show();
       $('#escleroterapia_4_r').show();
+      $('#servico_online_4_r').show();
+      $('#programas_de_promocao_a_saude_4_r').show();
+      $('#telemedicina_4_r').show();
       $('#th_total_4').show();
       $('#th_totalc_4').show();
       $('#th_total_iof_4').show();
@@ -1017,6 +1047,9 @@
       $('#convenio_farmacia_5_r').hide();
       $('#concierge_5_r').hide();
       $('#escleroterapia_5_r').hide();
+      $('#servico_online_5_r').hide();
+      $('#programas_de_promocao_a_saude_5_r').hide();
+      $('#telemedicina_5_r').hide();
       $('#th_total_5').hide();
       $('#th_totalc_5').hide();
       $('#th_total_iof_5').hide();
@@ -1084,6 +1117,9 @@
       $('#convenio_farmacia_5_r').show();
       $('#concierge_5_r').show();
       $('#escleroterapia_5_r').show();
+      $('#servico_online_5_r').show();
+      $('#programas_de_promocao_a_saude_5_r').show();
+      $('#telemedicina_5_r').show();
       $('#th_total_5').show();
       $('#th_totalc_5').show();
       $('#th_total_iof_5').show();

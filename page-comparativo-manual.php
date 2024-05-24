@@ -265,7 +265,10 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             'check_up' => 'Check Up',
             'convenio_farmacia' => 'Convênio farmácia',
             'concierge' => 'Concierge',
-            'escleroterapia' => 'Escleroterapia'
+            'escleroterapia' => 'Escleroterapia',
+            'servico_online' => 'Serviço Online',
+            'programas_de_promocao_a_saude' => 'Programas de Promoção à Saúde',
+            'telemedicina' => 'Telemedicina'
         );
 
         foreach ($diferenciais as $key => $diferencial) {
@@ -549,6 +552,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             $('#convenio_farmacia_'+ordem).html('');
             $('#concierge_'+ordem).html('');
             $('#escleroterapia_'+ordem).html('');
+            $('#servico_online_'+ordem).html('')
+            $('#programas_de_promocao_a_saude_'+ordem).html('')
+            $('#telemedicina_'+ordem).html('')
 
             $('#prazo_reembolso_'+ordem+'_r').html('');
             $('#cobertura_internacional_'+ordem+'_r').html('');
@@ -563,6 +569,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             $('#convenio_farmacia_'+ordem+'_r').html('');
             $('#concierge_'+ordem+'_r').html('');
             $('#escleroterapia_'+ordem+'_r').html('');
+            $('#servico_online_'+ordem+'_r').html('')
+            $('#programas_de_promocao_a_saude_'+ordem+'_r').html('')
+            $('#telemedicina_'+ordem+'_r').html('')
 
             let url = '<?php echo get_template_directory_uri(); ?>/dados/comparativo-laboratorios.json';
             let url2 = '<?php echo get_template_directory_uri(); ?>/dados/comparativo-diferencial.json';
@@ -601,6 +610,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                                 $('#convenio_farmacia_'+ordem).html(value['convenio_farmacia']);
                                 $('#concierge_'+ordem).html(value['concierge']);
                                 $('#escleroterapia_'+ordem).html(value['escleroterapia']);
+                                $('#servico_online_'+ordem).html(value['servico_online'])
+                                $('#programas_de_promocao_a_saude_'+ordem).html(value['programas_de_promocao_a_saude'])
+                                $('#telemedicina_'+ordem).html(value['telemedicina'])
 
                                 $('#prazo_reembolso_'+ordem+'_r').html(value['prazo_reembolso']);
                                 $('#cobertura_internacional_'+ordem+'_r').html(value['cobertura_internacional']);
@@ -615,6 +627,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                                 $('#convenio_farmacia_'+ordem+'_r').html(value['convenio_farmacia']);
                                 $('#concierge_'+ordem+'_r').html(value['concierge']);
                                 $('#escleroterapia_'+ordem+'_r').html(value['escleroterapia']);
+                                $('#servico_online_'+ordem+'_r').html(value['servico_online'])
+                                $('#programas_de_promocao_a_saude_'+ordem+'_r').html(value['programas_de_promocao_a_saude'])
+                                $('#telemedicina_'+ordem+'_r').html(value['telemedicina'])
 
                                 $('#reembolso_consulta_'+ordem).html('');
                                 $('#reembolso_terapias_'+ordem).html('');
