@@ -450,6 +450,12 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         selectRede.value === 'Porto' ? '<img src="/wp-content/themes/pride/img/logo-portoseguro.png" width="100" alt="">' :
         selectRede.value === 'Sulamérica' ? '<img src="/wp-content/themes/pride/img/logo-sulamerica.png" width="100" alt="">' :
         selectRede.value === 'Care Plus' ? '<img src="/wp-content/themes/pride/img/logo-care-plus.png" width="100" alt="">' :
+        selectRede.value === 'Prevent Sênior' ? '<img src="/wp-content/themes/pride/img/preventSenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'Blue' ? '<img src="/wp-content/themes/pride/img/blue-logo.png" width="100" alt="">' :
+        selectRede.value === 'Alice' ? '<img src="/wp-content/themes/pride/img/alice-logo.png" width="100" alt="">' :
+        selectRede.value === 'Medsenior' ? '<img src="/wp-content/themes/pride/img/medsenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'São Cristóvão' ? '<img src="/wp-content/themes/pride/img/sao-cristovao-logo.png" width="100" alt="">' :
+        selectRede.value === 'Trasmontano' ? '<img src="/wp-content/themes/pride/img/trasmontano-logo.png" width="100" alt="">' :
         selectRede.value === 'CNU' ? '<img src="/wp-content/themes/pride/img/logo-cnu.png" width="100" alt="">' :
         '';
 
@@ -465,6 +471,12 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         selectRede.value === 'Porto' ? '<img src="/wp-content/themes/pride/img/logo-portoseguro.png" width="100" height="50" alt="">' :
         selectRede.value === 'Sulamérica' ? '<img src="/wp-content/themes/pride/img/logo-sulamerica.png" width="100" height="50" alt="">' :
         selectRede.value === 'Care Plus' ? '<img src="/wp-content/themes/pride/img/logo-care-plus.png" width="100" height="50" alt="">' :
+        selectRede.value === 'Prevent Sênior' ? '<img src="/wp-content/themes/pride/img/preventSenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'Blue' ? '<img src="/wp-content/themes/pride/img/blue-logo.png" width="100" alt="">' :
+        selectRede.value === 'Alice' ? '<img src="/wp-content/themes/pride/img/alice-logo.png" width="100" alt="">' :
+        selectRede.value === 'Medsenior' ? '<img src="/wp-content/themes/pride/img/medsenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'São Cristóvão' ? '<img src="/wp-content/themes/pride/img/sao-cristovao-logo.png" width="100" alt="">' :
+        selectRede.value === 'Trasmontano' ? '<img src="/wp-content/themes/pride/img/trasmontano-logo.png" width="100" alt="">' :
         selectRede.value === 'CNU' ? '<img src="/wp-content/themes/pride/img/logo-cnu.png" width="100" height="50" alt="">' :
         '';
 
@@ -484,6 +496,12 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 selectRede.value === 'Omint' ? omint :
                 selectRede.value === 'Care Plus' ? carePlus :
                 selectRede.value === 'Porto' ? portoSeguro :
+                selectRede.value === 'Trasmontano' ? trasmontano :
+                selectRede.value === 'Medsenior' ? medsenior :
+                selectRede.value === 'Prevent Sênior' ? preventSenior :
+                selectRede.value === 'São Cristóvão' ? saoCristovao :
+                selectRede.value === 'Blue' ? blue :
+                selectRede.value === 'Alice' ? alice :
                 selectRede.value === 'Sulamérica' ? sulamerica :
                 '';
 

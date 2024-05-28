@@ -690,28 +690,6 @@ $numPlanos = 6;
                 echo '</tr>';
             ?> -->
 
-<!-- Regras de Coparticipação -->
-<tr class="bg-cinza">
-    <th colspan="8" class="title-pdf" style="text-transform: uppercase;">Regras de Coparticipação</th>
-</tr>
-
-<?php
-$regras = [
-    'Coparticipação' => 'copart',
-    'Cobre cirurgias e internações' => 'copart_cirurgias_internacoes',
-    'Valor da coparticipação' => 'valor_coparticipacao'
-];
-
-foreach ($regras as $regra => $classPrefix) {
-    echo '<tr class="cor-fundo" id="tr_' . $classPrefix . '" style="display: none">';
-    echo '<td>' . $regra . '</td>';
-    for ($i = 0; $i < $numPlanos; $i++) {
-        echo '<td class="' . $classPrefix . '_' . $i . '_r" id="' . $classPrefix . '_' . $i . '_r"></td>';
-    }
-    echo '</tr>';
-}
-?>
-
         <!-- Diferenciais -->
 
             <tr class="bg-cinza">
@@ -759,6 +737,28 @@ foreach ($regras as $regra => $classPrefix) {
                 echo '</tr>';
             }
             ?>
+
+            <!-- Regras de Coparticipação -->
+<tr class="bg-cinza">
+    <th colspan="8" class="title-pdf" style="text-transform: uppercase;">Regras de Coparticipação</th>
+</tr>
+
+<?php
+$regras = [
+    'Coparticipação' => 'copart',
+    'Cobre cirurgias e internações' => 'copart_cirurgias_internacoes',
+    'Valor da coparticipação' => 'valor_coparticipacao'
+];
+
+foreach ($regras as $regra => $classPrefix) {
+    echo '<tr class="cor-fundo" id="tr_' . $classPrefix . '" style="display: none">';
+    echo '<td>' . $regra . '</td>';
+    for ($i = 0; $i < $numPlanos; $i++) {
+        echo '<td class="' . $classPrefix . '_' . $i . '_r" id="' . $classPrefix . '_' . $i . '_r"></td>';
+    }
+    echo '</tr>';
+}
+?>
 
         </tbody>
         <tfoot>
