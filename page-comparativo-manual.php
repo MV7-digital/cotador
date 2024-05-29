@@ -232,7 +232,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             // Valor da coparticipação
             echo '<tr>';
             echo '<td style="display: flex; justify-content: space-between;">';
-            echo '<p style="text-align: left;">Valor da coparticipação (%)</p>';
+            echo '<p style="text-align: left;">Porcentagem da coparticipação</p>';
             echo '<input type="checkbox" class="copartCheck" id="copartCheck_2" onclick="inserirCoparticipacao(\'valor_coparticipacao\')">';
             echo '</td>';
             for ($i = 0; $i < $numPlanos; $i++) {

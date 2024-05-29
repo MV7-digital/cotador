@@ -747,7 +747,7 @@ $numPlanos = 6;
 $regras = [
     'Coparticipação' => 'copart',
     'Cobre cirurgias e internações' => 'copart_cirurgias_internacoes',
-    'Valor da coparticipação' => 'valor_coparticipacao'
+    'Porcentagem da coparticipação' => 'valor_coparticipacao'
 ];
 
 foreach ($regras as $regra => $classPrefix) {
