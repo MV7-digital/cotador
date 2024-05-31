@@ -73,7 +73,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '<select name="plano_'.$i.'" id="plano_'.$i.'" disabled>';
                 echo '<option value="">Selecione a Rede Primeiro</option>';
                 echo '</select>';
-                echo '<div class="coop" id="plano_field_'.$i.'"></div>';
+                echo '<div class="coop" id="copart_'.$i.'"></div>';
                 echo '</div>';
                 echo '<div class="tamanho-coluna col-6">';
                 echo '<p id="pdf_plano'.($i+1).'_logo_r">';
@@ -90,7 +90,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '<select name="plano_'.($i + 1).'" id="plano_'.($i + 1).'" disabled>';
                 echo '<option value="">Selecione a Rede Primeiro</option>';
                 echo '</select>';
-                echo '<div class="coop" id="plano_field_'.($i + 1).'"></div>';
+                echo '<div class="coop" id="copart_'.($i + 1).'"></div>';
                 echo '</div>';
                 echo '</th>';
             }
@@ -182,7 +182,69 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         ?>
 
         </thead>
+
         <tbody>
+
+
+        <!-- Tabela de coparticipação -->
+        <?php
+            echo '<tr>';
+            echo '<th colspan="7">';
+            echo '<p class="title-dif" style="text-transform: uppercase;">';
+            echo '<span>Regras</span> de coparticipação';
+            echo '</p>';
+            echo '</th>';
+            echo '</tr>';
+
+            // Coparticipação
+            echo '<tr>';
+            echo '<td style="display: flex; justify-content: space-between;">';
+            echo '<p style="text-align: left;">Coparticipação</p>';
+            echo '<input type="checkbox" class="copartCheck" id="copartCheck_0" onclick="inserirCoparticipacao(\'copart\')">';
+            echo '</td>';
+            for ($i = 0; $i < $numPlanos; $i++) {
+                echo '<td>';
+                echo '<select class="w-100" name="coparticipacao_' . $i . '" id="coparticipacao_' . $i . '">';
+                echo '<option value="Total">Total</option>';
+                echo '<option value="Parcial">Parcial</option>';
+                echo '<option value="Sem copart.">Sem copart.</option>';
+                echo '</select>';
+                echo '</td>';
+            }
+            echo '</tr>';
+
+            // Coparticipação em cirurgias e internações
+            echo '<tr>';
+            echo '<td style="display: flex; justify-content: space-between;">';
+            echo '<p style="text-align: left;">Cobre cirurgias e internações</p>';
+            echo '<input type="checkbox" class="copartCheck" id="copartCheck_1" onclick="inserirCoparticipacao(\'copart_cirurgias_internacoes\')">';
+            echo '</td>';
+            for ($i = 0; $i < $numPlanos; $i++) {
+                echo '<td>';
+                echo '<select class="w-100" name="coparticipacao_cirurgia_internacao' . $i . '" id="coparticipacao_cirurgia_internacao' . $i . '">';
+                echo '<option value="Sim">Sim</option>';
+                echo '<option value="Não">Não</option>';
+                echo '</select>';
+                echo '</td>';
+            }
+            echo '</tr>';
+
+            // Valor da coparticipação
+            echo '<tr>';
+            echo '<td style="display: flex; justify-content: space-between;">';
+            echo '<p style="text-align: left;">Porcentagem da coparticipação</p>';
+            echo '<input type="checkbox" class="copartCheck" id="copartCheck_2" onclick="inserirCoparticipacao(\'valor_coparticipacao\')">';
+            echo '</td>';
+            for ($i = 0; $i < $numPlanos; $i++) {
+                echo '<td>';
+                echo '<input class="w-100" type="number" name="valor_coparticipacao_' . $i . '" id="valor_coparticipacao_' . $i . '" placeholder="Valor da coparticipação" />';
+                echo '</td>';
+            }
+            echo '</tr>';
+        ?>
+
+        <!-- Tabela de diferenciais por planos -->
+
         <tr>
             <th colspan="7"><p class="title-dif">DIFERENCIAIS POR <span>PLANOS</span></p>
             <p class="desc-dif">Selecione os diferenciais que fazem parte do seu comparativo</p></th>
@@ -203,7 +265,10 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             'check_up' => 'Check Up',
             'convenio_farmacia' => 'Convênio farmácia',
             'concierge' => 'Concierge',
-            'escleroterapia' => 'Escleroterapia'
+            'escleroterapia' => 'Escleroterapia',
+            'servico_online' => 'Serviço Online',
+            'programas_de_promocao_a_saude' => 'Programas de Promoção à Saúde',
+            'telemedicina' => 'Telemedicina'
         );
 
         foreach ($diferenciais as $key => $diferencial) {
@@ -309,6 +374,24 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         }
     }
 
+    function inserirCoparticipacao() {
+    // Selecionar todos os checkboxes de coparticipação
+    let coparticipacoes = document.getElementsByClassName('copartCheck');
+
+    // Iterar sobre cada checkbox
+    for (let i = 0; i < coparticipacoes.length; i++) {
+        let copartChecked = document.getElementById('copartCheck_' + i);
+        let copartDisplay = copartChecked.checked ? 'table-row' : 'none';
+
+        if (i === 0) {
+            document.getElementById('tr_copart').style.display = copartDisplay;
+        } else if (i === 1) {
+            document.getElementById('tr_copart_cirurgias_internacoes').style.display = copartDisplay;
+        } else if (i === 2) {
+            document.getElementById('tr_valor_coparticipacao').style.display = copartDisplay;
+        }
+    }
+}
 
     let display = [];
 
@@ -340,7 +423,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         const omint = <?php get_template_part('template-parts/planos/plano', 'omint') ?>;
         const portoSeguro = <?php get_template_part('template-parts/planos/plano', 'portoseguro') ?>;
 
-        document.getElementById("plano_field_" + ordem).innerHTML =
+        console.log('1');
+
+        document.getElementById("copart_" + ordem).innerHTML =
             selectRede.value === 'Bradesco' ? bradesco :
             selectRede.value === 'Amil' ? amil :
             selectRede.value === 'Amil One' ? amilOne :
@@ -353,6 +438,8 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             selectRede.value === 'Sulamérica' ? sulamerica :
             '';
 
+            console.log('2');
+
         document.getElementById("pdf_plano"+ordem+"_logo").innerHTML =
         selectRede.value === 'Bradesco' ? '<img src="/wp-content/themes/pride/img/logo-bradesco-saude.png" width="100" alt="">' :
         selectRede.value === 'Amil' ? '<img src="/wp-content/themes/pride/img/logo-amil.png" width="100" alt="">' :
@@ -363,8 +450,16 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         selectRede.value === 'Porto' ? '<img src="/wp-content/themes/pride/img/logo-portoseguro.png" width="100" alt="">' :
         selectRede.value === 'Sulamérica' ? '<img src="/wp-content/themes/pride/img/logo-sulamerica.png" width="100" alt="">' :
         selectRede.value === 'Care Plus' ? '<img src="/wp-content/themes/pride/img/logo-care-plus.png" width="100" alt="">' :
+        selectRede.value === 'Prevent Sênior' ? '<img src="/wp-content/themes/pride/img/preventSenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'Blue' ? '<img src="/wp-content/themes/pride/img/blue-logo.png" width="100" alt="">' :
+        selectRede.value === 'Alice' ? '<img src="/wp-content/themes/pride/img/alice-logo.png" width="100" alt="">' :
+        selectRede.value === 'Medsenior' ? '<img src="/wp-content/themes/pride/img/medsenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'São Cristóvão' ? '<img src="/wp-content/themes/pride/img/sao-cristovao-logo.png" width="100" alt="">' :
+        selectRede.value === 'Trasmontano' ? '<img src="/wp-content/themes/pride/img/trasmontano-logo.png" width="100" alt="">' :
         selectRede.value === 'CNU' ? '<img src="/wp-content/themes/pride/img/logo-cnu.png" width="100" alt="">' :
         '';
+
+        console.log('3');
 
         document.getElementById("pdf_plano"+ordem+"_logo_r").innerHTML =
         selectRede.value === 'Bradesco' ? '<img src="/wp-content/themes/pride/img/logo-bradesco-saude.png" width="100" height="50" alt="">' :
@@ -376,12 +471,22 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         selectRede.value === 'Porto' ? '<img src="/wp-content/themes/pride/img/logo-portoseguro.png" width="100" height="50" alt="">' :
         selectRede.value === 'Sulamérica' ? '<img src="/wp-content/themes/pride/img/logo-sulamerica.png" width="100" height="50" alt="">' :
         selectRede.value === 'Care Plus' ? '<img src="/wp-content/themes/pride/img/logo-care-plus.png" width="100" height="50" alt="">' :
+        selectRede.value === 'Prevent Sênior' ? '<img src="/wp-content/themes/pride/img/preventSenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'Blue' ? '<img src="/wp-content/themes/pride/img/blue-logo.png" width="100" alt="">' :
+        selectRede.value === 'Alice' ? '<img src="/wp-content/themes/pride/img/alice-logo.png" width="100" alt="">' :
+        selectRede.value === 'Medsenior' ? '<img src="/wp-content/themes/pride/img/medsenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'São Cristóvão' ? '<img src="/wp-content/themes/pride/img/sao-cristovao-logo.png" width="100" alt="">' :
+        selectRede.value === 'Trasmontano' ? '<img src="/wp-content/themes/pride/img/trasmontano-logo.png" width="100" alt="">' :
         selectRede.value === 'CNU' ? '<img src="/wp-content/themes/pride/img/logo-cnu.png" width="100" height="50" alt="">' :
         '';
 
+        console.log('4');
+
         selectRede.addEventListener("change", function() {
 
-            document.getElementById("plano_field_" + ordem).innerHTML =
+            console.log('5');
+
+            document.getElementById("copart_" + ordem).innerHTML =
                 selectRede.value === 'Bradesco' ? bradesco :
                 selectRede.value === 'Amil' ? amil :
                 selectRede.value === 'Amil One' ? amilOne :
@@ -391,8 +496,16 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 selectRede.value === 'Omint' ? omint :
                 selectRede.value === 'Care Plus' ? carePlus :
                 selectRede.value === 'Porto' ? portoSeguro :
+                selectRede.value === 'Trasmontano' ? trasmontano :
+                selectRede.value === 'Medsenior' ? medsenior :
+                selectRede.value === 'Prevent Sênior' ? preventSenior :
+                selectRede.value === 'São Cristóvão' ? saoCristovao :
+                selectRede.value === 'Blue' ? blue :
+                selectRede.value === 'Alice' ? alice :
                 selectRede.value === 'Sulamérica' ? sulamerica :
                 '';
+
+                console.log('6');
         });
         // Limpar select de planos
         selectPlano.innerHTML = '';
@@ -400,17 +513,30 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         // Obter a rede selecionada
         let redeSelecionada = selectRede.value;
         // Verificar se uma rede foi selecionada
+
+        console.log('7');
+
         if (redeSelecionada !== '') {
+
+            console.log('8');
             // Obter os planos correspondentes à rede selecionada
             let planos = <?php echo json_encode($planosPorRede); ?>;
 
+            console.log('9');
+
             // Verificar se há planos para a rede selecionada
             if (redeSelecionada in planos) {
+
+                console.log('10');
                 let planoOptions = planos[redeSelecionada];
 
                 // Preencher o select de planos com as opções correspondentes
                 selectPlano.innerHTML = '<option value="">Selecione o Plano</option>';
+
+                console.log('11');
                 for (let i = 0; i < planoOptions.length; i++) {
+
+                    console.log('12');
                     let option = document.createElement('option');
                     option.value = planoOptions[i];
                     option.text = planoOptions[i];
@@ -418,6 +544,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 }
                 // Habilitar o select de planos
                 selectPlano.disabled = false;
+                console.log('13');
             }
         }
     }
@@ -443,6 +570,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             $('#convenio_farmacia_'+ordem).html('');
             $('#concierge_'+ordem).html('');
             $('#escleroterapia_'+ordem).html('');
+            $('#servico_online_'+ordem).html('')
+            $('#programas_de_promocao_a_saude_'+ordem).html('')
+            $('#telemedicina_'+ordem).html('')
 
             $('#prazo_reembolso_'+ordem+'_r').html('');
             $('#cobertura_internacional_'+ordem+'_r').html('');
@@ -457,6 +587,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             $('#convenio_farmacia_'+ordem+'_r').html('');
             $('#concierge_'+ordem+'_r').html('');
             $('#escleroterapia_'+ordem+'_r').html('');
+            $('#servico_online_'+ordem+'_r').html('')
+            $('#programas_de_promocao_a_saude_'+ordem+'_r').html('')
+            $('#telemedicina_'+ordem+'_r').html('')
 
             let url = '<?php echo get_template_directory_uri(); ?>/dados/comparativo-laboratorios.json';
             let url2 = '<?php echo get_template_directory_uri(); ?>/dados/comparativo-diferencial.json';
@@ -495,6 +628,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                                 $('#convenio_farmacia_'+ordem).html(value['convenio_farmacia']);
                                 $('#concierge_'+ordem).html(value['concierge']);
                                 $('#escleroterapia_'+ordem).html(value['escleroterapia']);
+                                $('#servico_online_'+ordem).html(value['servico_online'])
+                                $('#programas_de_promocao_a_saude_'+ordem).html(value['programas_de_promocao_a_saude'])
+                                $('#telemedicina_'+ordem).html(value['telemedicina'])
 
                                 $('#prazo_reembolso_'+ordem+'_r').html(value['prazo_reembolso']);
                                 $('#cobertura_internacional_'+ordem+'_r').html(value['cobertura_internacional']);
@@ -509,6 +645,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                                 $('#convenio_farmacia_'+ordem+'_r').html(value['convenio_farmacia']);
                                 $('#concierge_'+ordem+'_r').html(value['concierge']);
                                 $('#escleroterapia_'+ordem+'_r').html(value['escleroterapia']);
+                                $('#servico_online_'+ordem+'_r').html(value['servico_online'])
+                                $('#programas_de_promocao_a_saude_'+ordem+'_r').html(value['programas_de_promocao_a_saude'])
+                                $('#telemedicina_'+ordem+'_r').html(value['telemedicina'])
 
                                 $('#reembolso_consulta_'+ordem).html('');
                                 $('#reembolso_terapias_'+ordem).html('');

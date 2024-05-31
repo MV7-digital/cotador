@@ -15,7 +15,10 @@ $diferenciais = array(
     'check_up' => 'Check Up',
     'convenio_farmacia' => 'Convênio farmácia',
     'concierge' => 'Concierge',
-    'escleroterapia' => 'Escleroterapia'
+    'escleroterapia' => 'Escleroterapia',
+    'servico_online' => 'Serviço Online',
+    'programas_de_promocao_a_saude' => 'Programas de Promoção à Saúde',
+    'telemedicina' => 'Telemedicina'
 );
 
 $hospitais = file_get_contents( get_template_directory() . '/dados/comparativo-hospitais.json');
@@ -60,6 +63,8 @@ $numPlanos = 6;
             </tr>
         </thead>
         <tbody>
+
+            <!-- Faixas etárias no preview/PDF -->
             <tr class="cor-fundo">
                 <th class="fixed-width faixa-etaria">
                     Faixa Etaria
@@ -101,6 +106,9 @@ $numPlanos = 6;
                     </div>
                 </th>
             </tr>
+
+            <!-- Faixas etárias + vidas -->
+
             <tr class="cor-fundo" id="0_18_coluna">
                 <td>
                     <p>0 - 18 anos</p>
@@ -569,6 +577,9 @@ $numPlanos = 6;
                     </div>
                 </td>
             </tr>
+
+            <!-- Valor total -->
+
             <?php
                 echo '<tr class="cor-fundo">';
                 echo '<th>Total</th>';
@@ -622,6 +633,65 @@ $numPlanos = 6;
                 echo '</th>';
                 echo '</tr>';
             ?>
+
+            <!-- Total com IOF -->
+
+            <!-- <?php
+                echo '<tr class="cor-fundo">';
+                echo '<th>Total com IOF</th>';
+                echo '<th class="text-center" id="th_total_iof_0">
+                <div class="vidas_unidades_pdf">
+                    <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_0"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_1">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_1"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_2">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_2"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_3">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_3"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_4">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_4"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_5">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_5"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '</tr>';
+            ?> -->
+
+        <!-- Diferenciais -->
+
             <tr class="bg-cinza">
                 <th colspan="8" class="title-pdf">DIFERENCIAIS</th>
             </tr>
@@ -635,6 +705,9 @@ $numPlanos = 6;
                     echo '</tr>';
                 }
             ?>
+
+            <!-- Hospitais -->
+
             <tr class="bg-cinza">
                 <th colspan="8" class="title-pdf">DESTAQUES DE HOSPITAIS DA REDE CREDENCIADA</th>
             </tr>
@@ -648,6 +721,9 @@ $numPlanos = 6;
                     echo '</tr>';
                 }
             ?>
+
+            <!-- Laboratórios -->
+
             <tr class="bg-cinza">
                 <th colspan="8" class="title-pdf">DESTAQUES DE LABORATÓRIOS DA REDE CREDENCIADA</th>
             </tr>
@@ -661,6 +737,28 @@ $numPlanos = 6;
                 echo '</tr>';
             }
             ?>
+
+            <!-- Regras de Coparticipação -->
+<tr class="bg-cinza">
+    <th colspan="8" class="title-pdf" style="text-transform: uppercase;">Regras de Coparticipação</th>
+</tr>
+
+<?php
+$regras = [
+    'Coparticipação' => 'copart',
+    'Cobre cirurgias e internações' => 'copart_cirurgias_internacoes',
+    'Porcentagem da coparticipação' => 'valor_coparticipacao'
+];
+
+foreach ($regras as $regra => $classPrefix) {
+    echo '<tr class="cor-fundo" id="tr_' . $classPrefix . '" style="display: none">';
+    echo '<td>' . $regra . '</td>';
+    for ($i = 0; $i < $numPlanos; $i++) {
+        echo '<td class="' . $classPrefix . '_' . $i . '_r" id="' . $classPrefix . '_' . $i . '_r"></td>';
+    }
+    echo '</tr>';
+}
+?>
 
         </tbody>
         <tfoot>

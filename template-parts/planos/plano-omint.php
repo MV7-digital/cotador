@@ -1,1 +1,1 @@
-'<input type="checkbox" class="coop" id="cooparticipacao_'+ordem+'"> Coparticipação'
+'<select name="omint" class="coop" id="cooparticipacao_'+ordem+'"> <option value="">Coparticipação</option><option value="Total">Total</option><option value="Parcial">Parcial</option><option value="Sem">Sem</option>'

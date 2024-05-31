@@ -634,7 +634,6 @@ tfoot{
 }
 
 .logo-pdf img{
-    margin-left: 200px;
     margin-top: 70px;
 }
 
@@ -689,6 +688,10 @@ tfoot{
 .table td{
     border-right: 2px solid #CA991E;
     text-align: center;
+}
+
+.table td:last-child {
+    border-right: none;
 }
 
 .desc-dif{
