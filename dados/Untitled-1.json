@@ -1,0 +1,411 @@
+[
+  {
+   "plano": "Amil Saúde S380 [A]",
+   "reembolso_consulta": 80,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Amil Saúde S450 [A]",
+   "reembolso_consulta": 96,
+   "reembolso_terapias": "-",
+   "Column8": "  "
+  },
+  {
+   "plano": "Amil Saúde S580 [A]",
+   "reembolso_consulta": 136,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Amil Saúde S750 R1 [A]",
+   "reembolso_consulta": 136,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Amil Saúde S750 R2 [A]",
+   "reembolso_consulta": 240,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Amil Saúde S750 R3 [A]",
+   "reembolso_consulta": 328,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Amil One SS2500 R1 [A]",
+   "reembolso_consulta": 432,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Amil One SS2500 R2 [A]",
+   "reembolso_consulta": 600,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Amil One SS6500 R1 [A]",
+   "reembolso_consulta": 600,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Amil One SS6500 R2 [A]",
+   "reembolso_consulta": 800,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Amil One SS6500 R3 [A]",
+   "reembolso_consulta": 1040,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TRWE [E]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TRWQ [A]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "FCER [E]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "FCQR [A]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TERI [E]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TQRI [A]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TRME [E]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TRMQ [A]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TREN [E]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TRQN [A]",
+   "reembolso_consulta": 109.76,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TR2N [A]",
+   "reembolso_consulta": 219.52,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TR3N [A]",
+   "reembolso_consulta": 329.27,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TPN4 [A]",
+   "reembolso_consulta": 439.03,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TPN6 [A]",
+   "reembolso_consulta": 658.55,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TPN8 [A]",
+   "reembolso_consulta": 878.06,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TCN6 [A]",
+   "reembolso_consulta": 658.55,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "TCN8 [A]",
+   "reembolso_consulta": 878.06,
+   "reembolso_terapias": "-"
+  },
+  {
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Direto [A]",
+   "reembolso_consulta": 90,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Exato [A]",
+   "reembolso_consulta": 90,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Clássico [A]",
+   "reembolso_consulta": 110.25,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Especial RC [A]",
+   "reembolso_consulta": 150.3,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Especial R1 [A]",
+   "reembolso_consulta": 180,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Especial Mais [A]",
+   "reembolso_consulta": 330.75,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Executivo R1 [A]",
+   "reembolso_consulta": 500.4,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Executivo R2 [A]",
+   "reembolso_consulta": 660.15,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Executivo R3 [A]",
+   "reembolso_consulta": 880.2,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Prestige [A]",
+   "reembolso_consulta": 1000.35,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Compacto",
+   "reembolso_consulta": 81.9,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Efetivo",
+   "reembolso_consulta": 81.9,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Completo",
+   "reembolso_consulta": 105,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Superior e Superior Plus",
+   "reembolso_consulta": 210,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Sênior",
+   "reembolso_consulta": 560,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SE4 [A]",
+   "reembolso_consulta": 122.97,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Smax [A]",
+   "reembolso_consulta": 122.97,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SE3 [A]",
+   "reembolso_consulta": 122.97,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SC2 SC2ME [A]",
+   "reembolso_consulta": 152.79,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SC1 [A]",
+   "reembolso_consulta": 239.68,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "C16 C16ME [A]",
+   "reembolso_consulta": 419.52,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "C17 [A]",
+   "reembolso_consulta": 479.35,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "C19 C19ME [A]",
+   "reembolso_consulta": 479.35,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "C20 [A]",
+   "reembolso_consulta": 625.75,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "C21 [A]",
+   "reembolso_consulta": 782.24,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "C22 [A]",
+   "reembolso_consulta": 962.72,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "C23 [A]",
+   "reembolso_consulta": 1203.99,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Cristal [E]",
+   "reembolso_consulta": 95.04,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Bronze [E]",
+   "reembolso_consulta": 95.04,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Prata Mais RC [E]",
+   "reembolso_consulta": 95.04,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Bronze [A]",
+   "reembolso_consulta": 95.04,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Prata Mais RC [A]",
+   "reembolso_consulta": 95.04,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Ouro Mais [A]",
+   "reembolso_consulta": 167.2,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Ouro Max [A]",
+   "reembolso_consulta": 280,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Diamante Mais R1 [A]",
+   "reembolso_consulta": 334.4,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Diamante Mais R2 [A]",
+   "reembolso_consulta": 714.4,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "P200 [E]",
+   "reembolso_consulta": 93.8,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "P300 [E]",
+   "reembolso_consulta": 96.1,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "P400 [A]",
+   "reembolso_consulta": 153.36,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "P450 [A]",
+   "reembolso_consulta": 202.12,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "P500 [A]",
+   "reembolso_consulta": 301.16,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Advance 600 QC [A]",
+   "reembolso_consulta": 75,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Advance 600 QP [A]",
+   "reembolso_consulta": 75,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Advance 700 QC [A]",
+   "reembolso_consulta": 75,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Advance 700 QP [A]",
+   "reembolso_consulta": 75,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "Premium 900 Care [A]",
+   "reembolso_consulta": 240,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SoHo 30",
+   "reembolso_consulta": 190,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SoHo 60",
+   "reembolso_consulta": 380,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SoHo 80",
+   "reembolso_consulta": 380,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SoHo 120",
+   "reembolso_consulta": 475,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SoHo 160",
+   "reembolso_consulta": 610,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SoHo 200",
+   "reembolso_consulta": 760,
+   "reembolso_terapias": "-"
+  },
+  {
+   "plano": "SoHo 300",
+   "reembolso_consulta": 950,
+   "reembolso_terapias": "-"
+  }
+ ]

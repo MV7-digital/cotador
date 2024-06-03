@@ -1,6 +1,5 @@
 [
   {
-    "Column2": "Amil Fácil 110 [E]",
     "rede": "Amil",
     "plano": "Amil Fácil 110 [E]",
     "prazo_reembolso": "-",
@@ -23,7 +22,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "Amil Fácil S60 SP Mais [E]",
     "rede": "Amil",
     "plano": "Amil Fácil S60 SP Mais [E]",
     "prazo_reembolso": "-",
@@ -46,7 +44,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "Amil Fácil S80 SP [E]",
     "rede": "Amil",
     "plano": "Amil Fácil S80 SP [E]",
     "prazo_reembolso": "-",
@@ -69,7 +66,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "Amil Fácil S80 SP [A]",
     "rede": "Amil",
     "plano": "Amil Fácil S80 SP [A]",
     "prazo_reembolso": "-",
@@ -92,7 +88,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "Amil Saúde S380 [E]",
     "rede": "Amil",
     "plano": "Amil Saúde S380 [E]",
     "prazo_reembolso": "30 dias úteis",
@@ -115,7 +110,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "Amil Saúde S380 [A]",
     "rede": "Amil",
     "plano": "Amil Saúde S380 [A]",
     "prazo_reembolso": "30 dias úteis",
@@ -138,7 +132,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "Amil Saúde S450 [E]",
     "rede": "Amil",
     "plano": "Amil Saúde S450 [E]",
     "prazo_reembolso": "30 dias úteis",
@@ -161,7 +154,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "Amil Saúde S450 [A]",
     "rede": "Amil",
     "plano": "Amil Saúde S450 [A]",
     "prazo_reembolso": "30 dias úteis",
@@ -184,7 +176,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "Amil Saúde S580 [A]",
     "rede": "Amil",
     "plano": "Amil Saúde S580 [A]",
     "prazo_reembolso": "30 dias úteis",
@@ -207,8 +198,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "AmilAmil S750 R1 [A]",
     "rede": "Amil",
     "plano": "Amil S750 R1 [A]",
     "prazo_reembolso": "30 dias úteis",
@@ -231,8 +220,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "AmilAmil S750 R2 [A]",
     "rede": "Amil",
     "plano": "Amil S750 R2 [A]",
     "prazo_reembolso": "30 dias úteis",
@@ -255,12 +242,10 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Amil OneAmil One S2500 R1 [A]",
     "rede": "Amil One",
     "plano": "S2500 R1 [A]",
-    "prazo_reembolso": "24 H",
-    "cobertura_internacional": "USD 300.000,00",
+    "prazo_reembolso": "24 horas",
+    "cobertura_internacional": "US$ 300.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -279,12 +264,10 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Amil OneAmil One S2500 R2 [A]",
     "rede": "Amil One",
     "plano": "S2500 R2 [A]",
-    "prazo_reembolso": "24 H",
-    "cobertura_internacional": "USD 300.000,00",
+    "prazo_reembolso": "24 horas",
+    "cobertura_internacional": "US$ 300.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -303,12 +286,10 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Amil OneS6500 Black R1 [A]",
     "rede": "Amil One",
     "plano": "S6500 Black R1 [A]",
-    "prazo_reembolso": "24 H",
-    "cobertura_internacional": "USD 300.000,00",
+    "prazo_reembolso": "24 horas",
+    "cobertura_internacional": "US$ 300.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -327,12 +308,10 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Amil OneS6500 Black R2 [A]",
     "rede": "Amil One",
     "plano": "S6500 Black R2 [A]",
-    "prazo_reembolso": "24 H",
-    "cobertura_internacional": "USD 300.000,00",
+    "prazo_reembolso": "24 horas",
+    "cobertura_internacional": "US$ 300.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -351,12 +330,10 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "ENFERMARIA",
-    "Column2": "Amil OneAmil One S6500 Black R3 [A]",
     "rede": "Amil One",
     "plano": "S6500 Black R3 [A]",
-    "prazo_reembolso": "24 H",
-    "cobertura_internacional": "USD 300.000,00",
+    "prazo_reembolso": "24 horas",
+    "cobertura_internacional": "US$ 300.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -375,7 +352,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "TRWE [E]",
     "rede": "Bradesco",
     "plano": "TRWE [E]",
     "prazo_reembolso": "15 dias úteis",
@@ -398,7 +374,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TRWQ [A]",
     "rede": "Bradesco",
     "plano": "TRWQ [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -421,7 +396,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "FCER [E]",
     "rede": "Bradesco",
     "plano": "FCER [E]",
     "prazo_reembolso": "15 dias úteis",
@@ -444,7 +418,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "FCQR [A]",
     "rede": "Bradesco",
     "plano": "FCQR [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -467,7 +440,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TERI [E]",
     "rede": "Bradesco",
     "plano": "TERI [E]",
     "prazo_reembolso": "15 dias úteis",
@@ -490,7 +462,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TQRI [A]",
     "rede": "Bradesco",
     "plano": "TQRI [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -513,7 +484,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TRME [E]",
     "rede": "Bradesco",
     "plano": "TRME [E]",
     "prazo_reembolso": "15 dias úteis",
@@ -536,7 +506,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TRMQ [A]",
     "rede": "Bradesco",
     "plano": "TRMQ [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -559,8 +528,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "TREN [E]",
     "rede": "Bradesco",
     "plano": "TREN [E]",
     "prazo_reembolso": "15 dias úteis",
@@ -583,8 +550,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "TRQN [A]",
     "rede": "Bradesco",
     "plano": "TRQN [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -607,8 +572,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "TR2N [A]",
     "rede": "Bradesco",
     "plano": "TR2N [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -631,8 +594,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "TR3N [A]",
     "rede": "Bradesco",
     "plano": "TR3N [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -655,8 +616,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "TPN4 [A]",
     "rede": "Bradesco",
     "plano": "TPN4 [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -679,8 +638,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "TPN6 [A]",
     "rede": "Bradesco",
     "plano": "TPN6 [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -703,8 +660,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "TPN8 [A]",
     "rede": "Bradesco",
     "plano": "TPN8 [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -727,8 +682,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "TCN6 [A]",
     "rede": "Bradesco",
     "plano": "TCN6 [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -751,8 +704,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "TCN8 [A]",
     "rede": "Bradesco",
     "plano": "TCN8 [A]",
     "prazo_reembolso": "15 dias úteis",
@@ -775,10 +726,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "SulaméricaDireto Nacional [E]",
     "rede": "Sulamérica",
     "plano": "Direto Nacional [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -798,10 +748,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "SulaméricaDireto Nacional [A]",
     "rede": "Sulamérica",
     "plano": "Direto Nacional [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -821,10 +770,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "SulaméricaExato [E]",
     "rede": "Sulamérica",
     "plano": "Exato [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -844,10 +792,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "SulaméricaExato [A]",
     "rede": "Sulamérica",
     "plano": "Exato [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -867,10 +814,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "SulaméricaClássico [E]",
     "rede": "Sulamérica",
     "plano": "Clássico [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -890,10 +836,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "SulaméricaClássico [A]",
     "rede": "Sulamérica",
     "plano": "Clássico [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -913,11 +858,9 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "SulaméricaEspecial RC [A]",
     "rede": "Sulamérica",
     "plano": "Especial RC [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -937,12 +880,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "SulaméricaEspecial 100 R1 [A]",
     "rede": "Sulamérica",
     "plano": "Especial 100 R1 [A]",
-    "prazo_reembolso": "30 DIAS",
-    "cobertura_internacional": "30.000 Euros",
+    "prazo_reembolso": "30 dias",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -961,12 +902,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "SulaméricaEspecial Mais [A]",
     "rede": "Sulamérica",
     "plano": "Especial Mais [A]",
-    "prazo_reembolso": "30 DIAS",
-    "cobertura_internacional": "30.000 Euros",
+    "prazo_reembolso": "30 dias",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -985,12 +924,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "SulaméricaExecutivo R1 [A]",
     "rede": "Sulamérica",
     "plano": "Executivo R1 [A]",
-    "prazo_reembolso": "30 DIAS",
-    "cobertura_internacional": "30.000 Euros",
+    "prazo_reembolso": "30 dias",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1009,12 +946,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "SulaméricaExecutivo R2 [A]",
     "rede": "Sulamérica",
     "plano": "Executivo R2 [A]",
-    "prazo_reembolso": "30 DIAS",
-    "cobertura_internacional": "30.000 Euros",
+    "prazo_reembolso": "30 dias",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1033,12 +968,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "SulaméricaExecutivo R3 [A]",
     "rede": "Sulamérica",
     "plano": "Executivo R3 [A]",
-    "prazo_reembolso": "30 DIAS",
-    "cobertura_internacional": "30.000 Euros",
+    "prazo_reembolso": "30 dias",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1057,12 +990,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "SulaméricaPrestige [A]",
     "rede": "Sulamérica",
     "plano": "Prestige [A]",
-    "prazo_reembolso": "30 DIAS",
-    "cobertura_internacional": "30.000 Euros",
+    "prazo_reembolso": "30 dias",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1081,12 +1012,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Care PlusSoho 30 [A]",
     "rede": "Care Plus",
     "plano": "Soho 30 [A]",
     "prazo_reembolso": "05 dias úteis",
-    "cobertura_internacional": "US$ 100,000",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1105,12 +1034,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Care PlusSoho 60 [A]",
     "rede": "Care Plus",
     "plano": "Soho 60 [A]",
     "prazo_reembolso": "05 dias úteis",
-    "cobertura_internacional": "US$ 100,000",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "<i class=\"bi bi-check-circle-fill\"></i>",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1129,12 +1056,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Care PlusSoho 80 [A]",
     "rede": "Care Plus",
     "plano": "Soho 80 [A]",
     "prazo_reembolso": "05 dias úteis",
-    "cobertura_internacional": "US$ 300,000",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "<i class=\"bi bi-check-circle-fill\"></i>",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1153,12 +1078,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Care PlusSoho 120 [A]",
     "rede": "Care Plus",
     "plano": "Soho 120 [A]",
     "prazo_reembolso": "05 dias úteis",
-    "cobertura_internacional": "US$ 300,000",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "<i class=\"bi bi-check-circle-fill\"></i>",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1177,12 +1100,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Care PlusSoho 160 [A]",
     "rede": "Care Plus",
     "plano": "Soho 160 [A]",
     "prazo_reembolso": "05 dias úteis",
-    "cobertura_internacional": "US$ 300,000",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "<i class=\"bi bi-check-circle-fill\"></i>",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1201,12 +1122,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Care PlusSoho 200 [A]",
     "rede": "Care Plus",
     "plano": "Soho 200 [A]",
     "prazo_reembolso": "05 dias úteis",
-    "cobertura_internacional": "US$ 300,000",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "<i class=\"bi bi-check-circle-fill\"></i>",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1225,12 +1144,10 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Care PlusSoho 300 [A]",
     "rede": "Care Plus",
     "plano": "Soho 300 [A]",
     "prazo_reembolso": "05 dias úteis",
-    "cobertura_internacional": "US$ 300,000",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "<i class=\"bi bi-check-circle-fill\"></i>",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1249,8 +1166,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "OmintSE4 Regional [A]",
     "rede": "Omint",
     "plano": "SE4 Regional [A]",
     "prazo_reembolso": "15 dias",
@@ -1273,8 +1188,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "OmintSmax [A]",
     "rede": "Omint",
     "plano": "Smax [A]",
     "prazo_reembolso": "15 dias",
@@ -1297,8 +1210,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "OmintSE3 [A]",
     "rede": "Omint",
     "plano": "SE3 [A]",
     "prazo_reembolso": "15 dias",
@@ -1321,7 +1232,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintSC2 [A]",
     "rede": "Omint",
     "plano": "SC2 [A]",
     "prazo_reembolso": "16 dias",
@@ -1344,7 +1254,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintSC2 ME [A]",
     "rede": "Omint",
     "plano": "SC2 ME [A]",
     "prazo_reembolso": "17 dias",
@@ -1367,7 +1276,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintSC1 [A]",
     "rede": "Omint",
     "plano": "SC1 [A]",
     "prazo_reembolso": "5 dias",
@@ -1390,11 +1298,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC16 [A]",
     "rede": "Omint",
     "plano": "C16 [A]",
     "prazo_reembolso": "5 dias",
-    "cobertura_internacional": "30 mil euros",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -1413,11 +1320,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC16 ME [A]",
     "rede": "Omint",
     "plano": "C16 ME [A]",
     "prazo_reembolso": "5 dias",
-    "cobertura_internacional": "30 mil euros",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -1436,11 +1342,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC17 [A]",
     "rede": "Omint",
     "plano": "C17 [A]",
     "prazo_reembolso": "5 dias",
-    "cobertura_internacional": "30 mil euros",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -1459,11 +1364,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC19 [A]",
     "rede": "Omint",
     "plano": "C19 [A]",
     "prazo_reembolso": "5 dias",
-    "cobertura_internacional": "30 mil euros",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -1482,11 +1386,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC19 ME [A]",
     "rede": "Omint",
     "plano": "C19 ME [A]",
     "prazo_reembolso": "5 dias",
-    "cobertura_internacional": "30 mil euros",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -1505,11 +1408,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC20 [A]",
     "rede": "Omint",
     "plano": "C20 [A]",
     "prazo_reembolso": "5 dias",
-    "cobertura_internacional": "30 mil euros",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -1528,11 +1430,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC21 [A]",
     "rede": "Omint",
     "plano": "C21 [A]",
     "prazo_reembolso": "5 dias",
-    "cobertura_internacional": "30 mil euros",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -1550,11 +1451,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC22 [A]",
     "rede": "Omint",
     "plano": "C22 [A]",
     "prazo_reembolso": "5 dias",
-    "cobertura_internacional": "30 mil euros",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -1572,11 +1472,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC23 [A]",
     "rede": "Omint",
     "plano": "C23 [A]",
     "prazo_reembolso": "5 dias",
-    "cobertura_internacional": "30 mil euros",
+    "cobertura_internacional": "€ 30.000,00",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "-",
@@ -1594,7 +1493,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC10 [A]",
     "rede": "Omint",
     "plano": "C10 [A]",
     "prazo_reembolso": "5 dias",
@@ -1616,7 +1514,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC11 [A]",
     "rede": "Omint",
     "plano": "C11 [A]",
     "prazo_reembolso": "5 dias",
@@ -1638,7 +1535,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC12 [A]",
     "rede": "Omint",
     "plano": "C12 [A]",
     "prazo_reembolso": "5 dias",
@@ -1660,7 +1556,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "OmintC13 [A]",
     "rede": "Omint",
     "plano": "C13 [A]",
     "prazo_reembolso": "5 dias",
@@ -1682,11 +1577,9 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Seguros UnimedCompacto [E]",
     "rede": "Seguros Unimed",
     "plano": "Compacto [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1706,11 +1599,9 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "Seguros UnimedEfetivo [A]",
     "rede": "Seguros Unimed",
     "plano": "Efetivo [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1730,11 +1621,9 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "ENFERMARIA",
-    "Column2": "Seguros UnimedCompleto [A]",
     "rede": "Seguros Unimed",
     "plano": "Completo [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1754,10 +1643,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "Seguros UnimedSuperior [A]",
     "rede": "Seguros Unimed",
     "plano": "Superior [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1777,10 +1665,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "Seguros UnimedSuperior Plus [A]",
     "rede": "Seguros Unimed",
     "plano": "Superior Plus [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1800,10 +1687,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "Seguros UnimedSênior [A]",
     "rede": "Seguros Unimed",
     "plano": "Sênior [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1823,7 +1709,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "PortoPrata Pró E [E]",
     "rede": "Porto",
     "plano": "Prata Pró E [E]",
     "prazo_reembolso": "-",
@@ -1846,7 +1731,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoPrata Pró Q [A]",
     "rede": "Porto",
     "plano": "Prata Pró Q [A]",
     "prazo_reembolso": "-",
@@ -1869,7 +1753,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoOuro Pró Q [A]",
     "rede": "Porto",
     "plano": "Ouro Pró Q [A]",
     "prazo_reembolso": "-",
@@ -1892,7 +1775,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoDiamante Pró Q [A]",
     "rede": "Porto",
     "plano": "Diamante Pró Q [A]",
     "prazo_reembolso": "-",
@@ -1915,10 +1797,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoCristal [E]",
     "rede": "Porto",
     "plano": "Cristal [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1938,10 +1819,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoBronze [E]",
     "rede": "Porto",
     "plano": "Bronze [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1961,10 +1841,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoBronze [A]",
     "rede": "Porto",
     "plano": "Bronze [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -1984,10 +1863,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoBronze Brasil [E]",
     "rede": "Porto",
     "plano": "Bronze Brasil [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2007,10 +1885,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoBronze Brasil [A]",
     "rede": "Porto",
     "plano": "Bronze Brasil [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2030,10 +1907,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoPrata Mais RC [E]",
     "rede": "Porto",
     "plano": "Prata Mais RC [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2053,10 +1929,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoPrata Mais RC [A]",
     "rede": "Porto",
     "plano": "Prata Mais RC [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2076,10 +1951,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoOuro Mais Q [A]",
     "rede": "Porto",
     "plano": "Ouro Mais Q [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2099,11 +1973,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "PortoOuro Max Q [A]",
     "rede": "Porto",
     "plano": "Ouro Max Q [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2123,11 +1995,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "PortoDiamante Mais R1 [A]",
     "rede": "Porto",
     "plano": "Diamante Mais R1 [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "<i class=\"bi bi-check-circle-fill\"></i>",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2147,11 +2017,9 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "PortoDiamante Mais R2 [A]",
     "rede": "Porto",
     "plano": "Diamante Mais R2 [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "<i class=\"bi bi-check-circle-fill\"></i>",
     "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2171,9 +2039,8 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoP200 [E]",
     "rede": "Porto",
-    "plano": "P200 [E]",
+    "plano": "P200",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2194,9 +2061,8 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoP200 [A]",
     "rede": "Porto",
-    "plano": "P200 [A]",
+    "plano": "P300",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2217,55 +2083,8 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoP300 [E]",
     "rede": "Porto",
-    "plano": "P300 [E]",
-    "prazo_reembolso": "-",
-    "cobertura_internacional": "-",
-    "retaguarda_hospital_albert_einstein": "-",
-    "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
-    "assistencia_em_viagem_nacional": "-",
-    "assistencia_em_viagem_internacional": "-",
-    "resgate_interhospitalar": "-",
-    "cobertura_para_vacinas": "-",
-    "coleta_domiciliar_para_exames": "-",
-    "check_up": "-",
-    "courier": "-",
-    "convenio_farmacia": "<i class=\"bi bi-check-circle-fill\"></i>",
-    "gestao_de_saude_e_bem_estar": "-",
-    "concierge": "-",
-    "escleroterapia": "-",
-    "servico_online": "-",
-    "programas_de_promocao_a_saude": "-",
-    "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
-  },
-  {
-    "Column2": "PortoP300 [A]",
-    "rede": "Porto",
-    "plano": "P300 [A]",
-    "prazo_reembolso": "-",
-    "cobertura_internacional": "-",
-    "retaguarda_hospital_albert_einstein": "-",
-    "remissao": "<i class=\"bi bi-check-circle-fill\"></i>",
-    "assistencia_em_viagem_nacional": "-",
-    "assistencia_em_viagem_internacional": "-",
-    "resgate_interhospitalar": "-",
-    "cobertura_para_vacinas": "-",
-    "coleta_domiciliar_para_exames": "-",
-    "check_up": "-",
-    "courier": "-",
-    "convenio_farmacia": "<i class=\"bi bi-check-circle-fill\"></i>",
-    "gestao_de_saude_e_bem_estar": "-",
-    "concierge": "-",
-    "escleroterapia": "-",
-    "servico_online": "-",
-    "programas_de_promocao_a_saude": "-",
-    "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
-  },
-  {
-    "Column2": "PortoP400 [A]",
-    "rede": "Porto",
-    "plano": "P400 [A]",
+    "plano": "P400",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2286,9 +2105,8 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoP450 [A]",
     "rede": "Porto",
-    "plano": "P450 [A]",
+    "plano": "P450",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2309,9 +2127,8 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "PortoP500 [A]",
     "rede": "Porto",
-    "plano": "P500 [A]",
+    "plano": "P500",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2319,7 +2136,7 @@
     "assistencia_em_viagem_nacional": "-",
     "assistencia_em_viagem_internacional": "-",
     "resgate_interhospitalar": "-",
-    "cobertura_para_vacinas": "<i class=\"bi bi-check-circle-fill\"></i>",
+    "cobertura_para_vacinas": "-",
     "coleta_domiciliar_para_exames": "-",
     "check_up": "-",
     "courier": "-",
@@ -2332,8 +2149,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "NDISmart Ambulatorial [N]",
     "rede": "NDI",
     "plano": "Smart Ambulatorial [N]",
     "prazo_reembolso": "-",
@@ -2356,8 +2171,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "NDISmart 200 SP/Capital [E]",
     "rede": "NDI",
     "plano": "Smart 200 SP/Capital [E]",
     "prazo_reembolso": "-",
@@ -2380,8 +2193,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "NDISmart 200 ABC + BX [E]",
     "rede": "NDI",
     "plano": "Smart 200 ABC + BX [E]",
     "prazo_reembolso": "-",
@@ -2404,10 +2215,8 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "NDISmart 200 SP Oeste [E]",
     "rede": "NDI",
-    "plano": "Smart 200 SP Oeste [E]",
+    "plano": "Smart 200 SP oeste [E]",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2428,8 +2237,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "NDISmart 200 Guarulhos [E]",
     "rede": "NDI",
     "plano": "Smart 200 Guarulhos [E]",
     "prazo_reembolso": "-",
@@ -2452,8 +2259,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "NDISmart 200 Alto Tietê [E]",
     "rede": "NDI",
     "plano": "Smart 200 Alto Tietê [E]",
     "prazo_reembolso": "-",
@@ -2476,8 +2281,6 @@
     "telemedicina": "-"
   },
   {
-    "Column1": "APARTAMENTO",
-    "Column2": "NDISmart 200 Gru Mogi [E]",
     "rede": "NDI",
     "plano": "Smart 200 Gru Mogi [E]",
     "prazo_reembolso": "-",
@@ -2500,7 +2303,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDISmart 200 UP [E]",
     "rede": "NDI",
     "plano": "Smart 200 UP [E]",
     "prazo_reembolso": "-",
@@ -2523,7 +2325,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDISmart 300 [E]",
     "rede": "NDI",
     "plano": "Smart 300 [E]",
     "prazo_reembolso": "-",
@@ -2546,7 +2347,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDISmart 400 [E]",
     "rede": "NDI",
     "plano": "Smart 400 [E]",
     "prazo_reembolso": "-",
@@ -2569,7 +2369,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDISmart 400 [A]",
     "rede": "NDI",
     "plano": "Smart 400 [A]",
     "prazo_reembolso": "-",
@@ -2592,7 +2391,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDISmart 500 [E]",
     "rede": "NDI",
     "plano": "Smart 500 [E]",
     "prazo_reembolso": "-",
@@ -2615,7 +2413,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDISmart 500 [A]",
     "rede": "NDI",
     "plano": "Smart 500 [A]",
     "prazo_reembolso": "-",
@@ -2638,10 +2435,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDIAdvance 600 [E]",
     "rede": "NDI",
     "plano": "Advance 600 [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
@@ -2661,10 +2457,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDIAdvance 600 [A]",
     "rede": "NDI",
     "plano": "Advance 600 [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
@@ -2684,10 +2479,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDIAdvance 700 [E]",
     "rede": "NDI",
     "plano": "Advance 700 [E]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
@@ -2707,10 +2501,9 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDIAdvance 700 [A]",
     "rede": "NDI",
     "plano": "Advance 700 [A]",
-    "prazo_reembolso": "30 DIAS",
+    "prazo_reembolso": "30 dias",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
@@ -2730,11 +2523,10 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDIPremium 900.1 CARE [A]",
     "rede": "NDI",
     "plano": "Premium 900.1 CARE [A]",
-    "prazo_reembolso": "30 DIAS",
-    "cobertura_internacional": "Internacional 30.000 - Europa $ 60.000 - demais países",
+    "prazo_reembolso": "30 dias",
+    "cobertura_internacional": "€ 30.000 - Europa |  US$ 60.000 - demais países",
     "retaguarda_hospital_albert_einstein": "-",
     "remissao": "-",
     "assistencia_em_viagem_nacional": "<i class=\"bi bi-check-circle-fill\"></i>",
@@ -2753,9 +2545,8 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TrasmontanoLife 400 [E]",
     "rede": "Trasmontano",
-    "plano": "Life 400 [E]",
+    "plano": "Life Litoral 100 [E]",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2776,9 +2567,8 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TrasmontanoLife 400 [A]",
     "rede": "Trasmontano",
-    "plano": "Life 400 [A]",
+    "plano": "Life Litoral 100 [A]",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2799,7 +2589,50 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TrasmontanoSmart SP [E]",
+    "rede": "Trasmontano",
+    "plano": "Life Litoral 200 [E]",
+    "prazo_reembolso": "-",
+    "cobertura_internacional": "-",
+    "retaguarda_hospital_albert_einstein": "-",
+    "remissao": "-",
+    "assistencia_em_viagem_nacional": "-",
+    "assistencia_em_viagem_internacional": "-",
+    "resgate_interhospitalar": "-",
+    "cobertura_para_vacinas": "-",
+    "coleta_domiciliar_para_exames": "-",
+    "check_up": "-",
+    "courier": "-",
+    "convenio_farmacia": "-",
+    "gestao_de_saude_e_bem_estar": "-",
+    "concierge": "-",
+    "escleroterapia": "-",
+    "servico_online": "-",
+    "programas_de_promocao_a_saude": "-",
+    "telemedicina": "-"
+  },
+  {
+    "rede": "Trasmontano",
+    "plano": "Life Litoral 200 [A]",
+    "prazo_reembolso": "-",
+    "cobertura_internacional": "-",
+    "retaguarda_hospital_albert_einstein": "-",
+    "remissao": "-",
+    "assistencia_em_viagem_nacional": "-",
+    "assistencia_em_viagem_internacional": "-",
+    "resgate_interhospitalar": "-",
+    "cobertura_para_vacinas": "-",
+    "coleta_domiciliar_para_exames": "-",
+    "check_up": "-",
+    "courier": "-",
+    "convenio_farmacia": "-",
+    "gestao_de_saude_e_bem_estar": "-",
+    "concierge": "-",
+    "escleroterapia": "-",
+    "servico_online": "-",
+    "programas_de_promocao_a_saude": "-",
+    "telemedicina": "-"
+  },
+  {
     "rede": "Trasmontano",
     "plano": "Smart SP [E]",
     "prazo_reembolso": "-",
@@ -2822,7 +2655,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TrasmontanoSmart SP [A]",
     "rede": "Trasmontano",
     "plano": "Smart SP [A]",
     "prazo_reembolso": "-",
@@ -2845,7 +2677,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "TrasmontanoSmart 200 [E]",
     "rede": "Trasmontano",
     "plano": "Smart 200 [E]",
     "prazo_reembolso": "-",
@@ -2868,7 +2699,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "TrasmontanoSmart 200 [A]",
     "rede": "Trasmontano",
     "plano": "Smart 200 [A]",
     "prazo_reembolso": "-",
@@ -2891,9 +2721,8 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "MedseniorEssencial [E]",
     "rede": "Medsenior",
-    "plano": "Medsenior Essencial [E]",
+    "plano": "Essencial [E]",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2914,9 +2743,8 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "MedseniorSP1 [E]",
     "rede": "Medsenior",
-    "plano": "Medsenior SP1 [E]",
+    "plano": "SP1 [E]",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2937,9 +2765,8 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "MedseniorSP2 [A]",
     "rede": "Medsenior",
-    "plano": "Medsenior SP2 [A]",
+    "plano": "SP2 [A]",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2960,9 +2787,8 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "MedseniorBlack 3 [A]",
     "rede": "Medsenior",
-    "plano": "Medsenior Black 3 [A]",
+    "plano": "Black [A]",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
     "retaguarda_hospital_albert_einstein": "-",
@@ -2983,8 +2809,7 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "Prevent Sênior Premium 1002 [E]",
-    "rede": "Prevent Sênior",
+    "rede": "Prevent Sênior ",
     "plano": "Premium 1002 [E]",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
@@ -3006,8 +2831,7 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "Prevent Sênior  Premium 1002 [A]",
-    "rede": "Prevent Sênior",
+    "rede": "Prevent Sênior ",
     "plano": "Premium 1002 [A]",
     "prazo_reembolso": "-",
     "cobertura_internacional": "-",
@@ -3029,7 +2853,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoConforto [E]",
     "rede": "São Cristóvão",
     "plano": "Conforto [E]",
     "prazo_reembolso": "-",
@@ -3052,7 +2875,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoConforto [A]",
     "rede": "São Cristóvão",
     "plano": "Conforto [A]",
     "prazo_reembolso": "-",
@@ -3075,7 +2897,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoConforto Plus [E]",
     "rede": "São Cristóvão",
     "plano": "Conforto Plus [E]",
     "prazo_reembolso": "-",
@@ -3098,7 +2919,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoConforto Plus [A]",
     "rede": "São Cristóvão",
     "plano": "Conforto Plus [A]",
     "prazo_reembolso": "-",
@@ -3121,7 +2941,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoBem Estar 40+ [E]",
     "rede": "São Cristóvão",
     "plano": "Bem Estar 40+ [E]",
     "prazo_reembolso": "-",
@@ -3144,7 +2963,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoBem Estar 40+ [A]",
     "rede": "São Cristóvão",
     "plano": "Bem Estar 40+ [A]",
     "prazo_reembolso": "-",
@@ -3167,7 +2985,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoEssencial [E]",
     "rede": "São Cristóvão",
     "plano": "Essencial [E]",
     "prazo_reembolso": "-",
@@ -3190,7 +3007,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoEssencial [A]",
     "rede": "São Cristóvão",
     "plano": "Essencial [A]",
     "prazo_reembolso": "-",
@@ -3213,7 +3029,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoSelect [E]",
     "rede": "São Cristóvão",
     "plano": "Select [E]",
     "prazo_reembolso": "-",
@@ -3236,7 +3051,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "São CristóvãoSelect [A]",
     "rede": "São Cristóvão",
     "plano": "Select [A]",
     "prazo_reembolso": "-",
@@ -3259,7 +3073,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDINotrelife AMB SP",
     "rede": "NDI",
     "plano": "Notrelife AMB SP",
     "prazo_reembolso": "-",
@@ -3282,7 +3095,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "NDINotrelife Individual [E]",
     "rede": "NDI",
     "plano": "Notrelife Individual [E]",
     "prazo_reembolso": "-",
@@ -3305,7 +3117,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "BlueBlue Start [E]",
     "rede": "Blue",
     "plano": "Blue Start [E]",
     "prazo_reembolso": "-",
@@ -3328,7 +3139,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "BlueBlue Start [A]",
     "rede": "Blue",
     "plano": "Blue Start [A]",
     "prazo_reembolso": "-",
@@ -3351,7 +3161,6 @@
     "telemedicina": "<i class=\"bi bi-check-circle-fill\"></i>"
   },
   {
-    "Column2": "AliceEquilíbrio [E]",
     "rede": "Alice",
     "plano": "Equilíbrio [E]",
     "prazo_reembolso": "-",
@@ -3374,7 +3183,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "AliceEquilíbrio Mais [E]",
     "rede": "Alice",
     "plano": "Equilíbrio Mais [E]",
     "prazo_reembolso": "-",
@@ -3397,7 +3205,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "AliceEquilíbrio [A]",
     "rede": "Alice",
     "plano": "Equilíbrio [A]",
     "prazo_reembolso": "-",
@@ -3420,7 +3227,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "AliceEquilíbrio Mais [A]",
     "rede": "Alice",
     "plano": "Equilíbrio Mais [A]",
     "prazo_reembolso": "-",
@@ -3443,7 +3249,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "AliceConforto [A]",
     "rede": "Alice",
     "plano": "Conforto [A]",
     "prazo_reembolso": "-",
@@ -3466,7 +3271,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "AliceConforto Mais [A]",
     "rede": "Alice",
     "plano": "Conforto Mais [A]",
     "prazo_reembolso": "-",
@@ -3489,7 +3293,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "AliceExclusivo [A]",
     "rede": "Alice",
     "plano": "Exclusivo [A]",
     "prazo_reembolso": "-",
@@ -3512,7 +3315,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "AliceExclusivo Mais [A]",
     "rede": "Alice",
     "plano": "Exclusivo Mais [A]",
     "prazo_reembolso": "-",
@@ -3535,7 +3337,6 @@
     "telemedicina": "-"
   },
   {
-    "Column2": "AliceExclusivo Mais + L.E [A]",
     "rede": "Alice",
     "plano": "Exclusivo Mais + L.E [A]",
     "prazo_reembolso": "-",

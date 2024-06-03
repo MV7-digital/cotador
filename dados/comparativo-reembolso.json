@@ -16,17 +16,17 @@
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Amil Saúde S750 R1 [A]",
+    "plano": "Amil S750 R1 [A]",
     "reembolso_consulta": 136,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Amil Saúde S750 R2 [A]",
+    "plano": "Amil S750 R2 [A]",
     "reembolso_consulta": 240,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Amil Saúde S750 R3 [A]",
+    "plano": "Amil S750 R3 [A]",
     "reembolso_consulta": 328,
     "reembolso_terapias": "-"
   },
@@ -41,17 +41,17 @@
     "reembolso_terapias": "-"
   },
   {
-    "plano": "S6500 R1 [A]",
+    "plano": "S6500 Black R1 [A]",
     "reembolso_consulta": 600,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "S6500 R2 [A]",
+    "plano": "S6500 Black R2 [A]",
     "reembolso_consulta": 800,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "S6500 R3 [A]",
+    "plano": "S6500 Black R3 [A]",
     "reembolso_consulta": 1040,
     "reembolso_terapias": "-"
   },
@@ -194,27 +194,32 @@
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Compacto",
+    "plano": "Compacto [E]",
     "reembolso_consulta": 81.9,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Efetivo",
+    "plano": "Efetivo [A]",
     "reembolso_consulta": 81.9,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Completo",
+    "plano": "Completo [A]",
     "reembolso_consulta": 105,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Superior e Superior Plus",
+    "plano": "Superior [A]",
     "reembolso_consulta": 210,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "Sênior",
+    "plano": "Superior Plus [A]",
+    "reembolso_consulta": 210,
+    "reembolso_terapias": "-"
+  },
+  {
+    "plano": "Sênior [A]",
     "reembolso_consulta": 560,
     "reembolso_terapias": "-"
   },
@@ -374,37 +379,37 @@
     "reembolso_terapias": "-"
   },
   {
-    "plano": "SoHo 30",
+    "plano": "Soho 30 [A]",
     "reembolso_consulta": 190,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "SoHo 60",
+    "plano": "Soho 60 [A]",
     "reembolso_consulta": 380,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "SoHo 80",
+    "plano": "Soho 80 [A]",
     "reembolso_consulta": 380,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "SoHo 120",
+    "plano": "Soho 120 [A]",
     "reembolso_consulta": 475,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "SoHo 160",
+    "plano": "Soho 160 [A]",
     "reembolso_consulta": 610,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "SoHo 200",
+    "plano": "Soho 200 [A]",
     "reembolso_consulta": 760,
     "reembolso_terapias": "-"
   },
   {
-    "plano": "SoHo 300",
+    "plano": "Soho 300 [A]",
     "reembolso_consulta": 950,
     "reembolso_terapias": "-"
   }

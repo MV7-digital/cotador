@@ -26,7 +26,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             <th style="font-size: 18px">Selecione a seguir os planos para começar:</th>
             <?php
             $planos = array();
-            $numPlanos = 6; // Número de planos
+            $numPlanos = 4; // Número de planos
 
             // Criação dos arrays de redes e planos
             $redes = array();
@@ -101,8 +101,8 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             <?php for ($i = 0; $i < $numPlanos; $i++) { ?>
                 <th>
                     <div class="row vunit">
-                        <div class="col-6 text-center">Vidas</div>
-                        <div class="col-6 text-center">(R$) Unit.</div>
+                        <div class="col-4 text-center padding-limits">Vidas</div>
+                        <div class="col-8 text-center padding-limits">(R$) Unit.</div>
                     </div>
                 </th>
             <?php } ?>
@@ -127,11 +127,11 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             for ($i = 0; $i < $numPlanos; $i++) {
                 echo '<th>';
                 echo '<div class="row">';
-                echo '<div class="col-6 text-center">';
-                echo '<input type="number" class="idade_'.$i.'_'.$j.' w-100" id="idade_'.$i.'_'.$j.'" value="0" disabled>';
+                echo '<div class="col-4 text-center padding-limits">';
+                echo '<input type="number" class="idade_'.$i.'_'.$j.' w-100" id="idade_'.$i.'_'.$j.'" value="" placeholder="Qnt." disabled>';
                 echo '</div>';
-                echo '<div class="col-6 text-center">';
-                echo '<input value="0" class="unidade_'.$i.'_'.$j.' w-100" id="unidade_'.$i.'_'.$j.'" oninput="habilitarIdade('.$i.','.$j.')">';
+                echo '<div class="col-8 text-center padding-limits">';
+                echo '<input value="" placeholder="Valor" class="unidade_'.$i.'_'.$j.' w-100" id="unidade_'.$i.'_'.$j.'" oninput="habilitarIdade('.$i.','.$j.')">';
                 echo '</div>';
                 echo '</div>';
                 echo '</th>';
@@ -141,37 +141,27 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             echo '<tr style="background: rgba(202, 153, 30, 0.50);">';
             echo '<th>TOTAL</th>';
             echo '</th>';
-            echo '<th class="text-center">';
-            echo '<div class="row"> <div class="col-6 text-center">';
+            echo '<th class="text-center padding-limits">';
+            echo '<div class="row"> <div class="col-4 text-center padding-limits">';
             echo '<p class="total_vida_0 w-100" id="total_vida_0">0</p>';
-            echo '</div><div class="col-6 text-center">
+            echo '</div><div class="col-8 text-center padding-limits">
             <p class="total_0 w-100" id="total_0">0</p>
             </div></div>';
             echo '</th>';
-            echo '<th class="text-center">';
-            echo '<div class="row"> <div class="col-6 text-center">';
+            echo '<th class="text-center padding-limits">';
+            echo '<div class="row"> <div class="col-4 text-center padding-limits">';
             echo '<p class="total_vida_0 w-100" id="total_vida_1">0</p>';
-            echo '</div><div class="col-6 text-center"><p class="total_1 w-100" id="total_1">0</p></div></div>';
+            echo '</div><div class="col-8 text-center padding-limits"><p class="total_1 w-100" id="total_1">0</p></div></div>';
             echo '</th>';
-            echo '<th class="text-center">';
-            echo '<div class="row"> <div class="col-6 text-center">';
+            echo '<th class="text-center padding-limits">';
+            echo '<div class="row"> <div class="col-4 text-center padding-limits">';
             echo '<p class="total_vida_0 w-100" id="total_vida_2">0</p>';
-            echo '</div><div class="col-6 text-center"><p class="total_1 w-100" id="total_2">0</p></div></div>';
+            echo '</div><div class="col-8 text-center padding-limits"><p class="total_1 w-100" id="total_2">0</p></div></div>';
             echo '</th>';
-            echo '<th class="text-center">';
-            echo '<div class="row"> <div class="col-6 text-center">';
+            echo '<th class="text-center padding-limits">';
+            echo '<div class="row"> <div class="col-4 text-center padding-limits">';
             echo '<p class="total_vida_0 w-100" id="total_vida_3">0</p>';
-            echo '</div><div class="col-6 text-center"><p class="total_1 w-100" id="total_3">0</p></div></div>';
-            echo '</th>';
-            echo '<th class="text-center">';
-            echo '<div class="row"> <div class="col-6 text-center">';
-            echo '<p class="total_vida_0 w-100" id="total_vida_4">0</p>';
-            echo '</div><div class="col-6 text-center"><p class="total_1 w-100" id="total_4">0</p></div></div>';
-            echo '</th>';
-            echo '<th class="text-center">';
-            echo '<div class="row"> <div class="col-6 text-center">';
-            echo '<p class="total_vida_0 w-100" id="total_vida_5">0</p>';
-            echo '</div><div class="col-6 text-center"><p class="total_1 w-100" id="total_5">0</p></div></div>';
+            echo '</div><div class="col-8 text-center padding-limits"><p class="total_1 w-100" id="total_3">0</p></div></div>';
             echo '</th>';
             echo '</tr>';
 
@@ -281,6 +271,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             echo '</tr>';
         }
         ?>
+
+        <!-- Tabela de Hospitais -->
+
         <tr>
             <th colspan="7" class="title-dif">HOSPITAIS</th>
         </tr>
@@ -321,9 +314,9 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         <?php
             foreach ($jsonLaboratorios as $key => $value) {
                 echo '<tr id="grupo_'.$value->grupo.'">';
-                echo '<td style="display: flex; justify-content: space-between;">'.$value->hospital.' <input onclick="inserirHospital()" class="laboratoriosCheck" type="checkbox" id="'.$value->hospital.'"></td>';
+                echo '<td style="display: flex; justify-content: space-between;">'.$value->hospital.' <input onclick="inserirHospital()" class="laboratoriosCheck" type="checkbox" id="'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'"></td>';
                 for ($i = 0; $i < $numPlanos; $i++) {
-                    echo '<td class="plano_'.$i.'" id="plano_'.$i.'_'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', ''), $value->hospital).'"></td>';
+                    echo '<td class="plano_'.$i.'" id="plano_'.$i.'_'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'"></td>';
                 }
                 echo '</tr>';
             }
@@ -450,6 +443,12 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         selectRede.value === 'Porto' ? '<img src="/wp-content/themes/pride/img/logo-portoseguro.png" width="100" alt="">' :
         selectRede.value === 'Sulamérica' ? '<img src="/wp-content/themes/pride/img/logo-sulamerica.png" width="100" alt="">' :
         selectRede.value === 'Care Plus' ? '<img src="/wp-content/themes/pride/img/logo-care-plus.png" width="100" alt="">' :
+        selectRede.value === 'Prevent Sênior' ? '<img src="/wp-content/themes/pride/img/preventSenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'Blue' ? '<img src="/wp-content/themes/pride/img/blue-logo.png" width="100" alt="">' :
+        selectRede.value === 'Alice' ? '<img src="/wp-content/themes/pride/img/alice-logo.png" width="100" alt="">' :
+        selectRede.value === 'Medsenior' ? '<img src="/wp-content/themes/pride/img/medsenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'São Cristóvão' ? '<img src="/wp-content/themes/pride/img/sao-cristovao-logo.png" width="100" alt="">' :
+        selectRede.value === 'Trasmontano' ? '<img src="/wp-content/themes/pride/img/trasmontano-logo.png" width="100" alt="">' :
         selectRede.value === 'CNU' ? '<img src="/wp-content/themes/pride/img/logo-cnu.png" width="100" alt="">' :
         '';
 
@@ -465,6 +464,12 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         selectRede.value === 'Porto' ? '<img src="/wp-content/themes/pride/img/logo-portoseguro.png" width="100" height="50" alt="">' :
         selectRede.value === 'Sulamérica' ? '<img src="/wp-content/themes/pride/img/logo-sulamerica.png" width="100" height="50" alt="">' :
         selectRede.value === 'Care Plus' ? '<img src="/wp-content/themes/pride/img/logo-care-plus.png" width="100" height="50" alt="">' :
+        selectRede.value === 'Prevent Sênior' ? '<img src="/wp-content/themes/pride/img/preventSenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'Blue' ? '<img src="/wp-content/themes/pride/img/blue-logo.png" width="100" alt="">' :
+        selectRede.value === 'Alice' ? '<img src="/wp-content/themes/pride/img/alice-logo.png" width="100" alt="">' :
+        selectRede.value === 'Medsenior' ? '<img src="/wp-content/themes/pride/img/medsenior-logo.png" width="100" alt="">' :
+        selectRede.value === 'São Cristóvão' ? '<img src="/wp-content/themes/pride/img/sao-cristovao-logo.png" width="100" alt="">' :
+        selectRede.value === 'Trasmontano' ? '<img src="/wp-content/themes/pride/img/trasmontano-logo.png" width="100" alt="">' :
         selectRede.value === 'CNU' ? '<img src="/wp-content/themes/pride/img/logo-cnu.png" width="100" height="50" alt="">' :
         '';
 
@@ -484,6 +489,12 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 selectRede.value === 'Omint' ? omint :
                 selectRede.value === 'Care Plus' ? carePlus :
                 selectRede.value === 'Porto' ? portoSeguro :
+                selectRede.value === 'Trasmontano' ? trasmontano :
+                selectRede.value === 'Medsenior' ? medsenior :
+                selectRede.value === 'Prevent Sênior' ? preventSenior :
+                selectRede.value === 'São Cristóvão' ? saoCristovao :
+                selectRede.value === 'Blue' ? blue :
+                selectRede.value === 'Alice' ? alice :
                 selectRede.value === 'Sulamérica' ? sulamerica :
                 '';
 

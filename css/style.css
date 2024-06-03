@@ -238,6 +238,11 @@ html img
     margin: 0;
 }
 
+.padding-limits {
+
+    padding: 0 5px;
+}
+
 
 /* Cotar */
 
@@ -609,12 +614,22 @@ h2{
 
 .vidas_unidades_pdf{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .vidas_unidades_pdf div{
     width: 50%;
     text-align: center;
+}
+
+.col-vidas {
+    flex: 0 0 33.33%; /* 4/12 = 33.33% */
+    max-width: 33.33%;
+}
+.col-valor {
+    flex: 0 0 66.67%; /* 8/12 = 66.67% */
+    max-width: 66.67%;
 }
 
 .cor-fundo th:nth-child(even), .cor-fundo td:nth-child(even){
