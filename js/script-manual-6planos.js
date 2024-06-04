@@ -109,6 +109,58 @@
       .change();
   }
 
+  for (let i = 0; i < 10; i++) {
+    $(`#preco_unidade_4_${i}`)
+      .on('input', function () {
+        const preco_unidade_4_i = parseFloat($(this).html());
+        $(`#vidas_total_amount_4_${i}`).val(
+          parseFloat(
+            preco_unidade_4_i * parseFloat($(`#vidas_qtd_4_${i}`).val() || 0),
+          ).toFixed(2),
+        );
+        $(`#preco_unidade_4_${i}r`).html(
+          parseFloat(preco_unidade_4_i).toFixed(2).replace('.', ','),
+        );
+      })
+      .change();
+    $(`#vidas_qtd_4_${i}`)
+      .change(function () {
+        const preco_unidade_4_i = parseFloat($(`#preco_unidade_4_${i}`).html());
+        $(`#vidas_total_amount_4_${i}`).val(
+          parseFloat(
+            preco_unidade_4_i * parseFloat($(this).val() || 0),
+          ).toFixed(2),
+        );
+      })
+      .change();
+  }
+
+  for (let i = 0; i < 10; i++) {
+    $(`#preco_unidade_5_${i}`)
+      .on('input', function () {
+        const preco_unidade_5_i = parseFloat($(this).html());
+        $(`#vidas_total_amount_5_${i}`).val(
+          parseFloat(
+            preco_unidade_5_i * parseFloat($(`#vidas_qtd_5_${i}`).val() || 0),
+          ).toFixed(2),
+        );
+        $(`#preco_unidade_5_${i}r`).html(
+          parseFloat(preco_unidade_5_i).toFixed(2).replace('.', ','),
+        );
+      })
+      .change();
+    $(`#vidas_qtd_5_${i}`)
+      .change(function () {
+        const preco_unidade_5_i = parseFloat($(`#preco_unidade_5_${i}`).html());
+        $(`#vidas_total_amount_5_${i}`).val(
+          parseFloat(
+            preco_unidade_5_i * parseFloat($(this).val() || 0),
+          ).toFixed(2),
+        );
+      })
+      .change();
+  }
+
   for (let j = 0; j < 6; j++) {
     for (let i = 0; i < 10; i++) {
       $(`#idade_${j}_${i}`).change(function () {
@@ -124,7 +176,7 @@
     const totalPrecoCIof = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
     const totalVidas = [0, 0, 0, 0, 0, 0];
 
-    let planos = 4;
+    let planos = 6;
 
     for (let i = 0; i < planos; i++) {
       for (let j = 0; j < 10; j++) {
@@ -133,18 +185,17 @@
         let unidadecValue = $(`#unidadec_${i}_${j}`).val();
 
         // Verifica se os valores não são undefined antes de chamar replace
-        let vidas = idadeValue ? idadeValue.replace(',', '.') : '0';
-        let unidade = unidadeValue ? unidadeValue.replace(',', '.') : '0';
-        let unidadec = unidadecValue ? unidadecValue.replace(',', '.') : '0';
+        let vidas = idadeValue ? idadeValue.replace(',', '.') : '';
+        let unidade = unidadeValue
+          ? parseFloat(unidadeValue.replace(',', '.'))
+          : 0;
+        let unidadec = unidadecValue
+          ? parseFloat(unidadecValue.replace(',', '.'))
+          : 0;
 
-        // Converte para float e verifica se não é NaN
-        let vidasFloat = parseFloat(vidas) || 0;
-        let unidadeFloat = parseFloat(unidade) || 0;
-        let unidadecFloat = parseFloat(unidadec) || 0;
-
-        totalPreco[i] += unidadeFloat * vidasFloat;
-        totalPrecoC[i] += unidadecFloat * vidasFloat;
-        totalVidas[i] += vidasFloat;
+        totalPreco[i] += unidade * parseFloat(vidas);
+        totalPrecoC[i] += unidadec * parseFloat(vidas);
+        totalVidas[i] += parseFloat(vidas);
 
         totalPrecoIof[i] = totalPreco[i] * 0.0238 + totalPreco[i];
         totalPrecoCIof[i] = totalPrecoC[i] * 0.0238 + totalPrecoC[i];
@@ -257,6 +308,8 @@
     let plano2 = document.getElementById('rede_1').value;
     let plano3 = document.getElementById('rede_2').value;
     let plano4 = document.getElementById('rede_3').value;
+    let plano5 = document.getElementById('rede_4').value;
+    let plano6 = document.getElementById('rede_5').value;
     if (plano1 == '') {
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano1_logo_th"]');
@@ -800,37 +853,292 @@
       $('#th_total_iof_3').show();
       $('#th_totalc_iof_3').show();
     }
+    if (plano5 == '') {
+      // Obtém todos os elementos com IDs semelhantes
+      let elementos = $('[id^="pdf_plano5_logo_th"]');
+      let elementos2 = $('[id^="pdf_plano5_th"]');
+      let copay = $('[id^="pdf_copay4_th"]');
+      let hospitais = $('[class^="hospitais_4"]');
+      let laboratorios = $('[class^="laboratorios_4"]');
+      let copart = $('[id^="pdf_copart_th"]');
+      // Loop pelos elementos e oculta cada um deles
+      elementos.each(function () {
+        $(this).hide();
+      });
+      elementos2.each(function () {
+        $(this).hide();
+      });
+      copay.each(function () {
+        $(this).hide();
+      });
+      hospitais.each(function () {
+        $(this).hide();
+      });
+      laboratorios.each(function () {
+        $(this).hide();
+      });
+      copart.each(function () {
+        $(this).hide();
+      });
+      $('#pdf_plano5_logo_th').hide();
+      $('#pdf_plano5_th').hide();
+      $('#valor_unidade5_th').hide();
+      $('#0_18_th5').hide();
+      $('#19_23_th5').hide();
+      $('#24_28_th5').hide();
+      $('#29_33_th5').hide();
+      $('#34_38_th5').hide();
+      $('#39_43_th5').hide();
+      $('#44_48_th5').hide();
+      $('#49_53_th5').hide();
+      $('#54_58_th5').hide();
+      $('#59_mais_th5').hide();
+      $('#copart_4_r').hide();
+      $('#copart_cirurgias_internacoes_4_r').hide();
+      $('#valor_coparticipacao_4_r').hide();
+      $('#reembolso_consulta_4_r').hide();
+      $('#reembolso_terapias_4_r').hide();
+      $('#prazo_reembolso_4_r').hide();
+      $('#cobertura_internacional_4_r').hide();
+      $('#retaguarda_hospital_albert_einstein_4_r').hide();
+      $('#remissao_4_r').hide();
+      $('#assistencia_em_viagem_nacional_4_r').hide();
+      $('#assistencia_em_viagem_internacional_4_r').hide();
+      $('#resgate_interhospitalar_4_r').hide();
+      $('#cobertura_para_vacinas_4_r').hide();
+      $('#coleta_domiciliar_para_exames_4_r').hide();
+      $('#check_up_4_r').hide();
+      $('#convenio_farmacia_4_r').hide();
+      $('#concierge_4_r').hide();
+      $('#escleroterapia_4_r').hide();
+      $('#servico_online_4_r').hide();
+      $('#programas_de_promocao_a_saude_4_r').hide();
+      $('#telemedicina_4_r').hide();
+      $('#th_total_4').hide();
+      $('#th_totalc_4').hide();
+      $('#th_total_iof_4').hide();
+      $('#th_totalc_iof_4').hide();
+    } else {
+      // Obtém todos os elementos com IDs semelhantes
+      let elementos = $('[id^="pdf_plano5_logo_th"]');
+      let elementos2 = $('[id^="pdf_plano5_th"]');
+      let elementos3 = $('[id^="pdf_plano5_nome"]');
+      let copay = $('[id^="pdf_copay4_th"]');
+      let hospitais = $('[class^="hospitais_4"]');
+      let laboratorios = $('[class^="laboratorios_4"]');
+      let copart = $('[id^="pdf_copart_th"]');
+      // Loop pelos elementos e oculta cada um deles
+      elementos.each(function () {
+        $(this).show();
+      });
+      elementos2.each(function () {
+        $(this).show();
+      });
+      elementos3.each(function () {
+        $(this).html($('#plano_4').val());
+      });
+      copay.each(function () {
+        $(this).show();
+      });
+      hospitais.each(function () {
+        $(this).show();
+      });
+      laboratorios.each(function () {
+        $(this).show();
+      });
+      copart.each(function () {
+        $(this).hide();
+      });
+      $('#pdf_plano5_logo_th').show();
+      $('#pdf_plano5_th').show();
+      $('#valor_unidade5_th').show();
+      $('#0_18_th5').show();
+      $('#19_23_th5').show();
+      $('#24_28_th5').show();
+      $('#29_33_th5').show();
+      $('#34_38_th5').show();
+      $('#39_43_th5').show();
+      $('#44_48_th5').show();
+      $('#49_53_th5').show();
+      $('#54_58_th5').show();
+      $('#59_mais_th5').show();
+      $('#pdf_plano5').html($('#plano_4').val());
+      $('#copart_4_r').show();
+      $('#copart_cirurgias_internacoes_4_r').show();
+      $('#valor_coparticipacao_4_r').show();
+      $('#reembolso_consulta_4_r').show();
+      $('#reembolso_terapias_4_r').show();
+      $('#prazo_reembolso_4_r').show();
+      $('#cobertura_internacional_4_r').show();
+      $('#retaguarda_hospital_albert_einstein_4_r').show();
+      $('#remissao_4_r').show();
+      $('#assistencia_em_viagem_nacional_4_r').show();
+      $('#assistencia_em_viagem_internacional_4_r').show();
+      $('#resgate_interhospitalar_4_r').show();
+      $('#cobertura_para_vacinas_4_r').show();
+      $('#coleta_domiciliar_para_exames_4_r').show();
+      $('#check_up_4_r').show();
+      $('#convenio_farmacia_4_r').show();
+      $('#concierge_4_r').show();
+      $('#escleroterapia_4_r').show();
+      $('#servico_online_4_r').show();
+      $('#programas_de_promocao_a_saude_4_r').show();
+      $('#telemedicina_4_r').show();
+      $('#th_total_4').show();
+      $('#th_totalc_4').show();
+      $('#th_total_iof_4').show();
+      $('#th_totalc_iof_4').show();
+    }
+    if (plano6 == '') {
+      // Obtém todos os elementos com IDs semelhantes
+      let elementos = $('[id^="pdf_plano6_logo_th"]');
+      let elementos2 = $('[id^="pdf_plano6_th"]');
+      let copay = $('[id^="pdf_copay5_th"]');
+      let hospitais = $('[class^="hospitais_5"]');
+      let laboratorios = $('[class^="laboratorios_5"]');
+      let copart = $('[id^="pdf_copart_th"]');
+      // Loop pelos elementos e oculta cada um deles
+      elementos.each(function () {
+        $(this).hide();
+      });
+      elementos2.each(function () {
+        $(this).hide();
+      });
+      copay.each(function () {
+        $(this).hide();
+      });
+      hospitais.each(function () {
+        $(this).hide();
+      });
+      laboratorios.each(function () {
+        $(this).hide();
+      });
+      copart.each(function () {
+        $(this).hide();
+      });
+      $('#pdf_plano6_logo_th').hide();
+      $('#pdf_plano6_th').hide();
+      $('#valor_unidade6_th').hide();
+      $('#0_18_th6').hide();
+      $('#19_23_th6').hide();
+      $('#24_28_th6').hide();
+      $('#29_33_th6').hide();
+      $('#34_38_th6').hide();
+      $('#39_43_th6').hide();
+      $('#44_48_th6').hide();
+      $('#49_53_th6').hide();
+      $('#54_58_th6').hide();
+      $('#59_mais_th6').hide();
+      $('#copart_5_r').hide();
+      $('#copart_cirurgias_internacoes_5_r').hide();
+      $('#valor_coparticipacao_5_r').hide();
+      $('#reembolso_consulta_5_r').hide();
+      $('#reembolso_terapias_5_r').hide();
+      $('#prazo_reembolso_5_r').hide();
+      $('#cobertura_internacional_5_r').hide();
+      $('#retaguarda_hospital_albert_einstein_5_r').hide();
+      $('#remissao_5_r').hide();
+      $('#assistencia_em_viagem_nacional_5_r').hide();
+      $('#assistencia_em_viagem_internacional_5_r').hide();
+      $('#resgate_interhospitalar_5_r').hide();
+      $('#cobertura_para_vacinas_5_r').hide();
+      $('#coleta_domiciliar_para_exames_5_r').hide();
+      $('#check_up_5_r').hide();
+      $('#convenio_farmacia_5_r').hide();
+      $('#concierge_5_r').hide();
+      $('#escleroterapia_5_r').hide();
+      $('#servico_online_5_r').hide();
+      $('#programas_de_promocao_a_saude_5_r').hide();
+      $('#telemedicina_5_r').hide();
+      $('#th_total_5').hide();
+      $('#th_totalc_5').hide();
+      $('#th_total_iof_5').hide();
+      $('#th_totalc_iof_5').hide();
+    } else {
+      // Obtém todos os elementos com IDs semelhantes
+      let elementos = $('[id^="pdf_plano6_logo_th"]');
+      let elementos2 = $('[id^="pdf_plano6_th"]');
+      let elementos3 = $('[id^="pdf_plano6_nome"]');
+      let copay = $('[id^="pdf_copay5_th"]');
+      let hospitais = $('[class^="hospitais_5"]');
+      let laboratorios = $('[class^="laboratorios_5"]');
+      let copart = $('[id^="pdf_copart_th"]');
+      // Loop pelos elementos e oculta cada um deles
+      elementos.each(function () {
+        $(this).show();
+      });
+      elementos2.each(function () {
+        $(this).show();
+      });
+      elementos3.each(function () {
+        $(this).html($('#plano_5').val());
+      });
+      copay.each(function () {
+        $(this).show();
+      });
+      hospitais.each(function () {
+        $(this).show();
+      });
+      laboratorios.each(function () {
+        $(this).show();
+      });
+      copart.each(function () {
+        $(this).hide();
+      });
+      $('#pdf_plano6_logo_th').show();
+      $('#pdf_plano6_th').show();
+      $('#valor_unidade6_th').show();
+      $('#0_18_th6').show();
+      $('#19_23_th6').show();
+      $('#24_28_th6').show();
+      $('#29_33_th6').show();
+      $('#34_38_th6').show();
+      $('#39_43_th6').show();
+      $('#44_48_th6').show();
+      $('#49_53_th6').show();
+      $('#54_58_th6').show();
+      $('#59_mais_th6').show();
+      $('#pdf_plano6').html($('#plano_5').val());
+      $('#copart_5_r').show();
+      $('#copart_cirurgias_internacoes_5_r').show();
+      $('#valor_coparticipacao_5_r').show();
+      $('#reembolso_consulta_5_r').show();
+      $('#reembolso_terapias_5_r').show();
+      $('#prazo_reembolso_5_r').show();
+      $('#cobertura_internacional_5_r').show();
+      $('#retaguarda_hospital_albert_einstein_5_r').show();
+      $('#remissao_5_r').show();
+      $('#assistencia_em_viagem_nacional_5_r').show();
+      $('#assistencia_em_viagem_internacional_5_r').show();
+      $('#resgate_interhospitalar_5_r').show();
+      $('#cobertura_para_vacinas_5_r').show();
+      $('#coleta_domiciliar_para_exames_5_r').show();
+      $('#check_up_5_r').show();
+      $('#convenio_farmacia_5_r').show();
+      $('#concierge_5_r').show();
+      $('#escleroterapia_5_r').show();
+      $('#servico_online_5_r').show();
+      $('#programas_de_promocao_a_saude_5_r').show();
+      $('#telemedicina_5_r').show();
+      $('#th_total_5').show();
+      $('#th_totalc_5').show();
+      $('#th_total_iof_5').show();
+      $('#th_totalc_iof_5').show();
+    }
 
     for (let i = 0; i < 6; i++) {
       for (let j = 0; j < 10; j++) {
-        let unidadeValue = $(`#unidade_${i}_${j}`).val();
-        let unidadecValue = $(`#unidadec_${i}_${j}`).val();
-        let idadeValue = $(`#idade_${i}_${j}`).val();
+        let unidade_val = parseFloat(
+          $(`#unidade_${i}_${j}`).val(),
+        ).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        let unidadec_val = parseFloat(
+          $(`#unidadec_${i}_${j}`).val(),
+        ).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+        let idade_val = $(`#idade_${i}_${j}`).val(); // Assuming idade is just a number without formatting needed
 
-        // Verifica se os valores são válidos antes de atualizar o HTML
-        if (unidadeValue) {
-          let unidadeValFormatted = parseFloat(
-            unidadeValue.replace(',', '.'),
-          ).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
-          $(`#pdf_valor_${i}_${j}`).html(unidadeValFormatted);
-        } else {
-          $(`#pdf_valor_${i}_${j}`).html('');
-        }
-
-        if (unidadecValue) {
-          let unidadecValFormatted = parseFloat(
-            unidadecValue.replace(',', '.'),
-          ).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
-          $(`#pdf_valorc_${i}_${j}`).html(unidadecValFormatted);
-        } else {
-          $(`#pdf_valorc_${i}_${j}`).html('');
-        }
-
-        if (idadeValue) {
-          $(`#pdf_vidas_${i}_${j}`).html(idadeValue);
-        } else {
-          $(`#pdf_vidas_${i}_${j}`).html('');
-        }
+        $(`#pdf_valor_${i}_${j}`).html(unidade_val);
+        $(`#pdf_valorc_${i}_${j}`).html(unidadec_val);
+        $(`#pdf_vidas_${i}_${j}`).html(idade_val);
       }
     }
 
@@ -844,7 +1152,7 @@
       { inicio: 44, fim: 48 },
       { inicio: 49, fim: 53 },
       { inicio: 54, fim: 58 },
-      { inicio: 59, fim: 'mais' },
+      { inicio: 59, fim: 'mais' }, // Usando Infinity para a faixa final
     ];
 
     for (let j = 0; j < 10; j++) {
@@ -853,9 +1161,9 @@
       let colunaSelector = `#${faixa.inicio}_${faixa.fim}_coluna`;
 
       for (let i = 0; i < 6; i++) {
-        let coluna = $(`#idade_${i}_${j}`).val();
+        let coluna = $(`#pdf_vidas_${i}_${j}`).html();
 
-        if (coluna && parseFloat(coluna.replace(',', '.')) !== 0) {
+        if (coluna != 0) {
           todasAsCelulasIguaisAZero = false;
           break;
         }

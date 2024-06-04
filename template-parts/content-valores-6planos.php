@@ -27,7 +27,7 @@ $jsonHospitais = json_decode($hospitais);
 $arquivoHospitais = file_get_contents( get_template_directory() . '/dados/comparativo-laboratorios.json');
 $jsonLaboratorios = json_decode($arquivoHospitais);
 
-$numPlanos = 4;
+$numPlanos = 6;
 
 ?>
 
@@ -49,6 +49,8 @@ $numPlanos = 4;
                 <td  id="pdf_plano2_logo_th" ><p style="display: flex; align-items: center; justify-content: center; height: 100px;" id="pdf_plano1_logo"></p></td>
                 <td  id="pdf_plano3_logo_th" ><p style="display: flex; align-items: center; justify-content: center; height: 100px;" id="pdf_plano2_logo"></p></td>
                 <td  id="pdf_plano4_logo_th" ><p style="display: flex; align-items: center; justify-content: center; height: 100px;" id="pdf_plano3_logo"></p></td>
+                <td  id="pdf_plano5_logo_th" ><p style="display: flex; align-items: center; justify-content: center; height: 100px;" id="pdf_plano4_logo"></p></td>
+                <td  id="pdf_plano6_logo_th" ><p style="display: flex; align-items: center; justify-content: center; height: 100px;" id="pdf_plano5_logo"></p></td>
             </tr>
             <tr class="plano-pdf bg-cinza">
                 <th ><p>PLANO</p></th>
@@ -56,6 +58,8 @@ $numPlanos = 4;
                 <th  id="pdf_plano2_th"><p id="pdf_plano2_nome"></p></th>
                 <th  id="pdf_plano3_th"><p id="pdf_plano3_nome"></p></th>
                 <th  id="pdf_plano4_th"><p id="pdf_plano4_nome"></p></th>
+                <th  id="pdf_plano5_th"><p id="pdf_plano5_nome"></p></th>
+                <th  id="pdf_plano6_th"><p id="pdf_plano6_nome"></p></th>
             </tr>
         </thead>
         <tbody>
@@ -84,6 +88,18 @@ $numPlanos = 4;
                     </div>
                 </th>
                 <th  id="valor_unidade4_th">
+                    <div class="vidas_unidades_pdf">
+                        <div>Vidas</div>
+                        <div>Valor (Un)</div>
+                    </div>
+                </th>
+                <th  id="valor_unidade5_th">
+                    <div class="vidas_unidades_pdf">
+                        <div>Vidas</div>
+                        <div>Valor (Un)</div>
+                    </div>
+                </th>
+                <th id="valor_unidade6_th">
                     <div class="vidas_unidades_pdf">
                         <div>Vidas</div>
                         <div>Valor (Un)</div>
@@ -123,6 +139,20 @@ $numPlanos = 4;
                         </div>
                     </div>
                 </td>
+                <td class="th5_0_18" id="0_18_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_0"></p></div>
+                        <div><p id="pdf_valor_4_0"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th6_0_18" id="0_18_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_0"></p></div>
+                        <div><p id="pdf_valor_5_0"></p>
+                        </div>
+                    </div>
+                </td>
             </tr>
             <tr class="cor-fundo" id="19_23_coluna">
                 <td>
@@ -153,6 +183,20 @@ $numPlanos = 4;
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_1"></p></div>
                         <div><p id="pdf_valor_3_1"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th5_19_23" id="19_23_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_1"></p></div>
+                        <div><p id="pdf_valor_4_1"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th6_19_23" id="19_23_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_1"></p></div>
+                        <div><p id="pdf_valor_5_1"></p>
                         </div>
                     </div>
                 </td>
@@ -189,6 +233,20 @@ $numPlanos = 4;
                         </div>
                     </div>
                 </td>
+                <td class="th5_24_28" id="24_28_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_2"></p></div>
+                        <div><p id="pdf_valor_4_2"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th6_24_28" id="24_28_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_2"></p></div>
+                        <div><p id="pdf_valor_5_2"></p>
+                        </div>
+                    </div>
+                </td>
             </tr>
             <tr class="cor-fundo" id="29_33_coluna">
                 <td>
@@ -222,6 +280,20 @@ $numPlanos = 4;
                        </p></div>
                     </div>
                 </td>
+                <td class="th5_29_33" id="29_33_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_3"></p></div>
+                        <div><p id="pdf_valor_4_3"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th6_29_33" id="29_33_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_3"></p></div>
+                        <div><p id="pdf_valor_5_3"></p>
+                        </div>
+                    </div>
+                </td>
             </tr>
             <tr  class="cor-fundo" id="34_38_coluna">
                 <td>
@@ -252,6 +324,20 @@ $numPlanos = 4;
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_4"></p></div>
                         <div><p id="pdf_valor_3_4"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th5_34_38" id="34_38_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_4"></p></div>
+                        <div><p id="pdf_valor_4_4"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th6_34_38" id="34_38_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_4"></p></div>
+                        <div><p id="pdf_valor_5_4"></p>
                         </div>
                     </div>
                 </td>
@@ -288,6 +374,20 @@ $numPlanos = 4;
                         </div>
                     </div>
                 </td>
+                <td class="th5_39_43" id="39_43_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_5"></p></div>
+                        <div><p id="pdf_valor_4_5"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th6_39_43" id="39_43_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_5"></p></div>
+                        <div><p id="pdf_valor_5_5"></p>
+                        </div>
+                    </div>
+                </td>
             </tr>
             <tr class="cor-fundo" id="44_48_coluna">
                 <td>
@@ -318,6 +418,20 @@ $numPlanos = 4;
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_6"></p></div>
                         <div><p id="pdf_valor_3_6"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th5_44_48" id="44_48_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_6"></p></div>
+                        <div><p id="pdf_valor_4_6"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th6_44_48" id="44_48_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_6"></p></div>
+                        <div><p id="pdf_valor_5_6"></p>
                         </div>
                     </div>
                 </td>
@@ -354,6 +468,20 @@ $numPlanos = 4;
                         </div>
                     </div>
                 </td>
+                <td class="th5_49_53" id="49_53_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_7"></p></div>
+                        <div><p id="pdf_valor_4_7"></p>
+                       </div>
+                    </div>
+                </td>
+                <td class="th6_49_53" id="49_53_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_7"></p></div>
+                        <div><p id="pdf_valor_5_7"></p>
+                        </div>
+                    </div>
+                </td>
             </tr>
             <tr class="cor-fundo" id="54_58_coluna">
                 <td>
@@ -384,6 +512,20 @@ $numPlanos = 4;
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_8"></p></div>
                         <div><p id="pdf_valor_3_8"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th5_54_58" id="54_58_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_8"></p></div>
+                        <div><p id="pdf_valor_4_8"></p>
+                        </div>
+                    </div>
+                </td>
+                <td class="th6_54_58" id="54_58_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_8"></p></div>
+                        <div><p id="pdf_valor_5_8"></p>
                         </div>
                     </div>
                 </td>
@@ -418,6 +560,20 @@ $numPlanos = 4;
                         <div><p id="pdf_vidas_3_9"></p></div>
                         <div><p id="pdf_valor_3_9"></p>
                         </div>
+                    </div>
+                </td>
+                <td class="th5_59_mais" id="59_mais_th5">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_4_9"></p></div>
+                        <div><p id="pdf_valor_4_9"></p>
+                       </div>
+                    </div>
+                </td>
+                <td class="th6_59_mais" id="59_mais_th6">
+                    <div class="vidas_unidades_pdf">
+                        <div><p id="pdf_vidas_5_9"></p></div>
+                        <div><p id="pdf_valor_5_9"></p>
+                       </p></div>
                     </div>
                 </td>
             </tr>
@@ -459,6 +615,22 @@ $numPlanos = 4;
                     </div>
                 </div>';
                 echo '</th>';
+                echo '<th class="text-center" id="th_total_4">
+                <div class="vidas_unidades_pdf">
+                    <div><p id="pdf_total_vida_4"></p></div>
+                    <div>
+                        <p id="pdf_total_4"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_5">
+                <div class="vidas_unidades_pdf">
+                    <div><p id="pdf_total_vida_5"></p></div>
+                    <div>
+                        <p id="pdf_total_5"></p>
+                    </div>
+                </div>';
+                echo '</th>';
                 echo '</tr>';
             ?>
 
@@ -496,6 +668,22 @@ $numPlanos = 4;
                 <div><p></p></div>
                     <div>
                         <p id="pdf_total_iof_3"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_4">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_4"></p>
+                    </div>
+                </div>';
+                echo '</th>';
+                echo '<th class="text-center" id="th_total_iof_5">
+                <div class="vidas_unidades_pdf">
+                <div><p></p></div>
+                    <div>
+                        <p id="pdf_total_iof_5"></p>
                     </div>
                 </div>';
                 echo '</th>';
@@ -541,33 +729,10 @@ $numPlanos = 4;
             </tr>
             <?php
             foreach ($jsonLaboratorios as $key => $value) {
-                echo '<tr class="cor-fundo" id="'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'_r" style="display: none">';
-                echo '<td>'. str_replace(array('A Mais'), array('A+'), $value->hospital).'</td>';
+                echo '<tr class="cor-fundo" id="'.$value->hospital.'_r" style="display: none">';
+                echo '<td>'.$value->hospital.'</td>';
                 for ($i = 0; $i < $numPlanos; $i++) {
-                    echo '<td class="laboratorios_'.$i.'" id="plano_'.$i.'_'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'_r"></td>';
-                }
-                echo '</tr>';
-            }
-            ?>
-
-            <!-- Regras de Coparticipação -->
-            
-            <tr class="bg-cinza">
-                <th colspan="8" class="title-pdf" style="text-transform: uppercase;">Regras de Coparticipação</th>
-            </tr>
-
-            <?php
-            $regras = [
-                'Coparticipação' => 'copart',
-                'Cobre cirurgias e internações' => 'copart_cirurgias_internacoes',
-                'Valor da coparticipação' => 'valor_coparticipacao'
-            ];
-
-            foreach ($regras as $regra => $classPrefix) {
-                echo '<tr class="cor-fundo" id="tr_' . $classPrefix . '" style="display: none">';
-                echo '<td>' . $regra . '</td>';
-                for ($i = 0; $i < $numPlanos; $i++) {
-                    echo '<td class="' . $classPrefix . '_' . $i . '_r" id="' . $classPrefix . '_' . $i . '_r"></td>';
+                    echo '<td class="laboratorios_'.$i.'" id="plano_'.$i.'_'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', ''), $value->hospital).'_r"></td>';
                 }
                 echo '</tr>';
             }
@@ -582,7 +747,7 @@ $numPlanos = 4;
 $regras = [
     'Coparticipação' => 'copart',
     'Cobre cirurgias e internações' => 'copart_cirurgias_internacoes',
-    'Porcentagem da coparticipação' => 'valor_coparticipacao'
+    'Valor da coparticipação' => 'valor_coparticipacao'
 ];
 
 foreach ($regras as $regra => $classPrefix) {
