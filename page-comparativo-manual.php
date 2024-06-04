@@ -314,7 +314,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         <?php
             foreach ($jsonLaboratorios as $key => $value) {
                 echo '<tr id="grupo_'.$value->grupo.'">';
-                echo '<td style="display: flex; justify-content: space-between;">'.$value->hospital.' <input onclick="inserirHospital()" class="laboratoriosCheck" type="checkbox" id="'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'"></td>';
+                echo '<td style="display: flex; justify-content: space-between;">'. str_replace(array('A Mais'), array('A+'), $value->hospital).' <input onclick="inserirHospital()" class="laboratoriosCheck" type="checkbox" id="'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'"></td>';
                 for ($i = 0; $i < $numPlanos; $i++) {
                     echo '<td class="plano_'.$i.'" id="plano_'.$i.'_'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'"></td>';
                 }

@@ -541,8 +541,8 @@ $numPlanos = 4;
             </tr>
             <?php
             foreach ($jsonLaboratorios as $key => $value) {
-                echo '<tr class="cor-fundo" id="'.$value->hospital.'_r" style="display: none">';
-                echo '<td>'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'</td>';
+                echo '<tr class="cor-fundo" id="'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'_r" style="display: none">';
+                echo '<td>'. str_replace(array('A Mais'), array('A+'), $value->hospital).'</td>';
                 for ($i = 0; $i < $numPlanos; $i++) {
                     echo '<td class="laboratorios_'.$i.'" id="plano_'.$i.'_'.str_replace(array(' ', '[', ']', '.', '+'), array('_', '', '', '_', 'mais'), $value->hospital).'_r"></td>';
                 }

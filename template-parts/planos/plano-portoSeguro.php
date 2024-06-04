@@ -1,1 +1,1 @@
-'<input type="checkbox" class="coop" id="cooparticipacao_'+ordem+'"> Coparticipação'
+'<p name="portoSeguro" class="coop" id="cooparticipacao_'+ordem+'"> </p>'
