@@ -705,6 +705,10 @@ tfoot{
     text-align: center;
 }
 
+.table td:last-child {
+    border-right: none;
+}
+
 .desc-dif{
     font-size: 18px;
     text-align: center;
