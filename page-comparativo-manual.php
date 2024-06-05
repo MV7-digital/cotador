@@ -20,7 +20,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
     <h1 class="title-dif">COMPARATIVO DE <span>PLANOS</span></h1>
     <p class="desc-dif">Comparativo dos planos de saúde que mais se adequam a você.</p>
 
-    <table class="table table-bordered">
+    <table id="tableTop" class="table table-bordered">
         <thead class="comparativo">
         <tr style="background-color: unset">
             <th style="font-size: 18px">Selecione a seguir os planos para começar:</th>
@@ -279,17 +279,17 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         </tr>
         <tr>
             <th>
-                <p>
+                <!-- <p>
                     <select name="grupo_hospitais" id="grupo_hospitais" onchange="atualizarGrupo(this.value)">
-                        <option value="">Selecione o Grupo de Hospitais</option>
+                        <option value="">Selecione o Grupo de Hospitais Visíveis</option>
                         <?php
                         foreach (array_unique($grupos) as $value) {
                             echo '<option value="'.$value.'">'.$value.'</option>';
                         }
                         ?>
                     </select>
-                </p>
-                <p>Selecionar</p>
+                </p> -->
+                <p>Marcar automaticamente categorias:</p>
                 <p>
                     AA <input type="checkbox" onclick="selecionarGrupo('AA')">
                     A <input type="checkbox" onclick="selecionarGrupo('A')">
@@ -298,6 +298,57 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 </p>
             </th>
         </tr>
+
+        <!-- Botão de rolagem fixo -->
+
+        <tr>
+            <th>
+                <!-- Botão de rolagem para baixo -->
+                <button class="scrollButton" id="scrollButtonDown">Rolar até o final</button>
+                <!-- Botão de rolagem para cima -->
+                <button class="scrollButton" id="scrollButtonUp">Rolar até o início</button>
+            </th>
+        </tr>
+
+        <script>
+            // Função para rolar até o final da página
+            function scrollToBottom() {
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+            }
+
+            // Função para rolar até o topo da tabela
+            function scrollToTop() {
+                var tableTop = document.getElementById('tableTop');
+                tableTop.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+
+            // Mostra ou oculta os botões com base na posição de rolagem
+            window.onscroll = function() {
+                var scrollButtonDown = document.getElementById('scrollButtonDown');
+                var scrollButtonUp = document.getElementById('scrollButtonUp');
+                
+                if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
+                    scrollButtonDown.style.display = 'none';
+                    scrollButtonUp.style.display = 'block';
+                } else if (window.scrollY <= 100) {
+                    scrollButtonDown.style.display = 'block';
+                    scrollButtonUp.style.display = 'none';
+                } else {
+                    scrollButtonDown.style.display = 'block';
+                    scrollButtonUp.style.display = 'none';
+                }
+            };
+
+            // Adiciona os eventos de clique aos botões
+            document.getElementById('scrollButtonDown').onclick = scrollToBottom;
+            document.getElementById('scrollButtonUp').onclick = scrollToTop;
+        </script>
+
         <?php
             foreach ($jsonHospitais as $key => $value) {
                 echo '<tr id="grupo_'.$value->categoria.'">';
@@ -747,8 +798,6 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         }
         inserirHospital();
     }
-
-
 
 </script>
 <script type="text/javascript" src="/wp-content/themes/pride/js/script-manual.js"></script>
