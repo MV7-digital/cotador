@@ -94,29 +94,29 @@ $numPlanos = 4;
             <!-- Faixas etárias + vidas -->
 
             <tr class="cor-fundo" id="0_18_coluna">
-                <td>
+                <td class="price-border">
                     <p>0 - 18 anos</p>
                 </td>
-                <td class="th1_0_18" id="0_18_th1">
+                <td class="price-border th1_0_18" id="0_18_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_0"></p></div>
                         <div><p id="pdf_valor_0_0"></p></div>
                     </div>
                 </td>
-                <td class="th2_0_18" id="0_18_th2">
+                <td class="price-border th2_0_18" id="0_18_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_0"></p></div>
                         <div><p id="pdf_valor_1_0"></div>
                     </div>
                 </td>
-                <td class="th3_0_18" id="0_18_th3">
+                <td class="price-border th3_0_18" id="0_18_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_0"></p></div>
                         <div><p id="pdf_valor_2_0"></p>
                        </div>
                     </div>
                 </td>
-                <td class="th4_0_18" id="0_18_th4">
+                <td class="price-border th4_0_18" id="0_18_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_0"></p></div>
                         <div><p id="pdf_valor_3_0"></p>
@@ -125,31 +125,31 @@ $numPlanos = 4;
                 </td>
             </tr>
             <tr class="cor-fundo" id="19_23_coluna">
-                <td>
+                <td class="price-border">
                     <p>19 - 23 anos</p>
                 </td>
-                <td class="th1_19_23" id="19_23_th1">
+                <td class="price-border th1_19_23" id="19_23_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_1"></p></div>
                         <div><p id="pdf_valor_0_1"></p>
                        </div>
                     </div>
                 </td>
-                <td class="th2_19_23" id="19_23_th2">
+                <td class="price-border th2_19_23" id="19_23_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_1"></p></div>
                         <div><p id="pdf_valor_1_1"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th3_19_23" id="19_23_th3">
+                <td class="price-border th3_19_23" id="19_23_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_1"></p></div>
                         <div><p id="pdf_valor_2_1"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th4_19_23" id="19_23_th4">
+                <td class="price-border th4_19_23" id="19_23_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_1"></p></div>
                         <div><p id="pdf_valor_3_1"></p>
@@ -158,31 +158,31 @@ $numPlanos = 4;
                 </td>
             </tr>
             <tr class="cor-fundo" id="24_28_coluna">
-                <td>
+                <td class="price-border">
                     <p>24 - 28 anos</p>
                 </td>
-                <td class="th1_24_28" id="24_28_th1">
+                <td class="price-border th1_24_28" id="24_28_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_2"></p></div>
                         <div><p id="pdf_valor_0_2"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th2_24_28" id="24_28_th2">
+                <td class="price-border th2_24_28" id="24_28_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_2"></p></div>
                         <div><p id="pdf_valor_1_2"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th3_24_28" id="24_28_th3">
+                <td class="price-border th3_24_28" id="24_28_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_2"></p></div>
                         <div><p id="pdf_valor_2_2"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th4_24_28" id="24_28_th4">
+                <td class="price-border th4_24_28" id="24_28_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_2"></p></div>
                         <div><p id="pdf_valor_3_2"></p>
@@ -191,31 +191,31 @@ $numPlanos = 4;
                 </td>
             </tr>
             <tr class="cor-fundo" id="29_33_coluna">
-                <td>
+                <td class="price-border">
                     <p>29 - 33 anos</p>
                 </td>
-                <td class="th1_29_33" id="29_33_th1">
+                <td class="price-border th1_29_33" id="29_33_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_3"></p></div>
                         <div><p id="pdf_valor_0_3"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th2_29_33" id="29_33_th2">
+                <td class="price-border th2_29_33" id="29_33_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_3"></p></div>
                         <div><p id="pdf_valor_1_3"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th3_29_33" id="29_33_th3">
+                <td class="price-border th3_29_33" id="29_33_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_3"></p></div>
                         <div><p id="pdf_valor_2_3"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th4_29_33" id="29_33_th4">
+                <td class="price-border th4_29_33" id="29_33_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_3"></p></div>
                         <div><p id="pdf_valor_3_3"></p>
@@ -224,31 +224,31 @@ $numPlanos = 4;
                 </td>
             </tr>
             <tr  class="cor-fundo" id="34_38_coluna">
-                <td>
+                <td class="price-border">
                     <p>34 - 38 anos</p>
                 </td>
-                <td class="th1_34_38" id="34_38_th1">
+                <td class="price-border th1_34_38" id="34_38_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_4"></p></div>
                         <div><p id="pdf_valor_0_4"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th2_34_38" id="34_38_th2">
+                <td class="price-border th2_34_38" id="34_38_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_4"></p></div>
                         <div><p id="pdf_valor_1_4"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th3_34_38" id="34_38_th3">
+                <td class="price-border th3_34_38" id="34_38_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_4"></p></div>
                         <div><p id="pdf_valor_2_4"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th4_34_38" id="34_38_th4">
+                <td class="price-border th4_34_38" id="34_38_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_4"></p></div>
                         <div><p id="pdf_valor_3_4"></p>
@@ -257,31 +257,31 @@ $numPlanos = 4;
                 </td>
             </tr>
             <tr class="cor-fundo" id="39_43_coluna">
-                <td>
+                <td class="price-border">
                     <p>39 - 43 anos</p>
                 </td>
-                <td class="th1_39_43" id="39_43_th1">
+                <td class="price-border th1_39_43" id="39_43_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_5"></p></div>
                         <div><p id="pdf_valor_0_5"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th2_39_43" id="39_43_th2">
+                <td class="price-border th2_39_43" id="39_43_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_5"></p></div>
                         <div><p id="pdf_valor_1_5"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th3_39_43" id="39_43_th3">
+                <td class="price-border th3_39_43" id="39_43_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_5"></p></div>
                         <div><p id="pdf_valor_2_5"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th4_39_43" id="39_43_th4">
+                <td class="price-border th4_39_43" id="39_43_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_5"></p></div>
                         <div><p id="pdf_valor_3_5"></p>
@@ -290,31 +290,31 @@ $numPlanos = 4;
                 </td>
             </tr>
             <tr class="cor-fundo" id="44_48_coluna">
-                <td>
+                <td class="price-border">
                     <p>44 - 48 anos</p>
                 </td>
-                <td  class="th1_44_48" id="44_48_th1">
+                <td  class="price-border th1_44_48" id="44_48_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_6"></p></div>
                         <div><p id="pdf_valor_0_6"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th2_44_48" id="44_48_th2">
+                <td class="price-border th2_44_48" id="44_48_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_6"></p></div>
                         <div><p id="pdf_valor_1_6"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th3_44_48" id="44_48_th3">
+                <td class="price-border th3_44_48" id="44_48_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_6"></p></div>
                         <div><p id="pdf_valor_2_6"></p>
                        </div>
                     </div>
                 </td>
-                <td class="th4_44_48" id="44_48_th4">
+                <td class="price-border th4_44_48" id="44_48_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_6"></p></div>
                         <div><p id="pdf_valor_3_6"></p>
@@ -323,31 +323,31 @@ $numPlanos = 4;
                 </td>
             </tr>
             <tr class="cor-fundo" id="49_53_coluna">
-                <td>
+                <td class="price-border">
                     <p>49 - 53 anos</p>
                 </td>
-                <td class="th1_49_53" id="49_53_th1">
+                <td class="price-border th1_49_53" id="49_53_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_7"></p></div>
                         <div><p id="pdf_valor_0_7"></p>
                        </div>
                     </div>
                 </td>
-                <td class="th2_49_53" id="49_53_th2">
+                <td class="price-border th2_49_53" id="49_53_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_7"></p></div>
                         <div><p id="pdf_valor_1_7"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th3_49_53" id="49_53_th3">
+                <td class="price-border th3_49_53" id="49_53_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_7"></p></div>
                         <div><p id="pdf_valor_2_7"></p>
                        </div>
                     </div>
                 </td>
-                <td class="th4_49_53" id="49_53_th4">
+                <td class="price-border th4_49_53" id="49_53_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_7"></p></div>
                         <div><p id="pdf_valor_3_7"></p>
@@ -356,31 +356,31 @@ $numPlanos = 4;
                 </td>
             </tr>
             <tr class="cor-fundo" id="54_58_coluna">
-                <td>
+                <td class="price-border">
                     <p>54 - 58 anos</p>
                 </td>
-                <td class="th1_54_58" id="54_58_th1">
+                <td class="price-border th1_54_58" id="54_58_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_8"></p></div>
                         <div><p id="pdf_valor_0_8"></p>
                        </div>
                     </div>
                 </td>
-                <td class="th2_54_58" id="54_58_th2">
+                <td class="price-border th2_54_58" id="54_58_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_8"></p></div>
                         <div><p id="pdf_valor_1_8"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th3_54_58" id="54_58_th3">
+                <td class="price-border th3_54_58" id="54_58_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_8"></p></div>
                         <div><p id="pdf_valor_2_8"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th4_54_58" id="54_58_th4">
+                <td class="price-border th4_54_58" id="54_58_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_8"></p></div>
                         <div><p id="pdf_valor_3_8"></p>
@@ -389,31 +389,31 @@ $numPlanos = 4;
                 </td>
             </tr>
             <tr class="cor-fundo" id="59_mais_coluna">
-                <td>
+                <td class="price-border">
                     <p>59 anos ou mais</p>
                 </td>
-                <td class="th1_59_mais" id="59_mais_th1">
+                <td class="price-border th1_59_mais" id="59_mais_th1">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_0_9"></p></div>
                         <div><p id="pdf_valor_0_9"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th2_59_mais" id="59_mais_th2">
+                <td class="price-border th2_59_mais" id="59_mais_th2">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_1_9"></p></div>
                         <div><p id="pdf_valor_1_9"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th3_59_mais" id="59_mais_th3">
+                <td class="price-border th3_59_mais" id="59_mais_th3">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_2_9"></p></div>
                         <div><p id="pdf_valor_2_9"></p>
                         </div>
                     </div>
                 </td>
-                <td class="th4_59_mais" id="59_mais_th4">
+                <td class="price-border th4_59_mais" id="59_mais_th4">
                     <div class="vidas_unidades_pdf">
                         <div><p id="pdf_vidas_3_9"></p></div>
                         <div><p id="pdf_valor_3_9"></p>

@@ -596,6 +596,10 @@ h2{
     text-align: center;
 }
 
+.comparativo-pdf td {
+    min-width: 194px;
+}
+
 .plano-pdf, .title-pdf{
     color: #093c66;
 }
@@ -634,6 +638,30 @@ h2{
 
 .cor-fundo th:nth-child(even), .cor-fundo td:nth-child(even){
     background-color: #eef1f4;
+}
+
+.price-border {
+    border: none !important;
+}
+
+.scrollButton {
+    position: fixed;
+    right: 10%;
+    bottom: 5%;
+    background-color: #CA991E;
+    width: 15%;
+    color: white;
+    border: none;
+    min-width: 100px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: background-color .5s, color .5s;
+    cursor: pointer;
+    display: none;
 }
 
 tfoot{
