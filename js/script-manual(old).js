@@ -261,10 +261,6 @@
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano1_logo_th"]');
       let elementos2 = $('[id^="pdf_plano1_th"]');
-      let modalidadeTh = $('[id^="pdf_tipo1_th"]');
-      let modalidade = $('[id^="pdf_tipo1_nome"]');
-      let regiaoTh = $('[id^="pdf_regiao1_th"]');
-      let regiao = $('[id^="pdf_regiao1_nome"]');
       let copay = $('[id^="pdf_copay0_th"]');
       let hospitais = $('[class^="hospitais_0"]');
       let laboratorios = $('[class^="laboratorios_0"]');
@@ -274,18 +270,6 @@
         $(this).hide();
       });
       elementos2.each(function () {
-        $(this).hide();
-      });
-      modalidadeTh.each(function () {
-        $(this).hide();
-      });
-      modalidade.each(function () {
-        $(this).hide();
-      });
-      regiaoTh.each(function () {
-        $(this).hide();
-      });
-      regiao.each(function () {
         $(this).hide();
       });
       copay.each(function () {
@@ -342,10 +326,6 @@
       let elementos = $('[id^="pdf_plano1_logo_th"]');
       let elementos2 = $('[id^="pdf_plano1_th"]');
       let elementos3 = $('[id^="pdf_plano1_nome"]');
-      let modalidadeTh = $('[id^="pdf_tipo1_th"]');
-      let modalidade = $('[id^="pdf_tipo1_nome"]');
-      let regiaoTh = $('[id^="pdf_regiao1_th"]');
-      let regiao = $('[id^="pdf_regiao1_nome"]');
       let copay = $('[id^="pdf_copay0_th"]');
       let hospitais = $('[class^="hospitais_0"]');
       let laboratorios = $('[class^="laboratorios_0"]');
@@ -360,18 +340,6 @@
       });
       elementos3.each(function () {
         $(this).html($('#plano_0').val());
-      });
-      modalidadeTh.each(function () {
-        $(this).show();
-      });
-      modalidade.each(function () {
-        $(this).html($('#tipo_0').val());
-      });
-      regiaoTh.each(function () {
-        $(this).show();
-      });
-      regiao.each(function () {
-        $(this).html($('#regiao_0').val());
       });
       copay.each(function () {
         $(this).show();
@@ -428,10 +396,6 @@
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano2_logo_th"]');
       let elementos2 = $('[id^="pdf_plano2_th"]');
-      let modalidadeTh = $('[id^="pdf_tipo2_th"]');
-      let modalidade = $('[id^="pdf_tipo2_nome"]');
-      let regiaoTh = $('[id^="pdf_regiao2_th"]');
-      let regiao = $('[id^="pdf_regiao2_nome"]');
       let copay = $('[id^="pdf_copay1_th"]');
       let hospitais = $('[class^="hospitais_1"]');
       let laboratorios = $('[class^="laboratorios_1"]');
@@ -442,18 +406,6 @@
         $(this).hide();
       });
       elementos2.each(function () {
-        $(this).hide();
-      });
-      modalidadeTh.each(function () {
-        $(this).hide();
-      });
-      modalidade.each(function () {
-        $(this).hide();
-      });
-      regiaoTh.each(function () {
-        $(this).hide();
-      });
-      regiao.each(function () {
         $(this).hide();
       });
       copay.each(function () {
@@ -511,10 +463,6 @@
       let elementos = $('[id^="pdf_plano2_logo_th"]');
       let elementos2 = $('[id^="pdf_plano2_th"]');
       let elementos3 = $('[id^="pdf_plano2_nome"]');
-      let modalidadeTh = $('[id^="pdf_tipo2_th"]');
-      let modalidade = $('[id^="pdf_tipo2_nome"]');
-      let regiaoTh = $('[id^="pdf_regiao2_th"]');
-      let regiao = $('[id^="pdf_regiao2_nome"]');
       let copay = $('[id^="pdf_copay1_th"]');
       let hospitais = $('[class^="hospitais_1"]');
       let laboratorios = $('[class^="laboratorios_1"]');
@@ -528,18 +476,6 @@
       });
       elementos3.each(function () {
         $(this).html($('#plano_1').val());
-      });
-      modalidadeTh.each(function () {
-        $(this).show();
-      });
-      modalidade.each(function () {
-        $(this).html($('#tipo_1').val());
-      });
-      regiaoTh.each(function () {
-        $(this).show();
-      });
-      regiao.each(function () {
-        $(this).html($('#regiao_1').val());
       });
       copay.each(function () {
         $(this).show();
@@ -596,10 +532,6 @@
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano3_logo_th"]');
       let elementos2 = $('[id^="pdf_plano3_th"]');
-      let modalidadeTh = $('[id^="pdf_tipo3_th"]');
-      let modalidade = $('[id^="pdf_tipo3_nome"]');
-      let regiaoTh = $('[id^="pdf_regiao3_th"]');
-      let regiao = $('[id^="pdf_regiao3_nome"]');
       let copay = $('[id^="pdf_copay2_th"]');
       let hospitais = $('[class^="hospitais_2"]');
       let laboratorios = $('[class^="laboratorios_2"]');
@@ -609,18 +541,6 @@
         $(this).hide();
       });
       elementos2.each(function () {
-        $(this).hide();
-      });
-      modalidadeTh.each(function () {
-        $(this).hide();
-      });
-      modalidade.each(function () {
-        $(this).hide();
-      });
-      regiaoTh.each(function () {
-        $(this).hide();
-      });
-      regiao.each(function () {
         $(this).hide();
       });
       copay.each(function () {
@@ -678,10 +598,6 @@
       let elementos = $('[id^="pdf_plano3_logo_th"]');
       let elementos2 = $('[id^="pdf_plano3_th"]');
       let elementos3 = $('[id^="pdf_plano3_nome"]');
-      let modalidadeTh = $('[id^="pdf_tipo3_th"]');
-      let modalidade = $('[id^="pdf_tipo3_nome"]');
-      let regiaoTh = $('[id^="pdf_regiao3_th"]');
-      let regiao = $('[id^="pdf_regiao3_nome"]');
       let copay = $('[id^="pdf_copay2_th"]');
       let hospitais = $('[class^="hospitais_2"]');
       let laboratorios = $('[class^="laboratorios_2"]');
@@ -695,18 +611,6 @@
       });
       elementos3.each(function () {
         $(this).html($('#plano_2').val());
-      });
-      modalidadeTh.each(function () {
-        $(this).show();
-      });
-      modalidade.each(function () {
-        $(this).html($('#tipo_2').val());
-      });
-      regiaoTh.each(function () {
-        $(this).show();
-      });
-      regiao.each(function () {
-        $(this).html($('#regiao_2').val());
       });
       copay.each(function () {
         $(this).show();
@@ -764,10 +668,6 @@
       // Obtém todos os elementos com IDs semelhantes
       let elementos = $('[id^="pdf_plano4_logo_th"]');
       let elementos2 = $('[id^="pdf_plano4_th"]');
-      let modalidadeTh = $('[id^="pdf_tipo4_th"]');
-      let modalidade = $('[id^="pdf_tipo4_nome"]');
-      let regiaoTh = $('[id^="pdf_regiao4_th"]');
-      let regiao = $('[id^="pdf_regiao4_nome"]');
       let copay = $('[id^="pdf_copay3_th"]');
       let hospitais = $('[class^="hospitais_3"]');
       let laboratorios = $('[class^="laboratorios_3"]');
@@ -777,18 +677,6 @@
         $(this).hide();
       });
       elementos2.each(function () {
-        $(this).hide();
-      });
-      modalidadeTh.each(function () {
-        $(this).hide();
-      });
-      modalidade.each(function () {
-        $(this).hide();
-      });
-      regiaoTh.each(function () {
-        $(this).hide();
-      });
-      regiao.each(function () {
         $(this).hide();
       });
       copay.each(function () {
@@ -846,10 +734,6 @@
       let elementos = $('[id^="pdf_plano4_logo_th"]');
       let elementos2 = $('[id^="pdf_plano4_th"]');
       let elementos3 = $('[id^="pdf_plano4_nome"]');
-      let modalidadeTh = $('[id^="pdf_tipo4_th"]');
-      let modalidade = $('[id^="pdf_tipo4_nome"]');
-      let regiaoTh = $('[id^="pdf_regiao4_th"]');
-      let regiao = $('[id^="pdf_regiao4_nome"]');
       let copay = $('[id^="pdf_copay3_th"]');
       let hospitais = $('[class^="hospitais_3"]');
       let laboratorios = $('[class^="laboratorios_3"]');
@@ -863,18 +747,6 @@
       });
       elementos3.each(function () {
         $(this).html($('#plano_3').val());
-      });
-      modalidadeTh.each(function () {
-        $(this).show();
-      });
-      modalidade.each(function () {
-        $(this).html($('#tipo_3').val());
-      });
-      regiaoTh.each(function () {
-        $(this).show();
-      });
-      regiao.each(function () {
-        $(this).html($('#regiao_3').val());
       });
       copay.each(function () {
         $(this).show();

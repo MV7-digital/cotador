@@ -20,7 +20,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
     <h1 class="title-dif">COMPARATIVO DE <span>PLANOS</span></h1>
     <p class="desc-dif">Comparativo dos planos de saúde que mais se adequam a você.</p>
 
-    <table class="table table-bordered">
+    <table id="tableTop" class="table table-bordered">
         <thead class="comparativo">
         <tr style="background-color: unset">
             <th style="font-size: 18px">Selecione a seguir os planos para começar:</th>
@@ -74,6 +74,19 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '<option value="">Selecione a Rede Primeiro</option>';
                 echo '</select>';
                 echo '<div class="coop" id="copart_'.$i.'"></div>';
+                // Select de modalidade
+                echo '<select name="tipo_' . $i . '" id="tipo_'.($i).'">';
+                echo '<option value="">Selecione a Modalidade</option>';
+                echo '<option value="PME">PME</option>';
+                echo '<option value="Adesao">Adesão</option>';
+                echo '<option value="PF">PF</option>';
+                echo '</select>';
+                // Select de região
+                echo '<select name="regiao_'.($i).'" id="regiao_'.($i).'">';
+                echo '<option value="">Região de Atendimento</option>';
+                echo '<option value="Nacional">Nacional</option>';
+                echo '<option value="Regional">Regional</option>';
+                echo '</select>';
                 echo '</div>';
                 echo '<div class="tamanho-coluna col-6">';
                 echo '<p id="pdf_plano'.($i+1).'_logo_r">';
@@ -91,6 +104,19 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '<option value="">Selecione a Rede Primeiro</option>';
                 echo '</select>';
                 echo '<div class="coop" id="copart_'.($i + 1).'"></div>';
+                // Select de modalidade
+                echo '<select name="tipo_'.($i + 1).'" id="tipo_'.($i + 1).'">';
+                echo '<option value="">Selecione a Modalidade</option>';
+                echo '<option value="PME">PME</option>';
+                echo '<option value="Adesao">Adesão</option>';
+                echo '<option value="PF">PF</option>';
+                echo '</select>';
+                // Select de região
+                echo '<select name="regiao_'.($i + 1).'" id="regiao_'.($i + 1).'">';
+                echo '<option value="">Região de Atendimento</option>';
+                echo '<option value="Nacional">Nacional</option>';
+                echo '<option value="Regional">Regional</option>';
+                echo '</select>';
                 echo '</div>';
                 echo '</th>';
             }
@@ -195,8 +221,8 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             for ($i = 0; $i < $numPlanos; $i++) {
                 echo '<td>';
                 echo '<select class="w-100" name="coparticipacao_' . $i . '" id="coparticipacao_' . $i . '">';
-                echo '<option value="Total">Total</option>';
-                echo '<option value="Parcial">Parcial</option>';
+                echo '<option value="Total">Completa</option>';
+                echo '<option value="Parcial">Somente terapias</option>';
                 echo '<option value="Sem copart.">Sem copart.</option>';
                 echo '</select>';
                 echo '</td>';
@@ -206,7 +232,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             // Coparticipação em cirurgias e internações
             echo '<tr>';
             echo '<td style="display: flex; justify-content: space-between;">';
-            echo '<p style="text-align: left;">Cobre cirurgias e internações</p>';
+            echo '<p style="text-align: left;">Copart. para cirurgias e internações</p>';
             echo '<input type="checkbox" class="copartCheck" id="copartCheck_1" onclick="inserirCoparticipacao(\'copart_cirurgias_internacoes\')">';
             echo '</td>';
             for ($i = 0; $i < $numPlanos; $i++) {
@@ -222,7 +248,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             // Valor da coparticipação
             echo '<tr>';
             echo '<td style="display: flex; justify-content: space-between;">';
-            echo '<p style="text-align: left;">Valor da coparticipação (%)</p>';
+            echo '<p style="text-align: left;">Porcentagem da coparticipação</p>';
             echo '<input type="checkbox" class="copartCheck" id="copartCheck_2" onclick="inserirCoparticipacao(\'valor_coparticipacao\')">';
             echo '</td>';
             for ($i = 0; $i < $numPlanos; $i++) {
@@ -279,17 +305,17 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         </tr>
         <tr>
             <th>
-                <p>
+                <!-- <p>
                     <select name="grupo_hospitais" id="grupo_hospitais" onchange="atualizarGrupo(this.value)">
-                        <option value="">Selecione o Grupo de Hospitais</option>
+                        <option value="">Selecione o Grupo de Hospitais Visíveis</option>
                         <?php
                         foreach (array_unique($grupos) as $value) {
                             echo '<option value="'.$value.'">'.$value.'</option>';
                         }
                         ?>
                     </select>
-                </p>
-                <p>Selecionar</p>
+                </p> -->
+                <p>Marcar automaticamente categorias:</p>
                 <p>
                     AA <input type="checkbox" onclick="selecionarGrupo('AA')">
                     A <input type="checkbox" onclick="selecionarGrupo('A')">
@@ -298,6 +324,57 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 </p>
             </th>
         </tr>
+
+        <!-- Botão de rolagem fixo -->
+
+        <tr>
+            <th>
+                <!-- Botão de rolagem para baixo -->
+                <button class="scrollButton" id="scrollButtonDown">Rolar até o final</button>
+                <!-- Botão de rolagem para cima -->
+                <button class="scrollButton" id="scrollButtonUp">Rolar até o início</button>
+            </th>
+        </tr>
+
+        <script>
+            // Função para rolar até o final da página
+            function scrollToBottom() {
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+            }
+
+            // Função para rolar até o topo da tabela
+            function scrollToTop() {
+                var tableTop = document.getElementById('tableTop');
+                tableTop.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+
+            // Mostra ou oculta os botões com base na posição de rolagem
+            window.onscroll = function() {
+                var scrollButtonDown = document.getElementById('scrollButtonDown');
+                var scrollButtonUp = document.getElementById('scrollButtonUp');
+                
+                if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
+                    scrollButtonDown.style.display = 'none';
+                    scrollButtonUp.style.display = 'block';
+                } else if (window.scrollY <= 100) {
+                    scrollButtonDown.style.display = 'block';
+                    scrollButtonUp.style.display = 'none';
+                } else {
+                    scrollButtonDown.style.display = 'block';
+                    scrollButtonUp.style.display = 'none';
+                }
+            };
+
+            // Adiciona os eventos de clique aos botões
+            document.getElementById('scrollButtonDown').onclick = scrollToBottom;
+            document.getElementById('scrollButtonUp').onclick = scrollToTop;
+        </script>
+
         <?php
             foreach ($jsonHospitais as $key => $value) {
                 echo '<tr id="grupo_'.$value->categoria.'">';
@@ -747,8 +824,6 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         }
         inserirHospital();
     }
-
-
 
 </script>
 <script type="text/javascript" src="/wp-content/themes/pride/js/script-manual.js"></script>
