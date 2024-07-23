@@ -2,6 +2,7 @@
   {
     "hospital": "H Adventista - Aclimação",
     "regiao": "São Paulo | Centro",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -155,6 +156,7 @@
   {
     "hospital": "CM Adventista - Aclimação",
     "regiao": "São Paulo | Centro",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -311,6 +313,7 @@
   {
     "hospital": "H Cruz Azul de São Paulo",
     "regiao": "São Paulo | Centro",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -942,6 +945,7 @@
   {
     "hospital": "Sta Helena",
     "regiao": "São Paulo | Centro",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -1786,7 +1790,7 @@
     "Advance_700_A": "-",
     "Premium_900_1_CARE_A": "H, PS",
     "Prata_Pro_E_E": "-",
-    "Prata_Pro_Q_A": "-",
+    "Prata_Pro_Q_A": "H, PS",
     "Ouro_Pro_Q_A": "H, PS",
     "Diamante_Pro_Q_A": "H, PS",
     "Bronze_E": "-",
@@ -2522,6 +2526,7 @@
   {
     "hospital": "H Saha",
     "regiao": "São Paulo | Centro",
+    "categoria": "B",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -2837,6 +2842,7 @@
   {
     "hospital": "H Inglês",
     "regiao": "São Paulo | Centro",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H",
     "Amil_Facil_S80_SP_E": "H",
@@ -2995,6 +3001,7 @@
   {
     "hospital": "H Certa",
     "regiao": "São Paulo | Centro",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -3152,6 +3159,7 @@
   {
     "hospital": "HCLOE - Bela Vista",
     "regiao": "São Paulo | Centro",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -3309,6 +3317,7 @@
   {
     "hospital": "H e Mat São Miguel",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -3466,6 +3475,7 @@
   {
     "hospital": "Day H de Ermelino Matarazzo",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -3940,6 +3950,7 @@
   {
     "hospital": "Aviccena",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -4411,6 +4422,7 @@
   {
     "hospital": "Clín Médica Vila Alpina",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -4568,6 +4580,7 @@
   {
     "hospital": "H Central Guaianases - Vila Iolanda",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -4725,6 +4738,7 @@
   {
     "hospital": "H Itaquera",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -4882,6 +4896,7 @@
   {
     "hospital": "H Jd Helena",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -5039,6 +5054,7 @@
   {
     "hospital": "Independência da Zona Leste",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -5196,6 +5212,7 @@
   {
     "hospital": "Oito de Maio",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -5669,6 +5686,7 @@
   {
     "hospital": "H e Mat Paranaguá",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -5826,6 +5844,7 @@
   {
     "hospital": "IBCC",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -5984,6 +6003,7 @@
   {
     "hospital": "São Cristovão",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -6141,6 +6161,7 @@
   {
     "hospital": "H Sagrada Família - SP",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -6298,6 +6319,7 @@
   {
     "hospital": "H e Mat Sta Clara Vila Matilde",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S80_SP_E": "H, PS",
     "Amil_Facil_S80_SP_A": "H, PS",
@@ -6454,6 +6476,7 @@
   {
     "hospital": "H de Olhos de São Paulo - Unid Leste",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -6611,6 +6634,7 @@
   {
     "hospital": "H San Gennaro -SP",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -6768,6 +6792,7 @@
   {
     "hospital": "H Intermédica Anália Franco",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -6925,6 +6950,7 @@
   {
     "hospital": "H Salvalus",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -7083,6 +7109,7 @@
   {
     "hospital": "CC NDI - Itaquera",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -7240,6 +7267,7 @@
   {
     "hospital": "CC NDI - São Miguel",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -7398,6 +7426,7 @@
   {
     "hospital": "CM NDI - São Gabriel",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -7556,6 +7585,7 @@
   {
     "hospital": "Sto Expedito",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -7713,6 +7743,7 @@
   {
     "hospital": "HCLOE - Tatuapé",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -8028,6 +8059,7 @@
   {
     "hospital": "Amil Espaço Saúde - Tatuapé",
     "regiao": "São Paulo | Z. Leste",
+    "categoria": "C",
     "Amil_Facil_110_E": "PS",
     "Amil_Facil_S60_SP_Mais_E": "PA, PS",
     "Amil_Facil_S80_SP_E": "PA, PS",
@@ -8185,6 +8217,7 @@
   {
     "hospital": "PA Igesp - Unid Santana - SP",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -8658,6 +8691,7 @@
   {
     "hospital": "Nipo Clín Assistência Médica",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -8815,6 +8849,7 @@
   {
     "hospital": "Presidente",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -9127,6 +9162,7 @@
   {
     "hospital": "H e Mat N S do Rosário",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -9285,6 +9321,7 @@
   {
     "hospital": "H Vera Cruz",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "B",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H, PS",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -9442,6 +9479,7 @@
   {
     "hospital": "HOSP - Unid Norte",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -9599,6 +9637,7 @@
   {
     "hospital": "Clin Dr. Imuvi - Tremembé - SP",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -9757,6 +9796,7 @@
   {
     "hospital": "Previna Diagnósticos Médicos - Pirituba",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -9914,6 +9954,7 @@
   {
     "hospital": "CC NDI - Zona Norte",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -10071,6 +10112,7 @@
   {
     "hospital": "CM NDI - Santana",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -10229,6 +10271,7 @@
   {
     "hospital": "H Cantareira (Psiquiatria)",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -10386,6 +10429,7 @@
   {
     "hospital": "Previna São Paulo",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -10701,6 +10745,7 @@
   {
     "hospital": "H de Olhos SP",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -10858,6 +10903,7 @@
   {
     "hospital": "Amil Espaço Saúde - Santana",
     "regiao": "São Paulo | Z. Norte",
+    "categoria": "C",
     "Amil_Facil_110_E": "PA",
     "Amil_Facil_S60_SP_Mais_E": "PA",
     "Amil_Facil_S80_SP_E": "PA",
@@ -11015,6 +11061,7 @@
   {
     "hospital": "Clinisul",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -11172,6 +11219,7 @@
   {
     "hospital": "H e PS Portinari",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -11329,6 +11377,7 @@
   {
     "hospital": "Albert Sabin - Lapa",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -12750,6 +12799,7 @@
   {
     "hospital": "H Luz - Butantã",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "PS",
     "Amil_Facil_S60_SP_Mais_E": "PS",
     "Amil_Facil_S80_SP_E": "PS",
@@ -13065,6 +13115,7 @@
   {
     "hospital": "Irmãs Hospitaleiras",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -13222,6 +13273,7 @@
   {
     "hospital": "Clínicas FMUSP - Instituto Central",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -13379,6 +13431,7 @@
   {
     "hospital": "H das Clínicas FMUSP - IPQ",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -13537,6 +13590,7 @@
   {
     "hospital": "H das Clínicas FMUSP - Instituto da Criança",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -13694,6 +13748,7 @@
   {
     "hospital": "H das Clínicas FMUSP - IOT",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -14008,6 +14063,7 @@
   {
     "hospital": "IMC Inst de Molestias",
     "regiao": "São Paulo | Z. Oeste",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -14165,6 +14221,7 @@
   {
     "hospital": "API Psiquiátrica Integrada",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -14323,6 +14380,7 @@
   {
     "hospital": "Ophthal H Especializado",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "H",
     "Amil_Facil_S60_SP_Mais_E": "H",
     "Amil_Facil_S80_SP_E": "H",
@@ -14481,6 +14539,7 @@
   {
     "hospital": "Ruben Berta",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H, PS",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -14638,6 +14697,7 @@
   {
     "hospital": "Sta Casa Sto Amaro",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -15111,6 +15171,7 @@
   {
     "hospital": "H de Olhos Paulista",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "H",
@@ -15427,6 +15488,7 @@
   {
     "hospital": "H Luz Sto Amaro",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "H, PS",
     "Amil_Facil_S60_SP_Mais_E": "H, PS",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -15743,6 +15805,7 @@
   {
     "hospital": "H e Mat Vidas",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -15899,6 +15962,7 @@
   {
     "hospital": "H São Paulo",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -16214,6 +16278,7 @@
   {
     "hospital": "Sta Cruz",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -17318,6 +17383,7 @@
   {
     "hospital": "H e Mat Sta Maria",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -17949,6 +18015,7 @@
   {
     "hospital": "Cruz Vermelha",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -18107,6 +18174,7 @@
   {
     "hospital": "Cto de Tratamento Bezerra de Menezes - SP",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -18422,6 +18490,7 @@
   {
     "hospital": "GRAACC",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H, PS",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -18580,6 +18649,7 @@
   {
     "hospital": "H Luz - Vl Mariana",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "H, M, PS",
     "Amil_Facil_S60_SP_Mais_E": "H, M, PS",
     "Amil_Facil_S80_SP_E": "H, M, PS",
@@ -18737,6 +18807,7 @@
   {
     "hospital": "AACD",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "B",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -18894,6 +18965,7 @@
   {
     "hospital": "H de Olhos Alfredo Tranjan",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -19051,6 +19123,7 @@
   {
     "hospital": "H e Mat Bosque da Saúde",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -19209,6 +19282,7 @@
   {
     "hospital": "H Paulista Otorrinolaringologia",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -19366,6 +19440,7 @@
   {
     "hospital": "H Serra Mayor",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -19523,6 +19598,7 @@
   {
     "hospital": "Rim e Hipertensão",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H",
     "Amil_Facil_S80_SP_E": "H",
@@ -19681,6 +19757,7 @@
   {
     "hospital": "Dante Pazzanese",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -20154,6 +20231,7 @@
   {
     "hospital": "Clín Infantil Sta Isabella",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "PA, PS",
@@ -20311,6 +20389,7 @@
   {
     "hospital": "H Adventista - Capão Redondo",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -20626,6 +20705,7 @@
   {
     "hospital": "Clín Kids Serviços Médicos",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -20783,6 +20863,7 @@
   {
     "hospital": "CC NDI - Zona Sul",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -20941,6 +21022,7 @@
   {
     "hospital": "CM Adventista - Capão Redondo",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -21098,6 +21180,7 @@
   {
     "hospital": "H Luz - Sto Amaro I",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -21255,6 +21338,7 @@
   {
     "hospital": "HCLOE - Morumbi",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -21412,6 +21496,7 @@
   {
     "hospital": "Inst a Casa",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -21569,6 +21654,7 @@
   {
     "hospital": "H Premier Residence",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -21884,6 +21970,7 @@
   {
     "hospital": "H HB Saúde - Mirassol",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -22041,6 +22128,7 @@
   {
     "hospital": "Foccus Unid Integrada Sto Amaro III",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -22198,6 +22286,7 @@
   {
     "hospital": "IPP",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -22355,6 +22444,7 @@
   {
     "hospital": "Ophthal H Especializado Unid Sto Amaro",
     "regiao": "São Paulo | Z. Sul",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H",
     "Amil_Facil_S80_SP_E": "H",
@@ -22670,6 +22760,7 @@
   {
     "hospital": "H Christóvão da Gama - Diadema",
     "regiao": "Diadema",
+    "categoria": "B",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -22827,6 +22918,7 @@
   {
     "hospital": "H Olhos - Diadema",
     "regiao": "Diadema",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -22984,6 +23076,7 @@
   {
     "hospital": "CC NDI Diadema - Centro - Diadema",
     "regiao": "Diadema",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -23142,6 +23235,7 @@
   {
     "hospital": "H Associados Innova - Diadema",
     "regiao": "Diadema",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -23299,6 +23393,7 @@
   {
     "hospital": "Clin Next - Unidade Diadema",
     "regiao": "Diadema",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "PA",
     "Amil_Facil_S80_SP_E": "PA",
@@ -23456,6 +23551,7 @@
   {
     "hospital": "H Santa Casa De Mauá - Mauá",
     "regiao": "Mauá",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -23613,6 +23709,7 @@
   {
     "hospital": "H América - Mauá",
     "regiao": "Mauá",
+    "categoria": "B",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -23768,6 +23865,7 @@
   {
     "hospital": "Sta Casa - Mauá",
     "regiao": "Mauá",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H, M, PS",
     "Amil_Facil_S80_SP_E": "H, M, PS",
@@ -23926,6 +24024,7 @@
   {
     "hospital": "CM Vital - Mauá",
     "regiao": "Mauá",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -24083,6 +24182,7 @@
   {
     "hospital": "H Olhos - Mauá",
     "regiao": "Mauá",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -24240,6 +24340,7 @@
   {
     "hospital": "CC NDI - Mauá",
     "regiao": "Mauá",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -24397,6 +24498,7 @@
   {
     "hospital": "CM Reativa - Mauá",
     "regiao": "Mauá",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -24554,6 +24656,7 @@
   {
     "hospital": "CM Hospitalar Amil - Unid Mauá ",
     "regiao": "Mauá",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "PA",
     "Amil_Facil_S80_SP_E": "PA",
@@ -24711,6 +24814,7 @@
   {
     "hospital": "H Ribeirão Pires - Ribeirão",
     "regiao": "Ribeirão Pires",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -24868,6 +24972,7 @@
   {
     "hospital": "CC NDI - Ribeirão Pires",
     "regiao": "Ribeirão Pires",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -25025,6 +25130,7 @@
   {
     "hospital": "H e Mat Bartira - Santo André",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -25182,6 +25288,7 @@
   {
     "hospital": "H e Mat Dr Christovão da Gama - Santo André",
     "regiao": "Santo André",
+    "categoria": "B",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Smart_500_E": "H, M, PS",
@@ -25236,6 +25343,7 @@
   {
     "hospital": "H e M Brasil - Santo André",
     "regiao": "Santo André",
+    "categoria": "A",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -25393,6 +25501,7 @@
   {
     "hospital": "H e Mat Benef Portuguesa de Sto André",
     "regiao": "Santo André",
+    "categoria": "B",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -25550,6 +25659,7 @@
   {
     "hospital": "H das Acácias - Santo André",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -25707,6 +25817,7 @@
   {
     "hospital": "H Olhos ABC - Santo André",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -25864,6 +25975,7 @@
   {
     "hospital": "H ABC - Integrados - Santo André",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -26021,6 +26133,7 @@
   {
     "hospital": "Casa de Saúde Stella Maris - Santo André",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -26178,6 +26291,7 @@
   {
     "hospital": "CC NDI Unid Avançada - Santo André",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -26335,6 +26449,7 @@
   {
     "hospital": "H Coração de Jesus - Santo André",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -26492,6 +26607,7 @@
   {
     "hospital": "H São José do ABC - Santo André",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -26649,6 +26765,7 @@
   {
     "hospital": "H ABC - Unid Cirurgica - Santo André",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "PA",
     "Amil_Facil_S80_SP_E": "PA",
@@ -26806,6 +26923,7 @@
   {
     "hospital": "Sta Helena - Santo André ",
     "regiao": "Santo André",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H, PS",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -26963,6 +27081,7 @@
   {
     "hospital": "H São Bernardo - PS Orto - São Bernardo do Campo",
     "regiao": "São Bernardo do Campo",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -27120,6 +27239,7 @@
   {
     "hospital": "CM Hospitalar - São Bernardo do Campo",
     "regiao": "São Bernardo do Campo",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "PA",
     "Amil_Facil_S80_SP_E": "PA",
@@ -27277,6 +27397,7 @@
   {
     "hospital": "H Neomater - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -27434,6 +27555,7 @@
   {
     "hospital": "H e Mat Assunção - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "B",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -27591,6 +27713,7 @@
   {
     "hospital": "H São Bernardo - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -27748,6 +27871,7 @@
   {
     "hospital": "Cto de Tratamento Bezerra de Menezes - SBC - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "H, PS",
     "Amil_Facil_S60_SP_Mais_E": "H, PS",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -27906,6 +28030,7 @@
   {
     "hospital": "H Ifor - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -28061,6 +28186,7 @@
   {
     "hospital": "PS Intermedica ABC - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -28218,6 +28344,7 @@
   {
     "hospital": "H e Mat Notrecare ABC - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "PS",
@@ -28375,6 +28502,7 @@
   {
     "hospital": "H Olhos ABC - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -28532,6 +28660,7 @@
   {
     "hospital": "API ABC - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -28689,6 +28818,7 @@
   {
     "hospital": "H Dia Espaço Aberto - SBC - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -28847,6 +28977,7 @@
   {
     "hospital": "H Sta Helena - SBC - São Bernardo do Campo",
     "regiao": "SBC",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H, PS",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -29005,6 +29136,7 @@
   {
     "hospital": "H Benef Portuguesa São Caetano - São Caetano do Sul",
     "regiao": "SCS",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -29162,6 +29294,7 @@
   {
     "hospital": "H e Mat Central - São Caetano do Sul",
     "regiao": "SCS",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H, M",
     "Amil_Facil_S80_SP_E": "H, PS",
@@ -29319,6 +29452,7 @@
   {
     "hospital": "H São Luíz SCS - São Caetano do Sul",
     "regiao": "SCS",
+    "categoria": "B",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -29476,6 +29610,7 @@
   {
     "hospital": "H Santa Ana - São Caetano do Sul",
     "regiao": "SCS",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -29633,6 +29768,7 @@
   {
     "hospital": "H Olhos ABC - São Caetano do Sul",
     "regiao": "SCS",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -29790,6 +29926,7 @@
   {
     "hospital": "CC NDI - SCS",
     "regiao": "SCS",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "-",
     "Amil_Facil_S80_SP_E": "-",
@@ -29947,6 +30084,7 @@
   {
     "hospital": "H e Mat Central - São Caetano do Sul",
     "regiao": "SCS",
+    "categoria": "C",
     "Amil_Facil_110_E": "-",
     "Amil_Facil_S60_SP_Mais_E": "H, M",
     "Amil_Facil_S80_SP_E": "H, PS",

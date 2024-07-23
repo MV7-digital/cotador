@@ -133,9 +133,15 @@
         let unidadecValue = $(`#unidadec_${i}_${j}`).val();
 
         // Verifica se os valores não são undefined antes de chamar replace
-        let vidas = idadeValue ? idadeValue.replace(',', '.') : '0';
-        let unidade = unidadeValue ? unidadeValue.replace(',', '.') : '0';
-        let unidadec = unidadecValue ? unidadecValue.replace(',', '.') : '0';
+        let vidas = idadeValue
+          ? idadeValue.replace(/\./g, '').replace(',', '.')
+          : '0';
+        let unidade = unidadeValue
+          ? unidadeValue.replace(/\./g, '').replace(',', '.')
+          : '0';
+        let unidadec = unidadecValue
+          ? unidadecValue.replace(/\./g, '').replace(',', '.')
+          : '0';
 
         // Converte para float e verifica se não é NaN
         let vidasFloat = parseFloat(vidas) || 0;
@@ -365,7 +371,7 @@
         $(this).show();
       });
       modalidade.each(function () {
-        $(this).html($('#tipo_0').val());
+        $(this).html($('#modalidade_0').val());
       });
       regiaoTh.each(function () {
         $(this).show();
@@ -533,7 +539,7 @@
         $(this).show();
       });
       modalidade.each(function () {
-        $(this).html($('#tipo_1').val());
+        $(this).html($('#modalidade_1').val());
       });
       regiaoTh.each(function () {
         $(this).show();
@@ -700,7 +706,7 @@
         $(this).show();
       });
       modalidade.each(function () {
-        $(this).html($('#tipo_2').val());
+        $(this).html($('#modalidade_2').val());
       });
       regiaoTh.each(function () {
         $(this).show();
@@ -868,7 +874,7 @@
         $(this).show();
       });
       modalidade.each(function () {
-        $(this).html($('#tipo_3').val());
+        $(this).html($('#modalidade_3').val());
       });
       regiaoTh.each(function () {
         $(this).show();
@@ -938,7 +944,7 @@
         // Verifica se os valores são válidos antes de atualizar o HTML
         if (unidadeValue) {
           let unidadeValFormatted = parseFloat(
-            unidadeValue.replace(',', '.'),
+            unidadeValue.replace(/\./g, '').replace(',', '.'),
           ).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
           $(`#pdf_valor_${i}_${j}`).html(unidadeValFormatted);
         } else {
@@ -947,7 +953,7 @@
 
         if (unidadecValue) {
           let unidadecValFormatted = parseFloat(
-            unidadecValue.replace(',', '.'),
+            unidadecValue.replace(/\./g, '').replace(',', '.'),
           ).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
           $(`#pdf_valorc_${i}_${j}`).html(unidadecValFormatted);
         } else {
@@ -955,7 +961,7 @@
         }
 
         if (idadeValue) {
-          $(`#pdf_vidas_${i}_${j}`).html(idadeValue);
+          $(`#pdf_vidas_${i}_${j}`).html(idadeValue.replace('.', ','));
         } else {
           $(`#pdf_vidas_${i}_${j}`).html('');
         }

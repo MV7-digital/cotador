@@ -1,0 +1,1424 @@
+[
+  {
+    "Column2": "Amil Fácil 110 [E]",
+    "rede": "Amil",
+    "plano": "Amil Fácil 110 [E]"
+  },
+  {
+    "Column2": "Amil Fácil S60 SP Mais [E]",
+    "rede": "Amil",
+    "plano": "Amil Fácil S60 SP Mais [E]"
+  },
+  {
+    "Column2": "Amil Fácil S80 SP [E]",
+    "rede": "Amil",
+    "plano": "Amil Fácil S80 SP [E]"
+  },
+  {
+    "Column2": "Amil Fácil S80 SP [A]",
+    "rede": "Amil",
+    "plano": "Amil Fácil S80 SP [A]"
+  },
+  {
+    "Column2": "Amil Saúde S380 [E]",
+    "rede": "Amil",
+    "plano": "Amil Saúde S380 [E]"
+  },
+  {
+    "Column2": "Amil Saúde S380 [A]",
+    "rede": "Amil",
+    "plano": "Amil Saúde S380 [A]"
+  },
+  {
+    "Column2": "Amil Saúde S450 [E]",
+    "rede": "Amil",
+    "plano": "Amil Saúde S450 [E]"
+  },
+  {
+    "Column2": "Amil Saúde S450 [A]",
+    "rede": "Amil",
+    "plano": "Amil Saúde S450 [A]"
+  },
+  {
+    "Column2": "Amil Saúde S580 [A]",
+    "rede": "Amil",
+    "plano": "Amil Saúde S580 [A]"
+  },
+  {
+    "Column2": "AmilAmil S750 R1 [A]",
+    "rede": "Amil",
+    "plano": "Amil S750 R1 [A]"
+  },
+  {
+    "Column2": "AmilAmil S750 R2 [A]",
+    "rede": "Amil",
+    "plano": "Amil S750 R2 [A]"
+  },
+  {
+    "Column2": "Amil OneAmil One S2500 R1 [A]",
+    "rede": "Amil One",
+    "plano": "S2500 R1 [A]"
+  },
+  {
+    "Column2": "Amil OneAmil One S2500 R2 [A]",
+    "rede": "Amil One",
+    "plano": "S2500 R2 [A]"
+  },
+  {
+    "Column2": "Amil OneS6500 Black R1 [A]",
+    "rede": "Amil One",
+    "plano": "S6500 Black R1 [A]"
+  },
+  {
+    "Column2": "Amil OneS6500 Black R2 [A]",
+    "rede": "Amil One",
+    "plano": "S6500 Black R2 [A]"
+  },
+  {
+    "Column2": "Amil OneAmil One S6500 Black R3 [A]",
+    "rede": "Amil One",
+    "plano": "S6500 Black R3 [A]"
+  },
+  {
+    "Column2": "TRWE [E]",
+    "rede": "Bradesco",
+    "plano": "TRWE [E]"
+  },
+  {
+    "Column2": "TRWQ [A]",
+    "rede": "Bradesco",
+    "plano": "TRWQ [A]"
+  },
+  {
+    "Column2": "FCER [E]",
+    "rede": "Bradesco",
+    "plano": "FCER [E]"
+  },
+  {
+    "Column2": "FCQR [A]",
+    "rede": "Bradesco",
+    "plano": "FCQR [A]"
+  },
+  {
+    "Column2": "TERI [E]",
+    "rede": "Bradesco",
+    "plano": "TERI [E]"
+  },
+  {
+    "Column2": "TQRI [A]",
+    "rede": "Bradesco",
+    "plano": "TQRI [A]"
+  },
+  {
+    "Column2": "TRME [E]",
+    "rede": "Bradesco",
+    "plano": "TRME [E]"
+  },
+  {
+    "Column2": "TRMQ [A]",
+    "rede": "Bradesco",
+    "plano": "TRMQ [A]"
+  },
+  {
+    "Column2": "TREN [E]",
+    "rede": "Bradesco",
+    "plano": "TREN [E]"
+  },
+  {
+    "Column2": "TRQN [A]",
+    "rede": "Bradesco",
+    "plano": "TRQN [A]"
+  },
+  {
+    "Column2": "TR2N [A]",
+    "rede": "Bradesco",
+    "plano": "TR2N [A]"
+  },
+  {
+    "Column2": "TR3N [A]",
+    "rede": "Bradesco",
+    "plano": "TR3N [A]"
+  },
+  {
+    "Column2": "TPN4 [A]",
+    "rede": "Bradesco",
+    "plano": "TPN4 [A]"
+  },
+  {
+    "Column2": "TPN6 [A]",
+    "rede": "Bradesco",
+    "plano": "TPN6 [A]"
+  },
+  {
+    "Column2": "TPN8 [A]",
+    "rede": "Bradesco",
+    "plano": "TPN8 [A]"
+  },
+  {
+    "Column2": "TCN6 [A]",
+    "rede": "Bradesco",
+    "plano": "TCN6 [A]"
+  },
+  {
+    "Column2": "TCN8 [A]",
+    "rede": "Bradesco",
+    "plano": "TCN8 [A]"
+  },
+  {
+    "Column2": "SulaméricaDireto Nacional [E]",
+    "rede": "Sulamérica",
+    "plano": "Direto Nacional [E]"
+  },
+  {
+    "Column2": "SulaméricaDireto Nacional [A]",
+    "rede": "Sulamérica",
+    "plano": "Direto Nacional [A]"
+  },
+  {
+    "Column2": "SulaméricaExato [E]",
+    "rede": "Sulamérica",
+    "plano": "Exato [E]"
+  },
+  {
+    "Column2": "SulaméricaExato [A]",
+    "rede": "Sulamérica",
+    "plano": "Exato [A]"
+  },
+  {
+    "Column2": "SulaméricaClássico [E]",
+    "rede": "Sulamérica",
+    "plano": "Clássico [E]"
+  },
+  {
+    "Column2": "SulaméricaClássico [A]",
+    "rede": "Sulamérica",
+    "plano": "Clássico [A]"
+  },
+  {
+    "Column2": "SulaméricaEspecial RC [A]",
+    "rede": "Sulamérica",
+    "plano": "Especial RC [A]"
+  },
+  {
+    "Column2": "SulaméricaEspecial 100 R1 [A]",
+    "rede": "Sulamérica",
+    "plano": "Especial 100 R1 [A]"
+  },
+  {
+    "Column2": "SulaméricaEspecial Mais [A]",
+    "rede": "Sulamérica",
+    "plano": "Especial Mais [A]"
+  },
+  {
+    "Column2": "SulaméricaExecutivo R1 [A]",
+    "rede": "Sulamérica",
+    "plano": "Executivo R1 [A]"
+  },
+  {
+    "Column2": "SulaméricaExecutivo R2 [A]",
+    "rede": "Sulamérica",
+    "plano": "Executivo R2 [A]"
+  },
+  {
+    "Column2": "SulaméricaExecutivo R3 [A]",
+    "rede": "Sulamérica",
+    "plano": "Executivo R3 [A]"
+  },
+  {
+    "Column2": "SulaméricaPrestige [A]",
+    "rede": "Sulamérica",
+    "plano": "Prestige [A]"
+  },
+  {
+    "Column2": "Care PlusSoho 30 [A]",
+    "rede": "Care Plus",
+    "plano": "Soho 30 [A]"
+  },
+  {
+    "Column2": "Care PlusSoho 60 [A]",
+    "rede": "Care Plus",
+    "plano": "Soho 60 [A]"
+  },
+  {
+    "Column2": "Care PlusSoho 80 [A]",
+    "rede": "Care Plus",
+    "plano": "Soho 80 [A]"
+  },
+  {
+    "Column2": "Care PlusSoho 120 [A]",
+    "rede": "Care Plus",
+    "plano": "Soho 120 [A]"
+  },
+  {
+    "Column2": "Care PlusSoho 160 [A]",
+    "rede": "Care Plus",
+    "plano": "Soho 160 [A]"
+  },
+  {
+    "Column2": "Care PlusSoho 200 [A]",
+    "rede": "Care Plus",
+    "plano": "Soho 200 [A]"
+  },
+  {
+    "Column2": "Care PlusSoho 300 [A]",
+    "rede": "Care Plus",
+    "plano": "Soho 300 [A]"
+  },
+  {
+    "Column2": "OmintSE4 Regional [A]",
+    "rede": "Omint",
+    "plano": "SE4 Regional [A]"
+  },
+  {
+    "Column2": "OmintSmax [A]",
+    "rede": "Omint",
+    "plano": "Smax [A]"
+  },
+  {
+    "Column2": "OmintSE3 [A]",
+    "rede": "Omint",
+    "plano": "SE3 [A]"
+  },
+  {
+    "Column2": "OmintSC2 [A]",
+    "rede": "Omint",
+    "plano": "SC2 [A]"
+  },
+  {
+    "Column2": "OmintSC2 ME [A]",
+    "rede": "Omint",
+    "plano": "SC2 ME [A]"
+  },
+  {
+    "Column2": "OmintSC1 [A]",
+    "rede": "Omint",
+    "plano": "SC1 [A]"
+  },
+  {
+    "Column2": "OmintC16 [A]",
+    "rede": "Omint",
+    "plano": "C16 [A]"
+  },
+  {
+    "Column2": "OmintC16 ME [A]",
+    "rede": "Omint",
+    "plano": "C16 ME [A]"
+  },
+  {
+    "Column2": "OmintC17 [A]",
+    "rede": "Omint",
+    "plano": "C17 [A]"
+  },
+  {
+    "Column2": "OmintC19 [A]",
+    "rede": "Omint",
+    "plano": "C19 [A]"
+  },
+  {
+    "Column2": "OmintC19 ME [A]",
+    "rede": "Omint",
+    "plano": "C19 ME [A]"
+  },
+  {
+    "Column2": "OmintC20 [A]",
+    "rede": "Omint",
+    "plano": "C20 [A]"
+  },
+  {
+    "Column2": "OmintC21 [A]",
+    "rede": "Omint",
+    "plano": "C21 [A]"
+  },
+  {
+    "Column2": "OmintC22 [A]",
+    "rede": "Omint",
+    "plano": "C22 [A]"
+  },
+  {
+    "Column2": "OmintC23 [A]",
+    "rede": "Omint",
+    "plano": "C23 [A]"
+  },
+  {
+    "Column2": "OmintC10 [A]",
+    "rede": "Omint",
+    "plano": "C10 [A]"
+  },
+  {
+    "Column2": "OmintC11 [A]",
+    "rede": "Omint",
+    "plano": "C11 [A]"
+  },
+  {
+    "Column2": "OmintC12 [A]",
+    "rede": "Omint",
+    "plano": "C12 [A]"
+  },
+  {
+    "Column2": "OmintC13 [A]",
+    "rede": "Omint",
+    "plano": "C13 [A]"
+  },
+  {
+    "Column2": "Seguros UnimedCompacto [E]",
+    "rede": "Seguros Unimed",
+    "plano": "Compacto [E]"
+  },
+  {
+    "Column2": "Seguros UnimedEfetivo [A]",
+    "rede": "Seguros Unimed",
+    "plano": "Efetivo [A]"
+  },
+  {
+    "Column2": "Seguros UnimedCompleto [A]",
+    "rede": "Seguros Unimed",
+    "plano": "Completo [A]"
+  },
+  {
+    "Column2": "Seguros UnimedSuperior [A]",
+    "rede": "Seguros Unimed",
+    "plano": "Superior [A]"
+  },
+  {
+    "Column2": "Seguros UnimedSuperior Plus [A]",
+    "rede": "Seguros Unimed",
+    "plano": "Superior Plus [A]"
+  },
+  {
+    "Column2": "Seguros UnimedSênior [A]",
+    "rede": "Seguros Unimed",
+    "plano": "Sênior [A]"
+  },
+  {
+    "Column2": "PortoPrata Pró E [E]",
+    "rede": "Porto",
+    "plano": "Prata Pró E [E]"
+  },
+  {
+    "Column2": "PortoPrata Pró Q [A]",
+    "rede": "Porto",
+    "plano": "Prata Pró Q [A]"
+  },
+  {
+    "Column2": "PortoOuro Pró Q [A]",
+    "rede": "Porto",
+    "plano": "Ouro Pró Q [A]"
+  },
+  {
+    "Column2": "PortoDiamante Pró Q [A]",
+    "rede": "Porto",
+    "plano": "Diamante Pró Q [A]"
+  },
+  {
+    "Column2": "PortoCristal [E]",
+    "rede": "Porto",
+    "plano": "Cristal [E]"
+  },
+  {
+    "Column2": "PortoBronze [E]",
+    "rede": "Porto",
+    "plano": "Bronze [E]"
+  },
+  {
+    "Column2": "PortoBronze [A]",
+    "rede": "Porto",
+    "plano": "Bronze [A]"
+  },
+  {
+    "Column2": "PortoBronze Brasil [E]",
+    "rede": "Porto",
+    "plano": "Bronze Brasil [E]"
+  },
+  {
+    "Column2": "PortoBronze Brasil [A]",
+    "rede": "Porto",
+    "plano": "Bronze Brasil [A]"
+  },
+  {
+    "Column2": "PortoPrata Mais RC [E]",
+    "rede": "Porto",
+    "plano": "Prata Mais RC [E]"
+  },
+  {
+    "Column2": "PortoPrata Mais RC [A]",
+    "rede": "Porto",
+    "plano": "Prata Mais RC [A]"
+  },
+  {
+    "Column2": "PortoOuro Mais Q [A]",
+    "rede": "Porto",
+    "plano": "Ouro Mais Q [A]"
+  },
+  {
+    "Column2": "PortoOuro Max Q [A]",
+    "rede": "Porto",
+    "plano": "Ouro Max Q [A]"
+  },
+  {
+    "Column2": "PortoDiamante Mais R1 [A]",
+    "rede": "Porto",
+    "plano": "Diamante Mais R1 [A]"
+  },
+  {
+    "Column2": "PortoDiamante Mais R2 [A]",
+    "rede": "Porto",
+    "plano": "Diamante Mais R2 [A]"
+  },
+  {
+    "Column2": "PortoP200 [E]",
+    "rede": "Porto",
+    "plano": "P200 [E]"
+  },
+  {
+    "Column2": "PortoP200 [A]",
+    "rede": "Porto",
+    "plano": "P200 [A]"
+  },
+  {
+    "Column2": "PortoP300 [E]",
+    "rede": "Porto",
+    "plano": "P300 [E]"
+  },
+  {
+    "Column2": "PortoP300 [A]",
+    "rede": "Porto",
+    "plano": "P300 [A]"
+  },
+  {
+    "Column2": "PortoP400 [A]",
+    "rede": "Porto",
+    "plano": "P400 [A]"
+  },
+  {
+    "Column2": "PortoP450 [A]",
+    "rede": "Porto",
+    "plano": "P450 [A]"
+  },
+  {
+    "Column2": "PortoP500 [A]",
+    "rede": "Porto",
+    "plano": "P500 [A]"
+  },
+  {
+    "Column2": "NDISmart Ambulatorial [N]",
+    "rede": "NDI",
+    "plano": "Smart Ambulatorial [N]"
+  },
+  {
+    "Column2": "NDISmart 200 SP/Capital [E]",
+    "rede": "NDI",
+    "plano": "Smart 200 SP/Capital [E]"
+  },
+  {
+    "Column2": "NDISmart 200 ABC + BX [E]",
+    "rede": "NDI",
+    "plano": "Smart 200 ABC + BX [E]"
+  },
+  {
+    "Column2": "NDISmart 200 SP Oeste [E]",
+    "rede": "NDI",
+    "plano": "Smart 200 SP Oeste [E]"
+  },
+  {
+    "Column2": "NDISmart 200 Guarulhos [E]",
+    "rede": "NDI",
+    "plano": "Smart 200 Guarulhos [E]"
+  },
+  {
+    "Column2": "NDISmart 200 Alto Tietê [E]",
+    "rede": "NDI",
+    "plano": "Smart 200 Alto Tietê [E]"
+  },
+  {
+    "Column2": "NDISmart 200 Gru Mogi [E]",
+    "rede": "NDI",
+    "plano": "Smart 200 Gru Mogi [E]"
+  },
+  {
+    "Column2": "NDISmart 200 UP [E]",
+    "rede": "NDI",
+    "plano": "Smart 200 UP [E]"
+  },
+  {
+    "Column2": "NDISmart 300 [E]",
+    "rede": "NDI",
+    "plano": "Smart 300 [E]"
+  },
+  {
+    "Column2": "NDISmart 400 [E]",
+    "rede": "NDI",
+    "plano": "Smart 400 [E]"
+  },
+  {
+    "Column2": "NDISmart 400 [A]",
+    "rede": "NDI",
+    "plano": "Smart 400 [A]"
+  },
+  {
+    "Column2": "NDISmart 500 [E]",
+    "rede": "NDI",
+    "plano": "Smart 500 [E]"
+  },
+  {
+    "Column2": "NDISmart 500 [A]",
+    "rede": "NDI",
+    "plano": "Smart 500 [A]"
+  },
+  {
+    "Column2": "NDIAdvance 600 [E]",
+    "rede": "NDI",
+    "plano": "Advance 600 [E]"
+  },
+  {
+    "Column2": "NDIAdvance 600 [A]",
+    "rede": "NDI",
+    "plano": "Advance 600 [A]"
+  },
+  {
+    "Column2": "NDIAdvance 700 [E]",
+    "rede": "NDI",
+    "plano": "Advance 700 [E]"
+  },
+  {
+    "Column2": "NDIAdvance 700 [A]",
+    "rede": "NDI",
+    "plano": "Advance 700 [A]"
+  },
+  {
+    "Column2": "NDIPremium 900.1 CARE [A]",
+    "rede": "NDI",
+    "plano": "Premium 900.1 CARE [A]"
+  },
+  {
+    "Column2": "TrasmontanoLife 400 [E]",
+    "rede": "Trasmontano",
+    "plano": "Life 400 [E]"
+  },
+  {
+    "Column2": "TrasmontanoLife 400 [A]",
+    "rede": "Trasmontano",
+    "plano": "Life 400 [A]"
+  },
+  {
+    "Column2": "TrasmontanoSmart SP [E]",
+    "rede": "Trasmontano",
+    "plano": "Smart SP [E]"
+  },
+  {
+    "Column2": "TrasmontanoSmart SP [A]",
+    "rede": "Trasmontano",
+    "plano": "Smart SP [A]"
+  },
+  {
+    "Column2": "TrasmontanoSmart 200 [E]",
+    "rede": "Trasmontano",
+    "plano": "Smart 200 [E]"
+  },
+  {
+    "Column2": "TrasmontanoSmart 200 [A]",
+    "rede": "Trasmontano",
+    "plano": "Smart 200 [A]"
+  },
+  {
+    "Column2": "MedseniorEssencial [E]",
+    "rede": "Medsenior",
+    "plano": "Medsenior Essencial [E]"
+  },
+  {
+    "Column2": "MedseniorSP1 [E]",
+    "rede": "Medsenior",
+    "plano": "Medsenior SP1 [E]"
+  },
+  {
+    "Column2": "MedseniorSP2 [A]",
+    "rede": "Medsenior",
+    "plano": "Medsenior SP2 [A]"
+  },
+  {
+    "Column2": "MedseniorBlack 3 [A]",
+    "rede": "Medsenior",
+    "plano": "Medsenior Black 3 [A]"
+  },
+  {
+    "Column2": "Prevent Sênior Premium 1002 [E]",
+    "rede": "Prevent Sênior",
+    "plano": "Premium 1002 [E]"
+  },
+  {
+    "Column2": "Prevent Sênior  Premium 1002 [A]",
+    "rede": "Prevent Sênior",
+    "plano": "Premium 1002 [A]"
+  },
+  {
+    "Column2": "São CristóvãoConforto [E]",
+    "rede": "São Cristóvão",
+    "plano": "Conforto [E]"
+  },
+  {
+    "Column2": "São CristóvãoConforto [A]",
+    "rede": "São Cristóvão",
+    "plano": "Conforto [A]"
+  },
+  {
+    "Column2": "São CristóvãoConforto Plus [E]",
+    "rede": "São Cristóvão",
+    "plano": "Conforto Plus [E]"
+  },
+  {
+    "Column2": "São CristóvãoConforto Plus [A]",
+    "rede": "São Cristóvão",
+    "plano": "Conforto Plus [A]"
+  },
+  {
+    "Column2": "São CristóvãoBem Estar 40+ [E]",
+    "rede": "São Cristóvão",
+    "plano": "Bem Estar 40+ [E]"
+  },
+  {
+    "Column2": "São CristóvãoBem Estar 40+ [A]",
+    "rede": "São Cristóvão",
+    "plano": "Bem Estar 40+ [A]"
+  },
+  {
+    "Column2": "São CristóvãoEssencial [E]",
+    "rede": "São Cristóvão",
+    "plano": "Essencial [E]"
+  },
+  {
+    "Column2": "São CristóvãoEssencial [A]",
+    "rede": "São Cristóvão",
+    "plano": "Essencial [A]"
+  },
+  {
+    "Column2": "São CristóvãoSelect [E]",
+    "rede": "São Cristóvão",
+    "plano": "Select [E]"
+  },
+  {
+    "Column2": "São CristóvãoSelect [A]",
+    "rede": "São Cristóvão",
+    "plano": "Select [A]"
+  },
+  {
+    "Column2": "NDINotrelife AMB SP",
+    "rede": "NDI",
+    "plano": "Notrelife AMB SP"
+  },
+  {
+    "Column2": "NDINotrelife Individual [E]",
+    "rede": "NDI",
+    "plano": "Notrelife Individual [E]"
+  },
+  {
+    "Column2": "Blue Start [E]",
+    "rede": "Blue",
+    "plano": "Blue Start [E]",
+    "regiao": "São Paulo",
+    "modalidade": "Compulsoria 02 a 29 - Sem copart",
+    "0_a_18": 253.88,
+    "19_a_23": 310.76,
+    "24_a_28": 389.11,
+    "29_a_33": 429.98,
+    "34_a_38": 457.99,
+    "39_a_43": 531.26,
+    "44_a_48": 669,
+    "49_a_53": 761.66,
+    "54_a_58": 904.28,
+    "59_ou_mais": 1523.27
+  },
+  {
+    "Column2": "Blue Start [A]",
+    "rede": "Blue",
+    "plano": "Blue Start [A]",
+    "regiao": "São Paulo",
+    "modalidade": "Compulsoria 02 a 29 - sem copart",
+    "0_a_18": 317.35,
+    "19_a_23": 388.45,
+    "24_a_28": 486.39,
+    "29_a_33": 537.47,
+    "34_a_38": 572.48,
+    "39_a_43": 664.07,
+    "44_a_48": 836.25,
+    "49_a_53": 952.08,
+    "54_a_58": 1130.35,
+    "59_ou_mais": 1904.08
+  },
+  {
+    "Column2": "Blue Start [E]",
+    "rede": "Blue",
+    "plano": "Blue Start [E]",
+    "regiao": "São Paulo",
+    "modalidade": "Compulsoria 02 a 29 - com copart",
+    "0_a_18": 211.57,
+    "19_a_23": 258.97,
+    "24_a_28": 324.25,
+    "29_a_33": 358.31,
+    "34_a_38": 381.66,
+    "39_a_43": 442.71,
+    "44_a_48": 557.5,
+    "49_a_53": 634.72,
+    "54_a_58": 753.56,
+    "59_ou_mais": 1269.41
+  },
+  {
+    "Column2": "Blue Start [A]",
+    "rede": "Blue",
+    "plano": "Blue Start [A]",
+    "regiao": "São Paulo",
+    "modalidade": "Compulsoria 02 a 29 - com copart",
+    "0_a_18": 264.46,
+    "19_a_23": 323.7,
+    "24_a_28": 405.32,
+    "29_a_33": 447.9,
+    "34_a_38": 477.07,
+    "39_a_43": 553.39,
+    "44_a_48": 696.87,
+    "49_a_53": 793.4,
+    "54_a_58": 941.96,
+    "59_ou_mais": 1586.74
+  },
+  {
+    "Column2": "Blue Start [E]",
+    "rede": "Blue",
+    "plano": "Blue Start [E]",
+    "regiao": "Teste",
+    "modalidade": "Compulsoria 02 a 29 - Sem copart",
+    "0_a_18": 100,
+    "19_a_23": 200,
+    "24_a_28": 300,
+    "29_a_33": 400,
+    "34_a_38": 500,
+    "39_a_43": 600,
+    "44_a_48": 700,
+    "49_a_53": 800,
+    "54_a_58": 900,
+    "59_ou_mais": 1000
+  },
+  {
+    "Column2": "Blue Start [A]",
+    "rede": "Blue",
+    "plano": "Blue Start [A]",
+    "regiao": "Teste",
+    "modalidade": "Compulsoria 02 a 29 - sem copart",
+    "0_a_18": 50,
+    "19_a_23": 150,
+    "24_a_28": 250,
+    "29_a_33": 350,
+    "34_a_38": 450,
+    "39_a_43": 550,
+    "44_a_48": 650,
+    "49_a_53": 750,
+    "54_a_58": 850,
+    "59_ou_mais": 950
+  },
+  {
+    "Column2": "Blue Start [E]",
+    "rede": "Blue",
+    "plano": "Blue Start [E]",
+    "regiao": "Teste",
+    "modalidade": "Compulsoria 02 a 29 - com copart",
+    "0_a_18": 55,
+    "19_a_23": 155,
+    "24_a_28": 255,
+    "29_a_33": 355,
+    "34_a_38": 455,
+    "39_a_43": 555,
+    "44_a_48": 655,
+    "49_a_53": 755,
+    "54_a_58": 855,
+    "59_ou_mais": 955
+  },
+  {
+    "Column2": "Blue Start [A]",
+    "rede": "Blue",
+    "plano": "Blue Start [A]",
+    "regiao": "Teste",
+    "modalidade": "Compulsoria 02 a 29 - com copart",
+    "0_a_18": 59,
+    "19_a_23": 159,
+    "24_a_28": 259,
+    "29_a_33": 359,
+    "34_a_38": 459,
+    "39_a_43": 559,
+    "44_a_48": 659,
+    "49_a_53": 759,
+    "54_a_58": 859,
+    "59_ou_mais": 959
+  },
+  {
+    "Column2": "AliceEquilíbrio [E]",
+    "rede": "Alice",
+    "plano": "Equilíbrio [E]",
+    "modalidade": "01 vida- coparticipação completa ",
+    "0_a_18": 369.38,
+    "19_a_23": 437.42,
+    "24_a_28": 452,
+    "29_a_33": 506.44,
+    "34_a_38": 549.21,
+    "39_a_43": 626.97,
+    "44_a_48": 826.24,
+    "49_a_53": 972.05,
+    "54_a_58": 1406.39,
+    "59_ou_mais": 1840.73
+  },
+  {
+    "Column2": "AliceEquilíbrio Mais [E]",
+    "rede": "Alice",
+    "plano": "Equilíbrio Mais [E]",
+    "modalidade": "01 vida- coparticipação completa ",
+    "0_a_18": 589.76,
+    "19_a_23": 698.4,
+    "24_a_28": 721.68,
+    "29_a_33": 808.59,
+    "34_a_38": 876.88,
+    "39_a_43": 1001.04,
+    "44_a_48": 1319.2,
+    "49_a_53": 1552,
+    "54_a_58": 2245.49,
+    "59_ou_mais": 2938.97
+  },
+  {
+    "Column2": "AliceEquilíbrio [A]",
+    "rede": "Alice",
+    "plano": "Equilíbrio [A]",
+    "modalidade": "01 vida- coparticipação completa ",
+    "0_a_18": 414.1,
+    "19_a_23": 490.38,
+    "24_a_28": 506.73,
+    "29_a_33": 567.76,
+    "34_a_38": 615.7,
+    "39_a_43": 702.88,
+    "44_a_48": 926.28,
+    "49_a_53": 1089.74,
+    "54_a_58": 1576.67,
+    "59_ou_mais": 2063.6
+  },
+  {
+    "Column2": "AliceEquilíbrio Mais [A]",
+    "rede": "Alice",
+    "plano": "Equilíbrio Mais [A]",
+    "modalidade": "01 vida- coparticipação completa ",
+    "0_a_18": 642,
+    "19_a_23": 760.26,
+    "24_a_28": 785.6,
+    "29_a_33": 880.21,
+    "34_a_38": 954.55,
+    "39_a_43": 1089.7,
+    "44_a_48": 1436.04,
+    "49_a_53": 1689.46,
+    "54_a_58": 2444.37,
+    "59_ou_mais": 3199.27
+  },
+  {
+    "Column2": "AliceConforto [A]",
+    "rede": "Alice",
+    "plano": "Conforto [A]",
+    "modalidade": "01 vida- coparticipação completa ",
+    "0_a_18": 484.41,
+    "19_a_23": 573.64,
+    "24_a_28": 592.76,
+    "29_a_33": 664.15,
+    "34_a_38": 720.24,
+    "39_a_43": 822.22,
+    "44_a_48": 1083.55,
+    "49_a_53": 1274.76,
+    "54_a_58": 1844.36,
+    "59_ou_mais": 2413.96
+  },
+  {
+    "Column2": "AliceConforto Mais [A]",
+    "rede": "Alice",
+    "plano": "Conforto Mais [A]",
+    "modalidade": "01 vida- coparticipação completa ",
+    "0_a_18": 649.07,
+    "19_a_23": 768.63,
+    "24_a_28": 794.25,
+    "29_a_33": 889.91,
+    "34_a_38": 965.06,
+    "39_a_43": 1101.71,
+    "44_a_48": 1451.86,
+    "49_a_53": 1708.07,
+    "54_a_58": 2471.29,
+    "59_ou_mais": 3234.51
+  },
+  {
+    "Column2": "AliceExclusivo [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo [A]",
+    "modalidade": "01 vida- coparticipação completa ",
+    "0_a_18": 985.5,
+    "19_a_23": 1167.03,
+    "24_a_28": 1205.93,
+    "29_a_33": 1351.17,
+    "34_a_38": 1465.28,
+    "39_a_43": 1672.75,
+    "44_a_48": 2204.4,
+    "49_a_53": 2593.41,
+    "54_a_58": 3752.22,
+    "59_ou_mais": 4911.03
+  },
+  {
+    "Column2": "AliceExclusivo Mais [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo Mais [A]",
+    "modalidade": "01 vida- coparticipação completa ",
+    "0_a_18": 1155.77,
+    "19_a_23": 1368.67,
+    "24_a_28": 1414.29,
+    "29_a_33": 1584.62,
+    "34_a_38": 1718.44,
+    "39_a_43": 1961.76,
+    "44_a_48": 2585.27,
+    "49_a_53": 3041.49,
+    "54_a_58": 4400.52,
+    "59_ou_mais": 5759.55
+  },
+  {
+    "Column2": "AliceExclusivo Mais + L.E [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo Mais + L.E [A]",
+    "modalidade": "01 vida- coparticipação completa ",
+    "0_a_18": 1226.22,
+    "19_a_23": 1452.11,
+    "24_a_28": 1500.51,
+    "29_a_33": 1681.22,
+    "34_a_38": 1823.2,
+    "39_a_43": 2081.35,
+    "44_a_48": 2742.87,
+    "49_a_53": 3226.9,
+    "54_a_58": 4668.78,
+    "59_ou_mais": 6110.65
+  },
+  {
+    "Column2": "AliceEquilíbrio [E]",
+    "rede": "Alice",
+    "plano": "Equilíbrio [E]",
+    "modalidade": "02 a 05 vidas - Sem Coparticipação",
+    "0_a_18": 467.7,
+    "19_a_23": 553.86,
+    "24_a_28": 572.32,
+    "29_a_33": 641.25,
+    "34_a_38": 695.4,
+    "39_a_43": 793.87,
+    "44_a_48": 1046.18,
+    "49_a_53": 1230.8,
+    "54_a_58": 1780.76,
+    "59_ou_mais": 2330.72
+  },
+  {
+    "Column2": "AliceEquilíbrio Mais [E]",
+    "rede": "Alice",
+    "plano": "Equilíbrio Mais [E]",
+    "modalidade": "02 a 05 vidas - Sem Coparticipação",
+    "0_a_18": 676.99,
+    "19_a_23": 801.7,
+    "24_a_28": 828.42,
+    "29_a_33": 928.19,
+    "34_a_38": 1006.58,
+    "39_a_43": 1149.1,
+    "44_a_48": 1514.32,
+    "49_a_53": 1781.55,
+    "54_a_58": 2577.6,
+    "59_ou_mais": 3373.66
+  },
+  {
+    "Column2": "AliceEquilíbrio [A]",
+    "rede": "Alice",
+    "plano": "Equilíbrio [A]",
+    "modalidade": "02 a 05 vidas - Sem Coparticipação",
+    "0_a_18": 507.05,
+    "19_a_23": 600.46,
+    "24_a_28": 620.47,
+    "29_a_33": 695.2,
+    "34_a_38": 753.91,
+    "39_a_43": 860.65,
+    "44_a_48": 1134.2,
+    "49_a_53": 1334.35,
+    "54_a_58": 1930.58,
+    "59_ou_mais": 2526.8
+  },
+  {
+    "Column2": "AliceEquilíbrio Mais [A]",
+    "rede": "Alice",
+    "plano": "Equilíbrio Mais [A]",
+    "modalidade": "02 a 05 vidas - Sem Coparticipação",
+    "0_a_18": 716.34,
+    "19_a_23": 848.3,
+    "24_a_28": 876.57,
+    "29_a_33": 982.14,
+    "34_a_38": 1065.08,
+    "39_a_43": 1215.89,
+    "44_a_48": 1602.34,
+    "49_a_53": 1885.1,
+    "54_a_58": 2727.42,
+    "59_ou_mais": 3569.74
+  },
+  {
+    "Column2": "AliceConforto [A]",
+    "rede": "Alice",
+    "plano": "Conforto [A]",
+    "modalidade": "02 a 05 vidas - Sem Coparticipação",
+    "0_a_18": 575.02,
+    "19_a_23": 680.94,
+    "24_a_28": 703.64,
+    "29_a_33": 788.38,
+    "34_a_38": 854.96,
+    "39_a_43": 976.02,
+    "44_a_48": 1286.23,
+    "49_a_53": 1513.21,
+    "54_a_58": 2189.36,
+    "59_ou_mais": 2865.51
+  },
+  {
+    "Column2": "AliceConforto Mais [A]",
+    "rede": "Alice",
+    "plano": "Conforto Mais [A]",
+    "modalidade": "02 a 05 vidas - Sem Coparticipação",
+    "0_a_18": 731.39,
+    "19_a_23": 866.12,
+    "24_a_28": 894.99,
+    "29_a_33": 1002.77,
+    "34_a_38": 1087.46,
+    "39_a_43": 1241.43,
+    "44_a_48": 1636,
+    "49_a_53": 1924.7,
+    "54_a_58": 2784.72,
+    "59_ou_mais": 3644.74
+  },
+  {
+    "Column2": "AliceExclusivo [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo [A]",
+    "modalidade": "02 a 05 vidas - Sem Coparticipação",
+    "0_a_18": 1232.44,
+    "19_a_23": 1459.46,
+    "24_a_28": 1508.11,
+    "29_a_33": 1689.73,
+    "34_a_38": 1832.44,
+    "39_a_43": 2091.9,
+    "44_a_48": 2756.76,
+    "49_a_53": 3243.25,
+    "54_a_58": 4692.43,
+    "59_ou_mais": 6141.62
+  },
+  {
+    "Column2": "AliceExclusivo Mais [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo Mais [A]",
+    "modalidade": "02 a 05 vidas - Sem Coparticipação",
+    "0_a_18": 1397.09,
+    "19_a_23": 1654.45,
+    "24_a_28": 1709.6,
+    "29_a_33": 1915.49,
+    "34_a_38": 2077.26,
+    "39_a_43": 2371.38,
+    "44_a_48": 3125.08,
+    "49_a_53": 3676.57,
+    "54_a_58": 5319.36,
+    "59_ou_mais": 6962.16
+  },
+  {
+    "Column2": "AliceExclusivo Mais + L.E [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo Mais + L.E [A]",
+    "modalidade": "02 a 05 vidas - Sem Coparticipação",
+    "0_a_18": 1465.23,
+    "19_a_23": 1735.14,
+    "24_a_28": 1792.98,
+    "29_a_33": 2008.91,
+    "34_a_38": 2178.56,
+    "39_a_43": 2487.03,
+    "44_a_48": 3277.49,
+    "49_a_53": 3855.87,
+    "54_a_58": 5578.78,
+    "59_ou_mais": 7301.7
+  },
+  {
+    "Column2": "AliceEquilíbrio [E]",
+    "rede": "Alice",
+    "plano": "Equilíbrio [E]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 350.78,
+    "19_a_23": 415.4,
+    "24_a_28": 429.24,
+    "29_a_33": 480.94,
+    "34_a_38": 521.55,
+    "39_a_43": 595.4,
+    "44_a_48": 784.64,
+    "49_a_53": 923.1,
+    "54_a_58": 1335.57,
+    "59_ou_mais": 1748.04
+  },
+  {
+    "Column2": "AliceEquilíbrio Mais [E]",
+    "rede": "Alice",
+    "plano": "Equilíbrio Mais [E]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 560.06,
+    "19_a_23": 663.23,
+    "24_a_28": 685.34,
+    "29_a_33": 767.88,
+    "34_a_38": 832.73,
+    "39_a_43": 950.64,
+    "44_a_48": 1252.78,
+    "49_a_53": 1473.85,
+    "54_a_58": 2132.42,
+    "59_ou_mais": 2790.98
+  },
+  {
+    "Column2": "AliceEquilíbrio [A]",
+    "rede": "Alice",
+    "plano": "Equilíbrio [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 380.29,
+    "19_a_23": 450.34,
+    "24_a_28": 465.35,
+    "29_a_33": 521.4,
+    "34_a_38": 565.43,
+    "39_a_43": 645.49,
+    "44_a_48": 850.65,
+    "49_a_53": 1000.76,
+    "54_a_58": 1447.93,
+    "59_ou_mais": 1895.1
+  },
+  {
+    "Column2": "AliceEquilíbrio Mais [A]",
+    "rede": "Alice",
+    "plano": "Equilíbrio Mais [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 589.58,
+    "19_a_23": 698.18,
+    "24_a_28": 721.45,
+    "29_a_33": 808.34,
+    "34_a_38": 876.61,
+    "39_a_43": 1000.73,
+    "44_a_48": 1318.79,
+    "49_a_53": 1551.51,
+    "54_a_58": 2244.78,
+    "59_ou_mais": 2938.04
+  },
+  {
+    "Column2": "AliceConforto [A]",
+    "rede": "Alice",
+    "plano": "Conforto [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 460.02,
+    "19_a_23": 544.76,
+    "24_a_28": 562.91,
+    "29_a_33": 630.71,
+    "34_a_38": 683.97,
+    "39_a_43": 780.82,
+    "44_a_48": 1028.98,
+    "49_a_53": 1210.57,
+    "54_a_58": 1751.49,
+    "59_ou_mais": 2292.41
+  },
+  {
+    "Column2": "AliceConforto Mais [A]",
+    "rede": "Alice",
+    "plano": "Conforto Mais [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 616.38,
+    "19_a_23": 729.93,
+    "24_a_28": 754.26,
+    "29_a_33": 845.09,
+    "34_a_38": 916.47,
+    "39_a_43": 1046.23,
+    "44_a_48": 1378.75,
+    "49_a_53": 1622.06,
+    "54_a_58": 2346.85,
+    "59_ou_mais": 3071.63
+  },
+  {
+    "Column2": "AliceExclusivo [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 953.02,
+    "19_a_23": 1128.57,
+    "24_a_28": 1166.19,
+    "29_a_33": 1306.64,
+    "34_a_38": 1416.99,
+    "39_a_43": 1617.62,
+    "44_a_48": 2131.75,
+    "49_a_53": 2507.94,
+    "54_a_58": 3628.56,
+    "59_ou_mais": 4749.18
+  },
+  {
+    "Column2": "AliceExclusivo Mais [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo Mais [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 1117.68,
+    "19_a_23": 1323.56,
+    "24_a_28": 1367.68,
+    "29_a_33": 1532.39,
+    "34_a_38": 1661.81,
+    "39_a_43": 1897.11,
+    "44_a_48": 2500.06,
+    "49_a_53": 2941.25,
+    "54_a_58": 4255.49,
+    "59_ou_mais": 5569.73
+  },
+  {
+    "Column2": "AliceExclusivo Mais + L.E [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo Mais + L.E [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 1185.81,
+    "19_a_23": 1404.25,
+    "24_a_28": 1451.06,
+    "29_a_33": 1625.81,
+    "34_a_38": 1763.11,
+    "39_a_43": 2012.76,
+    "44_a_48": 2652.47,
+    "49_a_53": 3120.55,
+    "54_a_58": 4514.91,
+    "59_ou_mais": 5909.27
+  },
+  {
+    "Column2": "AliceEquilíbrio [E]",
+    "rede": "Alice",
+    "plano": "Equilíbrio [E]",
+    "modalidade": "Adesão - Coparticipação Completa",
+    "0_a_18": 350.78,
+    "19_a_23": 415.4,
+    "24_a_28": 429.24,
+    "29_a_33": 480.94,
+    "34_a_38": 521.55,
+    "39_a_43": 595.4,
+    "44_a_48": 784.64,
+    "49_a_53": 923.1,
+    "54_a_58": 1335.57,
+    "59_ou_mais": 1748.04
+  },
+  {
+    "Column2": "AliceEquilíbrio Mais [E]",
+    "rede": "Alice",
+    "plano": "Equilíbrio Mais [E]",
+    "modalidade": "Adesão - Coparticipação Completa",
+    "0_a_18": 560.06,
+    "19_a_23": 663.23,
+    "24_a_28": 685.34,
+    "29_a_33": 767.88,
+    "34_a_38": 832.73,
+    "39_a_43": 950.64,
+    "44_a_48": 1252.78,
+    "49_a_53": 1473.85,
+    "54_a_58": 2132.42,
+    "59_ou_mais": 2790.98
+  },
+  {
+    "Column2": "AliceEquilíbrio [A]",
+    "rede": "Alice",
+    "plano": "Equilíbrio [A]",
+    "modalidade": "Adesão - Coparticipação Completa",
+    "0_a_18": 380.29,
+    "19_a_23": 450.34,
+    "24_a_28": 465.35,
+    "29_a_33": 521.4,
+    "34_a_38": 565.43,
+    "39_a_43": 645.49,
+    "44_a_48": 850.65,
+    "49_a_53": 1000.76,
+    "54_a_58": 1447.93,
+    "59_ou_mais": 1895.1
+  },
+  {
+    "Column2": "AliceEquilíbrio Mais [A]",
+    "rede": "Alice",
+    "plano": "Equilíbrio Mais [A]",
+    "modalidade": "Adesão - Coparticipação Completa",
+    "0_a_18": 589.58,
+    "19_a_23": 698.18,
+    "24_a_28": 721.45,
+    "29_a_33": 808.34,
+    "34_a_38": 876.61,
+    "39_a_43": 1000.73,
+    "44_a_48": 1318.79,
+    "49_a_53": 1551.51,
+    "54_a_58": 2244.78,
+    "59_ou_mais": 2938.04
+  },
+  {
+    "Column2": "AliceConforto [A]",
+    "rede": "Alice",
+    "plano": "Conforto [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 460.02,
+    "19_a_23": 544.76,
+    "24_a_28": 562.91,
+    "29_a_33": 630.71,
+    "34_a_38": 683.97,
+    "39_a_43": 780.82,
+    "44_a_48": 1028.98,
+    "49_a_53": 1210.57,
+    "54_a_58": 1751.49,
+    "59_ou_mais": 2292.41
+  },
+  {
+    "Column2": "AliceConforto Mais [A]",
+    "rede": "Alice",
+    "plano": "Conforto Mais [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 616.38,
+    "19_a_23": 729.93,
+    "24_a_28": 754.26,
+    "29_a_33": 845.09,
+    "34_a_38": 916.47,
+    "39_a_43": 1046.23,
+    "44_a_48": 1378.75,
+    "49_a_53": 1622.06,
+    "54_a_58": 2346.85,
+    "59_ou_mais": 3071.63
+  },
+  {
+    "Column2": "AliceExclusivo [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 953.02,
+    "19_a_23": 1128.57,
+    "24_a_28": 1166.19,
+    "29_a_33": 1306.64,
+    "34_a_38": 1416.99,
+    "39_a_43": 1617.62,
+    "44_a_48": 2131.75,
+    "49_a_53": 2507.94,
+    "54_a_58": 3628.56,
+    "59_ou_mais": 4749.18
+  },
+  {
+    "Column2": "AliceExclusivo Mais [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo Mais [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 1117.68,
+    "19_a_23": 1323.56,
+    "24_a_28": 1367.68,
+    "29_a_33": 1532.39,
+    "34_a_38": 1661.81,
+    "39_a_43": 1897.11,
+    "44_a_48": 2500.06,
+    "49_a_53": 2941.25,
+    "54_a_58": 4255.49,
+    "59_ou_mais": 5569.73
+  },
+  {
+    "Column2": "AliceExclusivo Mais + L.E [A]",
+    "rede": "Alice",
+    "plano": "Exclusivo Mais + L.E [A]",
+    "modalidade": "02 a 05 vidas - Coparticipação Completa",
+    "0_a_18": 1185.81,
+    "19_a_23": 1404.25,
+    "24_a_28": 1451.06,
+    "29_a_33": 1625.81,
+    "34_a_38": 1763.11,
+    "39_a_43": 2012.76,
+    "44_a_48": 2652.47,
+    "49_a_53": 3120.55,
+    "54_a_58": 4514.91,
+    "59_ou_mais": 5909.27
+  }
+]

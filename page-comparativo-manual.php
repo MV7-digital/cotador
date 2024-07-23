@@ -1,5 +1,8 @@
 <?php get_header();
 
+$arquivoValores = file_get_contents( get_template_directory() . '/dados/comparativo-valores.json');
+$jsonValores = json_decode($arquivoValores);
+
 $arquivoDiferencial = file_get_contents( get_template_directory() . '/dados/comparativo-diferencial.json');
 $jsonDiferencial = json_decode($arquivoDiferencial);
 
@@ -27,6 +30,28 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             <?php
             $planos = array();
             $numPlanos = 4; // Número de planos
+
+            // Criação dos arraus de valores
+            $valores = array();
+            $valorPorFaixa = array();
+
+            foreach ($jsonValores as $key => $value) {
+                $redes[] = $value->rede;
+                $planosPorRede[$value->rede][] = $value->plano;
+            }
+
+            // Criação dos arrays de valores únicos para região e modalidade
+            $regioes = array();
+            $modalidades = array();
+
+            foreach ($jsonValores as $value) {
+                if (!in_array($value->regiao, $regioes)) {
+                    $regioes[] = $value->regiao;
+                }
+                if (!in_array($value->modalidade, $modalidades)) {
+                    $modalidades[] = $value->modalidade;
+                }
+            }
 
             // Criação dos arrays de redes e planos
             $redes = array();
@@ -75,17 +100,18 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '</select>';
                 echo '<div class="coop" id="copart_'.$i.'"></div>';
                 // Select de modalidade
-                echo '<select name="tipo_' . $i . '" id="tipo_'.($i).'">';
+                echo '<select name="modalidade_'.$i.'" id="modalidade_'.$i.'">';
                 echo '<option value="">Selecione a Modalidade</option>';
-                echo '<option value="PME">PME</option>';
-                echo '<option value="Adesao">Adesão</option>';
-                echo '<option value="PF">PF</option>';
+                foreach ($modalidades as $modalidade) {
+                    echo '<option value="'.$modalidade.'">'.$modalidade.'</option>';
+                }
                 echo '</select>';
                 // Select de região
-                echo '<select name="regiao_'.($i).'" id="regiao_'.($i).'">';
+                echo '<select name="regiao_'.$i.'" id="regiao_'.$i.'">';
                 echo '<option value="">Região de Atendimento</option>';
-                echo '<option value="Nacional">Nacional</option>';
-                echo '<option value="Regional">Regional</option>';
+                foreach ($regioes as $regiao) {
+                    echo '<option value="'.$regiao.'">'.$regiao.'</option>';
+                }
                 echo '</select>';
                 echo '</div>';
                 echo '<div class="tamanho-coluna col-6">';
@@ -105,17 +131,18 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
                 echo '</select>';
                 echo '<div class="coop" id="copart_'.($i + 1).'"></div>';
                 // Select de modalidade
-                echo '<select name="tipo_'.($i + 1).'" id="tipo_'.($i + 1).'">';
+                echo '<select name="modalidade_'.($i + 1).'" id="modalidade_'.($i + 1).'">';
                 echo '<option value="">Selecione a Modalidade</option>';
-                echo '<option value="PME">PME</option>';
-                echo '<option value="Adesao">Adesão</option>';
-                echo '<option value="PF">PF</option>';
+                foreach ($modalidades as $modalidade) {
+                    echo '<option value="'.$modalidade.'">'.$modalidade.'</option>';
+                }
                 echo '</select>';
                 // Select de região
                 echo '<select name="regiao_'.($i + 1).'" id="regiao_'.($i + 1).'">';
                 echo '<option value="">Região de Atendimento</option>';
-                echo '<option value="Nacional">Nacional</option>';
-                echo '<option value="Regional">Regional</option>';
+                foreach ($regioes as $regiao) {
+                    echo '<option value="'.$regiao.'">'.$regiao.'</option>';
+                }
                 echo '</select>';
                 echo '</div>';
                 echo '</th>';
@@ -305,17 +332,19 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         </tr>
         <tr>
             <th>
-                <!-- <p>
-                    <select name="grupo_hospitais" id="grupo_hospitais" onchange="atualizarGrupo(this.value)">
-                        <option value="">Selecione o Grupo de Hospitais Visíveis</option>
-                        <?php
-                        foreach (array_unique($grupos) as $value) {
-                            echo '<option value="'.$value.'">'.$value.'</option>';
-                        }
-                        ?>
-                    </select>
-                </p> -->
-                <p>Marcar automaticamente categorias:</p>
+                <p>Visualizar apenas a categoria:</p>
+            <p>
+                <select name="grupo_hospitais" id="grupo_hospitais" onchange="atualizarGrupo(this.value)">
+                    <option value="">Selecione a Categoria Visível</option>
+                    <option value="todos">Mostrar todas</option>
+                    <?php
+                    foreach (array_unique($grupos) as $value) {
+                        echo '<option value="'.$value.'">'.$value.'</option>';
+                    }
+                    ?>
+                </select>
+            </p>
+                <p>Marcar automaticamente categoria:</p>
                 <p>
                     AA <input type="checkbox" onclick="selecionarGrupo('AA')">
                     A <input type="checkbox" onclick="selecionarGrupo('A')">
@@ -492,6 +521,12 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         const carePlus = <?php get_template_part('template-parts/planos/plano', 'carePlus') ?>;
         const omint = <?php get_template_part('template-parts/planos/plano', 'omint') ?>;
         const portoSeguro = <?php get_template_part('template-parts/planos/plano', 'portoseguro') ?>;
+        const trasmontano = <?php get_template_part('template-parts/planos/plano', 'trasmontano') ?>;
+        const medsenior = <?php get_template_part('template-parts/planos/plano', 'medsenior') ?>;
+        const preventSenior = <?php get_template_part('template-parts/planos/plano', 'preventSenior') ?>;
+        const saoCristovao = <?php get_template_part('template-parts/planos/plano', 'saoCristovao') ?>;
+        const blue = <?php get_template_part('template-parts/planos/plano', 'blue') ?>;
+        const alice = <?php get_template_part('template-parts/planos/plano', 'alice') ?>;
 
         console.log('1');
 
@@ -506,6 +541,12 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             selectRede.value === 'Omint' ? omint :
             selectRede.value === 'Porto' ? portoSeguro :
             selectRede.value === 'Sulamérica' ? sulamerica :
+            selectRede.value === 'Transmontano' ? trasmontano :
+            selectRede.value === 'Medsenior' ? medsenior :
+            selectRede.value === 'PreventSenior' ? preventSenior :
+            selectRede.value === 'São Cristóvão' ? saoCristovao :
+            selectRede.value === 'Blue' ? blue :
+            selectRede.value === 'Alice' ? alice :
             '';
 
             console.log('2');
@@ -618,6 +659,7 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
             }
         }
     }
+    
 
     function buscarValores(ordem, urlPlano) {
         ;(function($){
@@ -786,6 +828,92 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         })(jQuery);
     }
 
+    function formatarValor(valor) {
+        // Limitar a duas casas decimais e substituir ponto por vírgula
+        let valorFormatado = parseFloat(valor).toFixed(2).toString().replace('.', ',');
+        // Adicionar pontos a cada três dígitos antes da vírgula
+        return valorFormatado.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    }
+
+    function atualizarOpcoes(ordem) {
+        let plano = document.getElementById('plano_' + ordem).value;
+
+        let modalidades = <?php echo json_encode($modalidades); ?>;
+        let regioes = <?php echo json_encode($regioes); ?>;
+        let valores = <?php echo json_encode($jsonValores); ?>;
+
+        // Limpar as opções atuais de modalidades e regiões
+        let selectModalidade = document.getElementById('modalidade_' + ordem);
+        let selectRegiao = document.getElementById('regiao_' + ordem);
+        selectModalidade.innerHTML = '<option value="">Selecione a Modalidade</option>';
+        selectRegiao.innerHTML = '<option value="">Região de Atendimento</option>';
+
+        // Filtrar e adicionar as modalidades e regiões disponíveis para o plano selecionado
+        let modalidadesDisponiveis = new Set();
+        let regioesDisponiveis = new Set();
+
+        for (let i = 0; i < valores.length; i++) {
+            if (valores[i].plano === plano) {
+                modalidadesDisponiveis.add(valores[i].modalidade);
+                regioesDisponiveis.add(valores[i].regiao);
+            }
+        }
+
+        modalidadesDisponiveis.forEach(function(modalidade) {
+            let option = document.createElement('option');
+            option.value = modalidade;
+            option.text = modalidade;
+            selectModalidade.appendChild(option);
+        });
+
+        regioesDisponiveis.forEach(function(regiao) {
+            let option = document.createElement('option');
+            option.value = regiao;
+            option.text = regiao;
+            selectRegiao.appendChild(option);
+        });
+    }
+
+    function atualizarPrecos(ordem) {
+        let plano = document.getElementById('plano_' + ordem).value;
+        let modalidade = document.getElementById('modalidade_' + ordem).value;
+        let regiao = document.getElementById('regiao_' + ordem).value;
+
+        let valores = <?php echo json_encode($jsonValores); ?>;
+        for (let i = 0; i < valores.length; i++) {
+            if (valores[i].plano === plano && valores[i].modalidade === modalidade && valores[i].regiao === regiao) {
+                document.getElementById('unidade_' + ordem + '_0').value = formatarValor(valores[i]["0_a_18"]);
+                document.getElementById('unidade_' + ordem + '_1').value = formatarValor(valores[i]["19_a_23"]);
+                document.getElementById('unidade_' + ordem + '_2').value = formatarValor(valores[i]["24_a_28"]);
+                document.getElementById('unidade_' + ordem + '_3').value = formatarValor(valores[i]["29_a_33"]);
+                document.getElementById('unidade_' + ordem + '_4').value = formatarValor(valores[i]["34_a_38"]);
+                document.getElementById('unidade_' + ordem + '_5').value = formatarValor(valores[i]["39_a_43"]);
+                document.getElementById('unidade_' + ordem + '_6').value = formatarValor(valores[i]["44_a_48"]);
+                document.getElementById('unidade_' + ordem + '_7').value = formatarValor(valores[i]["49_a_53"]);
+                document.getElementById('unidade_' + ordem + '_8').value = formatarValor(valores[i]["54_a_58"]);
+                document.getElementById('unidade_' + ordem + '_9').value = formatarValor(valores[i]["59_ou_mais"]);
+
+                for (let j = 0; j < 10; j++) {
+                    habilitarIdade(ordem, j);
+                }
+            }
+        }
+    }
+
+    for (let i = 0; i < 4; i++) {
+        document.getElementById('plano_' + i).addEventListener('change', function() {
+            buscarValores(i);
+            atualizarOpcoes(i);
+            atualizarPrecos(i);
+        });
+        document.getElementById('modalidade_' + i).addEventListener('change', function() {
+            atualizarPrecos(i);
+        });
+        document.getElementById('regiao_' + i).addEventListener('change', function() {
+            atualizarPrecos(i);
+        });
+    }
+
     for (let i = 0; i <= 5; i++) {
         document.getElementById("plano_" + i).addEventListener("change", function() {
             let rede = document.getElementById("rede_" + i).value;
@@ -807,13 +935,14 @@ get_template_part('template-parts/pdfs/pdf', 'comparativo');
         for (let i = 0; i < grupoHospitais.length; i++) {
             const hospital = grupoHospitais[i];
             const grupoHospital = hospital.getAttribute('id');
-            if (grupoSelecionado === 'grupo_' || 'grupo_'+grupoSelecionado === grupoHospital) {
+            if (grupoSelecionado === 'todos' || 'grupo_' + grupoSelecionado === grupoHospital) {
                 hospital.style.display = 'table-row';
             } else {
                 hospital.style.display = 'none';
             }
         }
     }
+
 
     function selecionarGrupo(grupo) {
         const hospitais = document.querySelectorAll('tr[id="grupo_' + grupo + '"] td input[type="checkbox"]');

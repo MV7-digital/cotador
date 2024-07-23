@@ -64,13 +64,7 @@ $numPlanos = 4;
                 <th  id="pdf_tipo3_th"><p id="pdf_tipo3_nome"></p></th>
                 <th  id="pdf_tipo4_th"><p id="pdf_tipo4_nome"></p></th>
             </tr>
-            <tr class="plano-pdf bg-cinza">
-                <th id="pdf_regiao_th"><p id="pdf_regiao_nome">REGIÃO DA TABELA</p></th>
-                <th  id="pdf_regiao1_th"><p id="pdf_regiao1_nome"></p></th>
-                <th  id="pdf_regiao2_th"><p id="pdf_regiao2_nome"></p></th>
-                <th  id="pdf_regiao3_th"><p id="pdf_regiao3_nome"></p></th>
-                <th  id="pdf_regiao4_th"><p id="pdf_regiao4_nome"></p></th>
-            </tr>
+
         </thead>
         <tbody>
 
